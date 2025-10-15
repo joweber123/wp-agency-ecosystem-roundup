@@ -4,3 +4,4 @@ __pycache__/
 venv/
 .env
 preview.html
+preview_woocommerce_style.html

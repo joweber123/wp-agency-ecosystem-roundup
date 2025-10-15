@@ -67,19 +67,16 @@ def analyze_posts():
     # Create the prompt
     prompt = f"""You are an expert in WordPress agency operations and business development.
 
-Analyze these {len(posts_for_analysis)} blog posts and determine which ones would be valuable for WordPress agencies to know about.
+Analyze these {len(posts_for_analysis)} blog posts and provide insights for WordPress agencies.
 
-For EACH post, you must respond with:
-1. is_relevant: true if the post would help agencies serve clients better, win new business, improve operations, or stay competitive. false if it's too technical for most agencies, purely informational, or not actionable.
-2. reason: If relevant, provide ONE clear sentence (max 15 words) explaining the specific value for agencies. If not relevant, set to null.
+For EACH post, you must respond with a ONE clear sentence (max 15 words) explaining why this post matters to agencies - whether it's for client services, business opportunities, competitive intelligence, technical awareness, or industry trends.
 
-Focus on: client services, business opportunities, competitive advantages, workflow improvements, upselling potential.
+EVERY post must get an insight. Even if a post seems less directly applicable, frame it from an agency perspective (e.g., "Stay informed on platform changes that may affect client sites" or "Industry news to share with clients").
 
 Respond with ONLY valid JSON in this exact format:
 {{
   "analyses": [
-    {{"url": "post_url", "is_relevant": true, "reason": "One sentence why agencies care"}},
-    {{"url": "post_url", "is_relevant": false, "reason": null}}
+    {{"url": "post_url", "reason": "One sentence why agencies should know this"}}
   ]
 }}
 
@@ -106,14 +103,13 @@ Posts to analyze:
         analysis_lookup = {a['url']: a for a in analyses}
 
         # Update posts with AI analysis
-        relevant_count = 0
+        insights_added = 0
         for post in all_posts:
             if post['link'] in analysis_lookup:
                 analysis = analysis_lookup[post['link']]
-                post['agency_relevant'] = analysis['is_relevant']
+                post['agency_relevant'] = True  # All get insights now
                 post['agency_reason'] = analysis['reason']
-                if analysis['is_relevant']:
-                    relevant_count += 1
+                insights_added += 1
             else:
                 # Industry Insights posts - not analyzed
                 post['agency_relevant'] = False
@@ -124,17 +120,17 @@ Posts to analyze:
             json.dump(all_posts, f, indent=2)
 
         print(f"✅ Analysis complete!")
-        print(f"   {relevant_count} posts marked as agency-relevant")
-        print(f"   {len(agency_posts) - relevant_count} posts not relevant for agencies")
+        print(f"   {insights_added} posts received AI insights")
+        print(f"   {len(all_posts) - insights_added} Industry Insights posts (not analyzed)")
         print(f"\n💾 Updated fetched_posts.json with AI insights\n")
 
         # Show some examples
-        print("📋 Sample agency-relevant posts:")
+        print("📋 Sample insights:")
         count = 0
         for post in all_posts:
-            if post.get('agency_relevant') and count < 3:
-                print(f"\n   ⭐ {post['title'][:60]}...")
-                print(f"      Why: {post['agency_reason']}")
+            if post.get('agency_reason') and count < 3:
+                print(f"\n   • {post['title'][:60]}...")
+                print(f"     {post['agency_reason']}")
                 count += 1
 
     except Exception as e:

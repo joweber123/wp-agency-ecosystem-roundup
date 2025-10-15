@@ -51,12 +51,21 @@ def analyze_posts():
     # Filter to only Automattic/WordPress posts
     agency_posts = [p for p in all_posts if p['blog_name'] in AUTOMATTIC_BLOGS]
 
-    print(f"\n🤖 Analyzing {len(agency_posts)} Automattic/WordPress posts for agency relevance...")
-    print(f"   (Skipping {len(all_posts) - len(agency_posts)} Industry Insights posts)\n")
+    # Check if all posts already have insights
+    posts_needing_analysis = [p for p in agency_posts if not p.get('agency_reason')]
 
-    # Prepare posts for AI analysis
+    if not posts_needing_analysis:
+        print(f"\n✅ All {len(agency_posts)} posts already have AI insights!")
+        print(f"   No API call needed - skipping analysis to save credits.\n")
+        return
+
+    print(f"\n🤖 Analyzing {len(posts_needing_analysis)} new posts for agency relevance...")
+    print(f"   {len(agency_posts) - len(posts_needing_analysis)} posts already have insights")
+    print(f"   {len(all_posts) - len(agency_posts)} Industry Insights posts (not analyzed)\n")
+
+    # Prepare only new posts for AI analysis
     posts_for_analysis = []
-    for post in agency_posts:
+    for post in posts_needing_analysis:
         posts_for_analysis.append({
             'url': post['link'],
             'title': post['title'],

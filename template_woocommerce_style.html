@@ -227,19 +227,6 @@
             margin-bottom: 12px;
         }
 
-        .agency-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
-            color: white;
-            font-size: 11px;
-            font-weight: 600;
-            padding: 4px 8px;
-            border-radius: 4px;
-            margin-bottom: 8px;
-        }
-
         .agency-reason {
             font-size: 12px;
             line-height: 1.5;
@@ -391,16 +378,13 @@
                             <article class="post-card" data-blog="{{ blog_name }}" data-url="{{ post.link }}" onclick="window.open('{{ post.link }}', '_blank')">
                                 <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, '{{ post.link }}')">Copy</button>
                                 <div class="card-content">
-                                    {% if post.agency_relevant %}
-                                    <div class="agency-badge">⭐ For Agencies</div>
-                                    {% endif %}
                                     <h3 class="card-title">
-                                        <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+                                        <a href="{{ post.link }}" target="_blank">{% if post.agency_relevant %}⭐ {% endif %}{{ post.title }}</a>
                                     </h3>
                                     <div class="card-meta">{{ post.pubDate[:16] }}</div>
                                     <p class="card-summary">{{ post.summary }}</p>
                                     {% if post.agency_relevant and post.agency_reason %}
-                                    <div class="agency-reason">💡 {{ post.agency_reason }}</div>
+                                    <div class="agency-reason">⭐ {{ post.agency_reason }}</div>
                                     {% endif %}
                                 </div>
                             </article>
@@ -441,16 +425,13 @@
                             <article class="post-card" data-blog="{{ blog_name }}" data-url="{{ post.link }}" onclick="window.open('{{ post.link }}', '_blank')">
                                 <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, '{{ post.link }}')">Copy</button>
                                 <div class="card-content">
-                                    {% if post.agency_relevant %}
-                                    <div class="agency-badge">⭐ For Agencies</div>
-                                    {% endif %}
                                     <h3 class="card-title">
-                                        <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+                                        <a href="{{ post.link }}" target="_blank">{% if post.agency_relevant %}⭐ {% endif %}{{ post.title }}</a>
                                     </h3>
                                     <div class="card-meta">{{ post.pubDate[:16] }}</div>
                                     <p class="card-summary">{{ post.summary }}</p>
                                     {% if post.agency_relevant and post.agency_reason %}
-                                    <div class="agency-reason">💡 {{ post.agency_reason }}</div>
+                                    <div class="agency-reason">⭐ {{ post.agency_reason }}</div>
                                     {% endif %}
                                 </div>
                             </article>

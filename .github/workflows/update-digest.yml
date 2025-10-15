@@ -26,11 +26,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install feedparser beautifulsoup4 jinja2
+          pip install feedparser beautifulsoup4 jinja2 openai python-dotenv
 
       - name: Fetch latest posts
         run: |
           python fetch_real_posts.py
+
+      - name: Analyze posts for agency relevance
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python analyze_agency_relevance.py
 
       - name: Generate HTML
         run: |

@@ -379,12 +379,12 @@
                                 <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, '{{ post.link }}')">Copy</button>
                                 <div class="card-content">
                                     <h3 class="card-title">
-                                        <a href="{{ post.link }}" target="_blank">{% if post.agency_relevant %}⭐ {% endif %}{{ post.title }}</a>
+                                        <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
                                     </h3>
                                     <div class="card-meta">{{ post.pubDate[:16] }}</div>
                                     <p class="card-summary">{{ post.summary }}</p>
-                                    {% if post.agency_relevant and post.agency_reason %}
-                                    <div class="agency-reason">⭐ {{ post.agency_reason }}</div>
+                                    {% if post.agency_reason %}
+                                    <div class="agency-reason">{{ post.agency_reason }}</div>
                                     {% endif %}
                                 </div>
                             </article>
@@ -426,12 +426,12 @@
                                 <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, '{{ post.link }}')">Copy</button>
                                 <div class="card-content">
                                     <h3 class="card-title">
-                                        <a href="{{ post.link }}" target="_blank">{% if post.agency_relevant %}⭐ {% endif %}{{ post.title }}</a>
+                                        <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
                                     </h3>
                                     <div class="card-meta">{{ post.pubDate[:16] }}</div>
                                     <p class="card-summary">{{ post.summary }}</p>
-                                    {% if post.agency_relevant and post.agency_reason %}
-                                    <div class="agency-reason">⭐ {{ post.agency_reason }}</div>
+                                    {% if post.agency_reason %}
+                                    <div class="agency-reason">{{ post.agency_reason }}</div>
                                     {% endif %}
                                 </div>
                             </article>

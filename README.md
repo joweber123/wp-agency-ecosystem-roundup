@@ -1,60 +1,49 @@
-# Automattic RSS Aggregator
+# WP Agency Ecosystem Roundup
 
-Weekly digest builder for Automattic family blogs.
+**A daily-updated digest of WordPress ecosystem news, curated for agencies.**
 
-## Quick Start - Styling Preview
+## What It Is
 
-To experiment with the digest styling locally:
+An automated news aggregator that collects posts from 13 WordPress-related blogs (Automattic family + industry leaders), analyzes them with AI for agency relevance, and displays them in a clean, browsable format.
 
-### 1. Install dependencies
+## How It Works
+
+1. **Daily at 9 AM UTC**: GitHub Actions fetches the latest posts from all RSS feeds (last 30 days)
+2. **AI Analysis**: GPT-5-mini analyzes each Automattic/WordPress post to explain why agencies should care
+3. **Auto-Deploy**: Generates and publishes the updated digest to GitHub Pages
+
+## What It Does
+
+- **Aggregates** posts from WordPress.com, Pressable, Jetpack, WooCommerce, WordPress VIP, and more
+- **Analyzes** each post with AI to surface agency-relevant insights
+- **Displays** posts in a horizontal-scrolling, brand-colored interface
+- **Updates** automatically every day—no manual work required
+
+## Live Site
+
+👉 **https://joweber123.github.io/wp-agency-ecosystem-roundup/**
+
+## Local Development
 
 ```bash
-pip install jinja2
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up OpenAI API key
+cp .env.example .env
+# Edit .env and add your OpenAI API key
+
+# Fetch posts and generate digest
+python fetch_real_posts.py
+python analyze_agency_relevance.py
+python generate_woocommerce_style.py
+
+# Open preview_woocommerce_style.html in browser
 ```
 
-### 2. Generate the preview
+## Tech Stack
 
-```bash
-python generate_preview.py
-```
-
-### 3. Open in browser
-
-Open `preview.html` in your web browser to see the styled digest with sample posts.
-
-### 4. Customize styling
-
-Edit `template.html` to adjust colors, fonts, spacing, etc. Then re-run `python generate_preview.py` to see your changes.
-
-## Files
-
-- **template.html** - Jinja2 HTML template with embedded CSS styling
-- **sample_data.json** - Sample RSS post data for preview generation
-- **generate_preview.py** - Script to generate preview.html from template and sample data
-- **preview.html** - Generated HTML file (open this in your browser)
-
-## Next Steps
-
-Once you're happy with the styling:
-1. Implement the full RSS fetching logic (`digest_builder.py`)
-2. Set up GitHub Actions workflow for automation
-3. Configure email sending
-4. Deploy to GitHub Pages
-
-## Customization Tips
-
-### Colors
-The current color scheme uses WordPress blue (#2271b1). You can customize:
-- Header gradient background
-- Link colors
-- Source badge colors (consider unique colors per blog)
-
-### Layout
-- Adjust `.container max-width` for wider/narrower digest
-- Modify `.post` spacing and borders
-- Change image sizing with `.post-image`
-
-### Typography
-- Font family is set in `body` selector
-- Heading sizes: `.header h1`, `.post-title`
-- Body text: `.post-summary`
+- **Python**: RSS parsing, AI analysis, HTML generation
+- **GPT-5-mini**: Agency relevance insights (one API call per day)
+- **GitHub Actions**: Daily automation
+- **GitHub Pages**: Hosting

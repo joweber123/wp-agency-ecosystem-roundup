@@ -1,0 +1,49 @@
+name: Update WP Agency Ecosystem Roundup
+
+on:
+  schedule:
+    # Run daily at 9:00 AM UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install feedparser beautifulsoup4 jinja2
+
+      - name: Fetch latest posts
+        run: |
+          python fetch_real_posts.py
+
+      - name: Generate HTML
+        run: |
+          python generate_woocommerce_style.py
+
+      - name: Copy to docs folder for GitHub Pages
+        run: |
+          mkdir -p docs
+          cp preview_woocommerce_style.html docs/index.html
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add docs/index.html fetched_posts.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update digest - $(date +'%Y-%m-%d %H:%M:%S UTC')" && git push)

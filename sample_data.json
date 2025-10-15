@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Introducing the New WordPress Block Editor Updates",
+    "link": "https://wordpress.com/blog/2025/10/new-block-editor-updates",
+    "pubDate": "Mon, 14 Oct 2025 10:30:00 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://placehold.co/800x400/2271b1/ffffff?text=WordPress.com",
+    "summary": "We're excited to announce major improvements to the WordPress block editor, including enhanced performance, new design tools, and improved accessibility features that make content creation easier than ever."
+  },
+  {
+    "title": "How Pressable Powers High-Performance WordPress Sites",
+    "link": "https://pressable.com/blog/2025/10/high-performance-wordpress",
+    "pubDate": "Sun, 13 Oct 2025 14:20:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/00a32a/ffffff?text=Pressable",
+    "summary": "Learn about the infrastructure and optimization techniques we use at Pressable to deliver lightning-fast WordPress hosting with 99.99% uptime and enterprise-grade security."
+  },
+  {
+    "title": "Jetpack Security Updates: Real-Time Malware Scanning",
+    "link": "https://jetpack.com/blog/2025/10/realtime-malware-scanning",
+    "pubDate": "Sat, 12 Oct 2025 09:15:00 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://placehold.co/800x400/069e08/ffffff?text=Jetpack",
+    "summary": "Jetpack's new real-time malware scanning engine provides instant threat detection and automated cleanup, keeping your WordPress site secure 24/7 without impacting performance."
+  },
+  {
+    "title": "WordPress VIP: Scaling Content for Global Enterprise",
+    "link": "https://wpvip.com/blog/2025/10/scaling-content-global-enterprise",
+    "pubDate": "Fri, 11 Oct 2025 11:45:00 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/0675c4/ffffff?text=WordPress+VIP",
+    "summary": "Discover how leading brands use WordPress VIP to manage millions of visitors, deliver content across multiple regions, and maintain peak performance during traffic spikes."
+  },
+  {
+    "title": "Automattic's Vision for the Open Web in 2025",
+    "link": "https://automattic.com/2025/10/vision-for-open-web",
+    "pubDate": "Thu, 10 Oct 2025 08:00:00 GMT",
+    "blog_name": "Automattic",
+    "image_url": "https://placehold.co/800x400/1a8917/ffffff?text=Automattic",
+    "summary": "CEO Matt Mullenweg shares Automattic's commitment to democratizing publishing and empowering creators worldwide with open-source tools that put users in control of their content."
+  },
+  {
+    "title": "Agency Success Stories: Building Client Sites with WordPress",
+    "link": "https://automattic.com/agencies/2025/10/success-stories",
+    "pubDate": "Wed, 09 Oct 2025 13:30:00 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://placehold.co/800x400/7c3aed/ffffff?text=A4A",
+    "summary": "Meet the agencies transforming their businesses with Automattic for Agencies. Learn how our partner program provides tools, support, and resources to help agencies scale and succeed."
+  }
+]

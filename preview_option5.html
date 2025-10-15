@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option 5: Tabs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2271b1 0%, #135e96 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .header .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .header .date {
+            margin-top: 15px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .tabs-container {
+            background-color: #f7fafc;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .tabs {
+            display: flex;
+            overflow-x: auto;
+            padding: 0 30px;
+        }
+
+        .tab {
+            padding: 15px 25px;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            color: #718096;
+            transition: all 0.2s;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tab:hover {
+            color: #2271b1;
+            background-color: rgba(34, 113, 177, 0.05);
+        }
+
+        .tab.active {
+            color: #2271b1;
+            border-bottom-color: #2271b1;
+        }
+
+        .tab-badge {
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .tab.active .tab-badge {
+            background-color: #2271b1;
+            color: white;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 30px;
+            min-height: 400px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .post-card {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .post-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .post-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .post-title a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .post-title a:hover {
+            color: #2271b1;
+        }
+
+        .post-meta {
+            font-size: 12px;
+            color: #718096;
+            margin-bottom: 12px;
+        }
+
+        .post-summary {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: #2271b1;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s ease;
+        }
+
+        .read-more:hover {
+            color: #135e96;
+        }
+
+        .read-more::after {
+            content: " →";
+        }
+
+        .no-posts {
+            padding: 80px 20px;
+            text-align: center;
+            color: #a0aec0;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        .footer {
+            background-color: #f7fafc;
+            padding: 25px 30px;
+            text-align: center;
+            color: #718096;
+            font-size: 13px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .footer p {
+            margin-bottom: 8px;
+        }
+
+        .footer a {
+            color: #2271b1;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .tabs {
+                padding: 0 15px;
+            }
+
+            .tab {
+                padding: 12px 15px;
+                font-size: 12px;
+            }
+
+            .tab-content {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Automattic Weekly Digest</h1>
+            <div class="subtitle">Option 5: Tabbed Navigation</div>
+            <div class="date">October 15, 2025</div>
+        </div>
+
+        <div class="tabs-container">
+            <div class="tabs">
+                
+                <button class="tab active" onclick="switchTab(event, 'tab1')">
+                    WordPress.com
+                    <span class="tab-badge">0</span>
+                </button>
+                
+                <button class="tab" onclick="switchTab(event, 'tab2')">
+                    Pressable
+                    <span class="tab-badge">4</span>
+                </button>
+                
+                <button class="tab" onclick="switchTab(event, 'tab3')">
+                    Jetpack
+                    <span class="tab-badge">2</span>
+                </button>
+                
+                <button class="tab" onclick="switchTab(event, 'tab4')">
+                    WordPress VIP
+                    <span class="tab-badge">1</span>
+                </button>
+                
+                <button class="tab" onclick="switchTab(event, 'tab5')">
+                    Automattic
+                    <span class="tab-badge">0</span>
+                </button>
+                
+                <button class="tab" onclick="switchTab(event, 'tab6')">
+                    Automattic for Agencies
+                    <span class="tab-badge">1</span>
+                </button>
+                
+            </div>
+        </div>
+
+        <div class="content">
+            
+            <div id="tab1" class="tab-content active">
+                
+                <div class="no-posts">No posts this week from WordPress.com</div>
+                
+            </div>
+            
+            <div id="tab2" class="tab-content">
+                
+                <div class="posts-grid">
+                    
+                    <article class="post-card">
+                        <h3 class="post-title">
+                            <a href="https://pressable.com/blog/drupal-vs-wordpress/" target="_blank">Drupal vs. WordPress: Comparing Open Source Content Management Systems</a>
+                        </h3>
+                        <div class="post-meta">Tue, 14 Oct 2025 18:30:00 GMT</div>
+                        <p class="post-summary">At a glance, WordPress and Drupal seem similar. They are both open source content management systems with their origins in the early 2000s. Both are written in the PHP programming language and...</p>
+                        <a href="https://pressable.com/blog/drupal-vs-wordpress/" target="_blank" class="read-more">Read article</a>
+                    </article>
+                    
+                    <article class="post-card">
+                        <h3 class="post-title">
+                            <a href="https://pressable.com/blog/adding-enterprise-level-search-to-wordpress-sites/" target="_blank">How to Add Enterprise-Level Search Capabilities to Your WordPress Site</a>
+                        </h3>
+                        <div class="post-meta">Fri, 10 Oct 2025 18:30:00 GMT</div>
+                        <p class="post-summary">The search function on a WordPress site is one of the most fundamental parts of the overall user experience. You want it to be a positive experience for your users. Your site’s search bar is […] The...</p>
+                        <a href="https://pressable.com/blog/adding-enterprise-level-search-to-wordpress-sites/" target="_blank" class="read-more">Read article</a>
+                    </article>
+                    
+                    <article class="post-card">
+                        <h3 class="post-title">
+                            <a href="https://pressable.com/blog/wordpress-nonces/" target="_blank">What Are WordPress Nonces and How to Use Them</a>
+                        </h3>
+                        <div class="post-meta">Thu, 09 Oct 2025 18:30:00 GMT</div>
+                        <p class="post-summary">WordPress is an open-source content management system. Users and developers are free to view and modify its code. That customizability is one of the main reasons WordPress has become so popular....</p>
+                        <a href="https://pressable.com/blog/wordpress-nonces/" target="_blank" class="read-more">Read article</a>
+                    </article>
+                    
+                    <article class="post-card">
+                        <h3 class="post-title">
+                            <a href="https://pressable.com/blog/how-to-customize-wordpress-without-breaking-your-theme/" target="_blank">How to Customize WordPress Without Breaking Your Theme</a>
+                        </h3>
+                        <div class="post-meta">Wed, 08 Oct 2025 18:30:00 GMT</div>
+                        <p class="post-summary">As your business grows, at some point you will likely need to update its WordPress theme. Reasons to update a WordPress theme often include boosting performance, improving user experience, and...</p>
+                        <a href="https://pressable.com/blog/how-to-customize-wordpress-without-breaking-your-theme/" target="_blank" class="read-more">Read article</a>
+                    </article>
+                    
+                </div>
+                
+            </div>
+            
+            <div id="tab3" class="tab-content">
+                
+                <div class="posts-grid">
+                    
+                    <article class="post-card">
+                        <h3 class="post-title">
+                            <a href="https://jetpack.com/resources/sunday-social-media-posts/" target="_blank">19 Sunday Social Media Post Ideas to End the Week Strong</a>
+                        </h3>
+                        <div class="post-meta">Mon, 13 Oct 2025 13:00:00 GMT</div>
+                        <p class="post-summary">Make Sundays count: 19 simple, human-first social media post ideas to boost engagement and loyalty — plus tips to plan, test, and schedule posts.</p>
+                        <a href="https://jetpack.com/resources/sunday-social-media-posts/" target="_blank" class="read-more">Read article</a>
+                    </article>
+                    
+                    <article class="post-card">
+                        <h3 class="post-title">
+                            <a href="https://jetpack.com/resources/wordpress-change-admin-email/" target="_blank">How to Change the WordPress Admin Email Address (3 Methods)</a>
+                        </h3>
+                        <div class="post-meta">Fri, 10 Oct 2025 13:00:00 GMT</div>
+                        <p class="post-summary">Changing your WordPress admin email? See 3 safe methods and troubleshooting tips to keep your WordPress site secure, updated, and running smoothly.</p>
+                        <a href="https://jetpack.com/resources/wordpress-change-admin-email/" target="_blank" class="read-more">Read article</a>
+                    </article>
+                    
+                </div>
+                
+            </div>
+            
+            <div id="tab4" class="tab-content">
+                
+                <div class="posts-grid">
+                    
+                    <article class="post-card">
+                        <h3 class="post-title">
+                            <a href="https://wpvip.com/blog/ai-governance-in-journalism-culture-adoption/" target="_blank">Why AI Governance in Journalism Starts with the Right Culture and Mindset</a>
+                        </h3>
+                        <div class="post-meta">Tue, 14 Oct 2025 19:56:39 GMT</div>
+                        <p class="post-summary">Gannett’s VP of News Automation and AI Product shares the best practices that are boosting adoption and delivering results.</p>
+                        <a href="https://wpvip.com/blog/ai-governance-in-journalism-culture-adoption/" target="_blank" class="read-more">Read article</a>
+                    </article>
+                    
+                </div>
+                
+            </div>
+            
+            <div id="tab5" class="tab-content">
+                
+                <div class="no-posts">No posts this week from Automattic</div>
+                
+            </div>
+            
+            <div id="tab6" class="tab-content">
+                
+                <div class="posts-grid">
+                    
+                    <article class="post-card">
+                        <h3 class="post-title">
+                            <a href="https://automattic.com/for-agencies/blog/automattic-for-agencies-vs-automattic-affiliate-program/" target="_blank">Automattic for Agencies vs the Automattic Affiliate Program: What’s the difference?</a>
+                        </h3>
+                        <div class="post-meta">Wed, 08 Oct 2025 23:12:00 GMT</div>
+                        <p class="post-summary">Automattic for Agencies or the Automattic Affiliate program? What about both? Compare programs & how to generate the most recurring, passive revenue.</p>
+                        <a href="https://automattic.com/for-agencies/blog/automattic-for-agencies-vs-automattic-affiliate-program/" target="_blank" class="read-more">Read article</a>
+                    </article>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            <p><strong>Automattic Weekly Digest</strong></p>
+            <p>Option 5: Tabbed Layout</p>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(event, tabId) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => content.classList.remove('active'));
+
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+            // Show selected tab content
+            document.getElementById(tabId).classList.add('active');
+
+            // Add active class to clicked tab
+            event.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>

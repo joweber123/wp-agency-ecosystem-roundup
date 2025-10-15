@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automattic Monthly Digest</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        .header {
+            background: #ffffff;
+            color: #1a1a1a;
+            padding: 30px 30px 25px;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .header .date {
+            font-size: 13px;
+            color: #718096;
+        }
+
+        .content {
+            padding: 40px 0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section:last-child {
+            margin-bottom: 20px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .section-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .post-count {
+            font-size: 14px;
+            color: #718096;
+            font-weight: 600;
+        }
+
+        .cards-scroll-container {
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            padding: 0 40px 20px;
+            cursor: grab;
+        }
+
+        .cards-scroll-container:active {
+            cursor: grabbing;
+        }
+
+        .cards-scroll-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .cards-scroll-container::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .cards-scroll-container::-webkit-scrollbar-thumb {
+            background: transparent;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .cards-scroll-container:hover::-webkit-scrollbar-thumb {
+            background: #cbd5e0;
+        }
+
+        .cards-scroll-container::-webkit-scrollbar-thumb:hover {
+            background: #a0aec0;
+        }
+
+        .cards-row {
+            display: flex;
+            gap: 20px;
+            padding-bottom: 5px;
+        }
+
+        .post-card {
+            flex: 0 0 360px;
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            min-height: 200px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            border: 2px solid;
+        }
+
+        .post-card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Brand-specific border colors */
+        .post-card[data-blog="WordPress.com"] {
+            border-color: #0087be;
+        }
+
+        .post-card[data-blog="Pressable"] {
+            border-color: #de3901;
+        }
+
+        .post-card[data-blog="Jetpack"] {
+            border-color: #669c34;
+        }
+
+        .post-card[data-blog="WordPress VIP"] {
+            border-color: #13191E;
+        }
+
+        .post-card[data-blog="Automattic"] {
+            border-color: #3858e9;
+        }
+
+        .post-card[data-blog="Automattic for Agencies"] {
+            border-color: #7c3aed;
+        }
+
+        .post-card[data-blog="WooCommerce"] {
+            border-color: #720EEC;
+        }
+
+        .post-card[data-blog="WooCommerce Developer"] {
+            border-color: #720EEC;
+        }
+
+        .post-card[data-blog="WP Engine"] {
+            border-color: #0ECAD4;
+        }
+
+        .post-card[data-blog="Kinsta"] {
+            border-color: #5333ED;
+        }
+
+        .post-card[data-blog="Pantheon"] {
+            border-color: #EFD01B;
+        }
+
+        .post-card[data-blog="Rocket.net"] {
+            border-color: #FF6C37;
+        }
+
+        .post-card[data-blog="WordPress.org News"] {
+            border-color: #21759b;
+        }
+
+        .card-content {
+            padding: 25px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-title {
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+        }
+
+        .card-title a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .card-meta {
+            font-size: 12px;
+            color: #718096;
+            margin-bottom: 12px;
+        }
+
+        .card-summary {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #4a5568;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 11px;
+            font-weight: 600;
+            color: #4a5568;
+            cursor: pointer;
+            transition: all 0.2s;
+            opacity: 0;
+            z-index: 10;
+        }
+
+        .post-card:hover .copy-button {
+            opacity: 1;
+        }
+
+        .copy-button:hover {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            border-color: #cbd5e0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .copy-button:active {
+            transform: scale(0.95);
+        }
+
+        .copy-button.copied {
+            background-color: #00a32a;
+            color: white;
+            border-color: #00a32a;
+        }
+
+        .no-posts-section {
+            padding: 0 40px;
+            margin-bottom: 60px;
+        }
+
+        .no-posts-message {
+            background-color: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            color: #718096;
+            font-style: italic;
+        }
+
+        .footer {
+            background-color: #1a1a1a;
+            color: #a0aec0;
+            padding: 30px 40px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer p {
+            margin-bottom: 8px;
+        }
+
+        .footer a {
+            color: #0087be;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+            margin: 20px 40px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 40px 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .section-header {
+                padding: 0 20px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .section-title {
+                font-size: 22px;
+            }
+
+            .cards-scroll-container {
+                padding: 0 20px 20px;
+            }
+
+            .post-card {
+                flex: 0 0 300px;
+            }
+
+            .footer {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>WP Agency Ecosystem Roundup</h1>
+            <div class="date">Last updated: October 15, 2025</div>
+        </div>
+
+        <div class="content">
+            
+            
+
+            
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Automattic for Agencies</h2>
+                        <div class="section-meta">
+                            <span class="post-count">3 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="Automattic for Agencies" data-url="https://automattic.com/for-agencies/blog/automattic-for-agencies-vs-automattic-affiliate-program/" onclick="window.open('https://automattic.com/for-agencies/blog/automattic-for-agencies-vs-automattic-affiliate-program/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://automattic.com/for-agencies/blog/automattic-for-agencies-vs-automattic-affiliate-program/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://automattic.com/for-agencies/blog/automattic-for-agencies-vs-automattic-affiliate-program/" target="_blank">Automattic for Agencies vs the Automattic Affiliate Program: What’s the difference?</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 08 Oct 2025</div>
+                                    <p class="card-summary">Automattic for Agencies or the Automattic Affiliate program? What about both? Compare programs & how to generate the most recurring, passive revenue.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Automattic for Agencies" data-url="https://automattic.com/for-agencies/blog/woopayments-revenue-update/" onclick="window.open('https://automattic.com/for-agencies/blog/woopayments-revenue-update/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://automattic.com/for-agencies/blog/woopayments-revenue-update/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://automattic.com/for-agencies/blog/woopayments-revenue-update/" target="_blank">New Revenue Opportunities: Unlock WooPayments Revenue for New & Existing Woo Stores with Automattic for Agencies</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 23 Sep 2025</div>
+                                    <p class="card-summary">Profit boost: Automattic for Agencies — the most rewarding program for WordPress agencies — now pays on WooPayments revenue from new & existing stores</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Automattic for Agencies" data-url="https://automattic.com/for-agencies/blog/the-agency-dispatch-september-2025/" onclick="window.open('https://automattic.com/for-agencies/blog/the-agency-dispatch-september-2025/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://automattic.com/for-agencies/blog/the-agency-dispatch-september-2025/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://automattic.com/for-agencies/blog/the-agency-dispatch-september-2025/" target="_blank">The Agency Dispatch: September 2025</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 22 Sep 2025</div>
+                                    <p class="card-summary">September’s biggest WordPress agency updates: new billing features, migration incentives, and client-ready resources to fuel smarter growth.</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Pressable</h2>
+                        <div class="section-meta">
+                            <span class="post-count">13 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/drupal-vs-wordpress/" onclick="window.open('https://pressable.com/blog/drupal-vs-wordpress/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/drupal-vs-wordpress/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/drupal-vs-wordpress/" target="_blank">Drupal vs. WordPress: Comparing Open Source Content Management Systems</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 14 Oct 2025</div>
+                                    <p class="card-summary">At a glance, WordPress and Drupal seem similar. They are both open source content management systems with their origins in the early 2000s. Both are written in the PHP programming language and...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/adding-enterprise-level-search-to-wordpress-sites/" onclick="window.open('https://pressable.com/blog/adding-enterprise-level-search-to-wordpress-sites/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/adding-enterprise-level-search-to-wordpress-sites/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/adding-enterprise-level-search-to-wordpress-sites/" target="_blank">How to Add Enterprise-Level Search Capabilities to Your WordPress Site</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 10 Oct 2025</div>
+                                    <p class="card-summary">The search function on a WordPress site is one of the most fundamental parts of the overall user experience. You want it to be a positive experience for your users. Your site’s search bar is […] The...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/wordpress-nonces/" onclick="window.open('https://pressable.com/blog/wordpress-nonces/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/wordpress-nonces/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/wordpress-nonces/" target="_blank">What Are WordPress Nonces and How to Use Them</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 09 Oct 2025</div>
+                                    <p class="card-summary">WordPress is an open-source content management system. Users and developers are free to view and modify its code. That customizability is one of the main reasons WordPress has become so popular....</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/how-to-customize-wordpress-without-breaking-your-theme/" onclick="window.open('https://pressable.com/blog/how-to-customize-wordpress-without-breaking-your-theme/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/how-to-customize-wordpress-without-breaking-your-theme/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/how-to-customize-wordpress-without-breaking-your-theme/" target="_blank">How to Customize WordPress Without Breaking Your Theme</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 08 Oct 2025</div>
+                                    <p class="card-summary">As your business grows, at some point you will likely need to update its WordPress theme. Reasons to update a WordPress theme often include boosting performance, improving user experience, and...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/woocommerce-vs-magento/" onclick="window.open('https://pressable.com/blog/woocommerce-vs-magento/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/woocommerce-vs-magento/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/woocommerce-vs-magento/" target="_blank">WooCommerce vs. Magento (Adobe Commerce): Which is Better for Your Online Store?</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 07 Oct 2025</div>
+                                    <p class="card-summary">Choosing the right ecommerce platform for your business has consequences. This decision affects many things integral to how you operate, including flexibility, budget, and scalability. WooCommerce...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/prepare-your-woocommerce-store-for-high-traffic-product-drop/" onclick="window.open('https://pressable.com/blog/prepare-your-woocommerce-store-for-high-traffic-product-drop/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/prepare-your-woocommerce-store-for-high-traffic-product-drop/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/prepare-your-woocommerce-store-for-high-traffic-product-drop/" target="_blank">How to Prepare Your WooCommerce Store for a High-Traffic Product Drop</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 01 Oct 2025</div>
+                                    <p class="card-summary">New product drops are both exciting and anxiety-provoking. Your website is about to be tested by a tidal wave of customer traffic.  Your systems will be tested and there’s the potential for disaster,...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/building-a-wordpress-sales-funnel/" onclick="window.open('https://pressable.com/blog/building-a-wordpress-sales-funnel/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/building-a-wordpress-sales-funnel/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/building-a-wordpress-sales-funnel/" target="_blank">Tips on Building a Successful WordPress Sales Funnel: Your Guide to Boosting Conversions</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 30 Sep 2025</div>
+                                    <p class="card-summary">New businesses often start with a simple dream. You have a product (or service) that solves a problem or meets the needs of a certain audience. Business owners then build an e-commerce website to...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/best-wordpress-workflow-automation-integrations/" onclick="window.open('https://pressable.com/blog/best-wordpress-workflow-automation-integrations/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/best-wordpress-workflow-automation-integrations/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/best-wordpress-workflow-automation-integrations/" target="_blank">Best WordPress Integrations for Workflow Automation</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 25 Sep 2025</div>
+                                    <p class="card-summary">In the age of AI, we’re all searching for ways to make the tedious aspects of our jobs easier and faster. According to a report from Formstack, 76% of businesses now use automation for standardizing...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/woocommerce-vs-wix/" onclick="window.open('https://pressable.com/blog/woocommerce-vs-wix/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/woocommerce-vs-wix/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/woocommerce-vs-wix/" target="_blank">WooCommerce vs. Wix: WooCommerce Demystified for Wix Store Owners</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 24 Sep 2025</div>
+                                    <p class="card-summary">Wix is an excellent ecommerce solution for new online stores. It is easy to use, beautifully designed, and its drag-and-drop interface makes basic customization simple. But many store owners run into...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/wordpress-lead-generation-plugins/" onclick="window.open('https://pressable.com/blog/wordpress-lead-generation-plugins/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/wordpress-lead-generation-plugins/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/wordpress-lead-generation-plugins/" target="_blank">WordPress Lead Generation Plugins: How to Choose and Use for Maximum Conversions</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 23 Sep 2025</div>
+                                    <p class="card-summary">When starting their WordPress site, many new businesses think their biggest struggle will be getting traffic to their website. In reality, their biggest challenge is lead generation. Lead generation...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/ga4-for-wordpress/" onclick="window.open('https://pressable.com/blog/ga4-for-wordpress/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/ga4-for-wordpress/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/ga4-for-wordpress/" target="_blank">GA4 for WordPress: Everything You Need to Know to Master Your Data</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 18 Sep 2025</div>
+                                    <p class="card-summary">While the day may have come and gone without much fanfare, July 1, 2024, was a momentous day for website owners. Google officially transitioned its analytics platform from Universal Google Analytics...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/wordpress-accessibility-for-visually-impaired/" onclick="window.open('https://pressable.com/blog/wordpress-accessibility-for-visually-impaired/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/wordpress-accessibility-for-visually-impaired/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/wordpress-accessibility-for-visually-impaired/" target="_blank">WordPress Accessibility for Visually Impaired Users</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 17 Sep 2025</div>
+                                    <p class="card-summary">Many essential life activities such as shopping, banking, and job searching rely on accessible websites. It’s important that websites are designed and organized to be accessible to all users. This...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pressable" data-url="https://pressable.com/blog/wordpress-information-architecture/" onclick="window.open('https://pressable.com/blog/wordpress-information-architecture/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pressable.com/blog/wordpress-information-architecture/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pressable.com/blog/wordpress-information-architecture/" target="_blank">A Guide to WordPress Information Architecture for Businesses</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 16 Sep 2025</div>
+                                    <p class="card-summary">A WordPress site is a platform for sharing information. Business sites typically share information to support business objectives, but to do that effectively, it needs to be organized in a way that...</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">WordPress.com</h2>
+                        <div class="section-meta">
+                            <span class="post-count">7 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="WordPress.com" data-url="https://wordpress.com/blog/2025/10/08/introducing-blueprints-in-wordpress-studio-1-6-0/" onclick="window.open('https://wordpress.com/blog/2025/10/08/introducing-blueprints-in-wordpress-studio-1-6-0/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wordpress.com/blog/2025/10/08/introducing-blueprints-in-wordpress-studio-1-6-0/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wordpress.com/blog/2025/10/08/introducing-blueprints-in-wordpress-studio-1-6-0/" target="_blank">Introducing Blueprints in WordPress Studio 1.6.0</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 08 Oct 2025</div>
+                                    <p class="card-summary">WordPress Studio 1.6.0 adds Blueprint support to create sites from repeatable recipes. Use featured Blueprints or your own to install plugins, activate themes, and get straight to work.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress.com" data-url="https://wordpress.com/blog/2025/10/07/mcp/" onclick="window.open('https://wordpress.com/blog/2025/10/07/mcp/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wordpress.com/blog/2025/10/07/mcp/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wordpress.com/blog/2025/10/07/mcp/" target="_blank">See Your Site Through AI: WordPress.com Now Supports MCP</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 07 Oct 2025</div>
+                                    <p class="card-summary">MCP lets AI assistants like Claude and Cursor generate real-time insights from your WordPress.com site data.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress.com" data-url="https://wordpress.com/blog/2025/09/30/portfolio-website/" onclick="window.open('https://wordpress.com/blog/2025/09/30/portfolio-website/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wordpress.com/blog/2025/09/30/portfolio-website/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wordpress.com/blog/2025/09/30/portfolio-website/" target="_blank">How to Make a Portfolio Website in Three Simple Steps (+ Six Pro Tips)</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 30 Sep 2025</div>
+                                    <p class="card-summary">Looking to build a portfolio site? Here’s a step-by-step guide on how to make one, along with pro tips to help you take your website from meh to magnificent.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress.com" data-url="https://wordpress.com/blog/2025/09/25/will-ai-replace-web-developers/" onclick="window.open('https://wordpress.com/blog/2025/09/25/will-ai-replace-web-developers/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wordpress.com/blog/2025/09/25/will-ai-replace-web-developers/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wordpress.com/blog/2025/09/25/will-ai-replace-web-developers/" target="_blank">Will AI Replace Web Developers (And How Should You Adapt)?</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 25 Sep 2025</div>
+                                    <p class="card-summary">Short answer: It depends. For a better answer, you'll have to read this post.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress.com" data-url="https://wordpress.com/blog/2025/09/23/telex-turns-everyone-into-a-wordpress-block-developer/" onclick="window.open('https://wordpress.com/blog/2025/09/23/telex-turns-everyone-into-a-wordpress-block-developer/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wordpress.com/blog/2025/09/23/telex-turns-everyone-into-a-wordpress-block-developer/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wordpress.com/blog/2025/09/23/telex-turns-everyone-into-a-wordpress-block-developer/" target="_blank">Telex Turns Everyone into a WordPress Block Developer</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 23 Sep 2025</div>
+                                    <p class="card-summary">WordPress block development usually requires advanced technical expertise. Telex changes that by letting you describe what you want and get a working block plugin instantly with prompts.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress.com" data-url="https://wordpress.com/blog/2025/09/18/move-typepad-to-wordpress-dot-com/" onclick="window.open('https://wordpress.com/blog/2025/09/18/move-typepad-to-wordpress-dot-com/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wordpress.com/blog/2025/09/18/move-typepad-to-wordpress-dot-com/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wordpress.com/blog/2025/09/18/move-typepad-to-wordpress-dot-com/" target="_blank">Time to Move: Typepad Is Shutting Down September 30, 2025</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 18 Sep 2025</div>
+                                    <p class="card-summary">If you're a Typepad user, time is running out to find a new home for your blog. The good news? We're here to help make your transition as smooth as possible.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress.com" data-url="https://wordpress.com/blog/2025/09/16/wordpress-campus-connect-success-story/" onclick="window.open('https://wordpress.com/blog/2025/09/16/wordpress-campus-connect-success-story/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wordpress.com/blog/2025/09/16/wordpress-campus-connect-success-story/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wordpress.com/blog/2025/09/16/wordpress-campus-connect-success-story/" target="_blank">Transforming Digital Education: From WordPress Campus Connect to WCUS</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 16 Sep 2025</div>
+                                    <p class="card-summary">The past August, two students from Spain traveled on scholarships to WordCamp US in Portland, where they took the stage as panel speakers. Here's how WordPress.com and WordPress Campus Connect helped...</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Jetpack</h2>
+                        <div class="section-meta">
+                            <span class="post-count">9 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/sunday-social-media-posts/" onclick="window.open('https://jetpack.com/resources/sunday-social-media-posts/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/sunday-social-media-posts/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/sunday-social-media-posts/" target="_blank">19 Sunday Social Media Post Ideas to End the Week Strong</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 13 Oct 2025</div>
+                                    <p class="card-summary">Make Sundays count: 19 simple, human-first social media post ideas to boost engagement and loyalty — plus tips to plan, test, and schedule posts.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/wordpress-change-admin-email/" onclick="window.open('https://jetpack.com/resources/wordpress-change-admin-email/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/wordpress-change-admin-email/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/wordpress-change-admin-email/" target="_blank">How to Change the WordPress Admin Email Address (3 Methods)</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 10 Oct 2025</div>
+                                    <p class="card-summary">Changing your WordPress admin email? See 3 safe methods and troubleshooting tips to keep your WordPress site secure, updated, and running smoothly.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/how-to-limit-login-attempts-in-wordpress/" onclick="window.open('https://jetpack.com/resources/how-to-limit-login-attempts-in-wordpress/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/how-to-limit-login-attempts-in-wordpress/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/how-to-limit-login-attempts-in-wordpress/" target="_blank">How to Limit Login Attempts in WordPress (With & Without a Plugin)</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 08 Oct 2025</div>
+                                    <p class="card-summary">Protect your WordPress site from brute force attacks. Discover 2 ways to limit login attempts — via a plugin or manual code — and boost site security.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/wednesday-social-media-posts/" onclick="window.open('https://jetpack.com/resources/wednesday-social-media-posts/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/wednesday-social-media-posts/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/wednesday-social-media-posts/" target="_blank">14 Wednesday Social Media Post Ideas Your Followers Will Love</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 07 Oct 2025</div>
+                                    <p class="card-summary">Running out of midweek content? Check out these 14 Wednesday social media post ideas to boost engagement and keep your brand top of mind.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/how-to-install-and-set-up-woocommerce/" onclick="window.open('https://jetpack.com/resources/how-to-install-and-set-up-woocommerce/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/how-to-install-and-set-up-woocommerce/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/how-to-install-and-set-up-woocommerce/" target="_blank">How to Install and Set up WooCommerce from Scratch (15 Steps)</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 26 Sep 2025</div>
+                                    <p class="card-summary">Ready to sell online? Follow this 15-step guide to install and set up WooCommerce from scratch. Top plugins to find new customers and grow your store!</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/thursday-social-media-posts/" onclick="window.open('https://jetpack.com/resources/thursday-social-media-posts/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/thursday-social-media-posts/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/thursday-social-media-posts/" target="_blank">15 Thursday Social Media Post Ideas to Keep Followers Engaged</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 24 Sep 2025</div>
+                                    <p class="card-summary">Need inspiration for Thursday social media posts? Steal these 15 clever ideas that turn an overlooked day into your most engaging content slot.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/generate-more-leads-with-your-wordpress-site/" onclick="window.open('https://jetpack.com/resources/generate-more-leads-with-your-wordpress-site/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/generate-more-leads-with-your-wordpress-site/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/generate-more-leads-with-your-wordpress-site/" target="_blank">WordPress Lead Generation: 12 Proven Ways to Capture & Qualify More Leads</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 22 Sep 2025</div>
+                                    <p class="card-summary">Turn your WordPress site into a lead generation machine. 12 proven tactics to convert more visitors: Faster forms, stronger magnets, and top tools!</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/wordpress-sitemap-plugins/" onclick="window.open('https://jetpack.com/resources/wordpress-sitemap-plugins/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/wordpress-sitemap-plugins/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/wordpress-sitemap-plugins/" target="_blank">The 8 Best WordPress Sitemap Plugins to Support Your SEO</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 19 Sep 2025</div>
+                                    <p class="card-summary">Looking for the best sitemap plugin for WordPress? Compare the top 8 options with pros, cons, and features to improve SEO and get indexed faster.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Jetpack" data-url="https://jetpack.com/resources/contact-form-best-practices/" onclick="window.open('https://jetpack.com/resources/contact-form-best-practices/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://jetpack.com/resources/contact-form-best-practices/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://jetpack.com/resources/contact-form-best-practices/" target="_blank">Top 22 Contact Form Best Practices to Increase Conversions</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 17 Sep 2025</div>
+                                    <p class="card-summary">Capture more leads. These 22 contact form best practices help you reduce friction, improve design, build trust, & increase conversions on your site.</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">WooCommerce Developer</h2>
+                        <div class="section-meta">
+                            <span class="post-count">12 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/10/07/join-us-for-automattic-for-agencies-powering-growth-with-woo/" onclick="window.open('https://developer.woocommerce.com/2025/10/07/join-us-for-automattic-for-agencies-powering-growth-with-woo/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/10/07/join-us-for-automattic-for-agencies-powering-growth-with-woo/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/10/07/join-us-for-automattic-for-agencies-powering-growth-with-woo/" target="_blank">Join us for “Automattic for Agencies: Powering Growth with Woo”</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 07 Oct 2025</div>
+                                    <p class="card-summary">Our October event brings Automattic for Agencies, Woo’s agency partner program, to talk with the Woo developer community about building workflows and growing revenue. The post Join us for “Automattic...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/10/07/updated-release-schedule-for-woocommerce-10-4/" onclick="window.open('https://developer.woocommerce.com/2025/10/07/updated-release-schedule-for-woocommerce-10-4/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/10/07/updated-release-schedule-for-woocommerce-10-4/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/10/07/updated-release-schedule-for-woocommerce-10-4/" target="_blank">Updated Release Schedule for WooCommerce 10.4</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 07 Oct 2025</div>
+                                    <p class="card-summary">After careful consideration of seasonal demands and community feedback, we're adjusting the upcoming release calendar starting with WooCommerce 10.4. The post Updated Release Schedule for WooCommerce...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/10/06/woocommerce-10-3-pre-release-updates/" onclick="window.open('https://developer.woocommerce.com/2025/10/06/woocommerce-10-3-pre-release-updates/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/10/06/woocommerce-10-3-pre-release-updates/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/10/06/woocommerce-10-3-pre-release-updates/" target="_blank">WooCommerce 10.3: Pre-release updates</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 06 Oct 2025</div>
+                                    <p class="card-summary">WooCommerce 10.3 beta is available for testing. 10.3 will include COGS, address autocomplete, PayPal Express Checkout, and the WooCommerce MCP beta. Plus so much more. The post WooCommerce 10.3:...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/10/06/experimental-clearing-empty-sessions-10-3/" onclick="window.open('https://developer.woocommerce.com/2025/10/06/experimental-clearing-empty-sessions-10-3/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/10/06/experimental-clearing-empty-sessions-10-3/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/10/06/experimental-clearing-empty-sessions-10-3/" target="_blank">Developer Advisory – Experimental Feature: Clearing of Empty Sessions in WooCommerce 10.3</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 06 Oct 2025</div>
+                                    <p class="card-summary">WooCommerce 10.3 introduces experimental session management changes designed to improve site performance through better caching compatibility. The post Developer Advisory – Experimental Feature:...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/10/03/ai-agentic-commerce-in-woocommerce/" onclick="window.open('https://developer.woocommerce.com/2025/10/03/ai-agentic-commerce-in-woocommerce/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/10/03/ai-agentic-commerce-in-woocommerce/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/10/03/ai-agentic-commerce-in-woocommerce/" target="_blank">AI & Agentic Commerce in WooCommerce</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 03 Oct 2025</div>
+                                    <p class="card-summary">WooCommerce is collaborating with industry leaders to enhance ecommerce through MCP, AI experiences, and the evolving field of agentic commerce. The post AI & Agentic Commerce in WooCommerce appeared...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/10/01/developer-advisory-decimal-formats-will-now-return-as-an-empty-string-in-10-4/" onclick="window.open('https://developer.woocommerce.com/2025/10/01/developer-advisory-decimal-formats-will-now-return-as-an-empty-string-in-10-4/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/10/01/developer-advisory-decimal-formats-will-now-return-as-an-empty-string-in-10-4/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/10/01/developer-advisory-decimal-formats-will-now-return-as-an-empty-string-in-10-4/" target="_blank">Developer Advisory: Decimal formats will now return as an empty string in 10.4</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 01 Oct 2025</div>
+                                    <p class="card-summary">🚨 Developer Advisory: To increase consistency wc_format_decimal will now return an empty string. If you're a plugin author, please revise the usage of the function before the WooCommerce 10.4...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/10/01/improving-woocommerce-performance-at-scale/" onclick="window.open('https://developer.woocommerce.com/2025/10/01/improving-woocommerce-performance-at-scale/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/10/01/improving-woocommerce-performance-at-scale/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/10/01/improving-woocommerce-performance-at-scale/" target="_blank">Improving WooCommerce Performance at Scale</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 01 Oct 2025</div>
+                                    <p class="card-summary">In the past year, the WooCommerce team focused on enhancing performance, including faster load times, improved metrics, and collaboration with the contributor community for ongoing optimizations and...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/09/30/developer-advisory-coupon-discount-calculation-is-reverted-in-10-3/" onclick="window.open('https://developer.woocommerce.com/2025/09/30/developer-advisory-coupon-discount-calculation-is-reverted-in-10-3/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/09/30/developer-advisory-coupon-discount-calculation-is-reverted-in-10-3/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/09/30/developer-advisory-coupon-discount-calculation-is-reverted-in-10-3/" target="_blank">Developer Advisory: Coupon discount calculation is reverted in 10.3</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 30 Sep 2025</div>
+                                    <p class="card-summary">🚨 Developer Advisory: WooCommerce 10.3 reverts a coupon discount fix that caused unwanted recalculations when editing orders or changing status. ✅ Update to 10.3 to restore expected behavior! The...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/09/29/woocommerce-10-2-2-dot-release/" onclick="window.open('https://developer.woocommerce.com/2025/09/29/woocommerce-10-2-2-dot-release/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/09/29/woocommerce-10-2-2-dot-release/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/09/29/woocommerce-10-2-2-dot-release/" target="_blank">WooCommerce 10.2.2: Dot Release</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 29 Sep 2025</div>
+                                    <p class="card-summary">WooCommerce 10.2.2 includes fixes for the Product Gallery and ensures that template part handling does not trigger fatal errors. The post WooCommerce 10.2.2: Dot Release appeared first on The...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/09/23/call-for-testing-woocommerce-order-fulfillments/" onclick="window.open('https://developer.woocommerce.com/2025/09/23/call-for-testing-woocommerce-order-fulfillments/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/09/23/call-for-testing-woocommerce-order-fulfillments/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/09/23/call-for-testing-woocommerce-order-fulfillments/" target="_blank">Call for Testing: WooCommerce Order Fulfillments</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 23 Sep 2025</div>
+                                    <p class="card-summary">📣 Call for feedback! Come along for a test ride of WooCommerce Order Fulfillments which is now available for beta testing in WooCommerce 10.2. The post Call for Testing: WooCommerce Order...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/09/22/woocommerce-10-2-1-dot-release/" onclick="window.open('https://developer.woocommerce.com/2025/09/22/woocommerce-10-2-1-dot-release/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/09/22/woocommerce-10-2-1-dot-release/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/09/22/woocommerce-10-2-1-dot-release/" target="_blank">WooCommerce 10.2.1: Dot Release</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 22 Sep 2025</div>
+                                    <p class="card-summary">WooCommerce 10.2.1 marks the first stable release of the 10.2 cycle with essential fixes for WordPress 6.9 compatibility, AMP plugin conflicts, RTL price display, and update script handling of...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce Developer" data-url="https://developer.woocommerce.com/2025/09/17/woocommerce-10-2-a-faster-cart-and-more-ways-to-showcase-products/" onclick="window.open('https://developer.woocommerce.com/2025/09/17/woocommerce-10-2-a-faster-cart-and-more-ways-to-showcase-products/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://developer.woocommerce.com/2025/09/17/woocommerce-10-2-a-faster-cart-and-more-ways-to-showcase-products/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://developer.woocommerce.com/2025/09/17/woocommerce-10-2-a-faster-cart-and-more-ways-to-showcase-products/" target="_blank">WooCommerce 10.2: A faster Cart and more ways to showcase products</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 17 Sep 2025</div>
+                                    <p class="card-summary">🚀 WooCommerce 10.2 is live! 🎉 🔄 A new Product Collection Carousel 🛒 Cart block with instant rendering 🔍 New Taxonomy Filters for Category, Brand & Tag 🧩 Simplified block templates via WP Template...</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">WooCommerce</h2>
+                        <div class="section-meta">
+                            <span class="post-count">7 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="WooCommerce" data-url="https://woocommerce.com/posts/what-is-digital-marketing/" onclick="window.open('https://woocommerce.com/posts/what-is-digital-marketing/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://woocommerce.com/posts/what-is-digital-marketing/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://woocommerce.com/posts/what-is-digital-marketing/" target="_blank">Understanding digital marketing: explaining the basics</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 07 Oct 2025</div>
+                                    <p class="card-summary">What is digital marketing? Learn the essentials and get actionable strategies to attract, engage, and retain customers more effectively.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce" data-url="https://woocommerce.com/posts/ecommerce-shipping-strategies/" onclick="window.open('https://woocommerce.com/posts/ecommerce-shipping-strategies/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://woocommerce.com/posts/ecommerce-shipping-strategies/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://woocommerce.com/posts/ecommerce-shipping-strategies/" target="_blank">Strategies to control costs and delight shoppers during peak shopping seasons</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 03 Oct 2025</div>
+                                    <p class="card-summary">Please customers and protect margins: here's how to determine the perfect ecommerce shipping strategy for your store and the right tools to accomplish it.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce" data-url="https://woocommerce.com/posts/ecommerce-data-strategy/" onclick="window.open('https://woocommerce.com/posts/ecommerce-data-strategy/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://woocommerce.com/posts/ecommerce-data-strategy/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://woocommerce.com/posts/ecommerce-data-strategy/" target="_blank">Future-proof your ecommerce data strategy with zero- and first-party data</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 02 Oct 2025</div>
+                                    <p class="card-summary">As access to third-party data declines, marketers can focus on an even better source: data provided by customers themselves. Here's how.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce" data-url="https://woocommerce.com/posts/economy-candy-custom-woocommerce/" onclick="window.open('https://woocommerce.com/posts/economy-candy-custom-woocommerce/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://woocommerce.com/posts/economy-candy-custom-woocommerce/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://woocommerce.com/posts/economy-candy-custom-woocommerce/" target="_blank">Economy Candy: Three generations of sweets and success</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 01 Oct 2025</div>
+                                    <p class="card-summary">Economy Candy knows how to succeed with WooCommerce: "There’s no limit to what you can do, what you can customize, what you can create."</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce" data-url="https://woocommerce.com/posts/stripe-optimized-checkout-suite/" onclick="window.open('https://woocommerce.com/posts/stripe-optimized-checkout-suite/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://woocommerce.com/posts/stripe-optimized-checkout-suite/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://woocommerce.com/posts/stripe-optimized-checkout-suite/" target="_blank">How to boost peak season conversion rates with Stripe</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 29 Sep 2025</div>
+                                    <p class="card-summary">Increase your conversion rates during peak sales periods with Stripe Optimized Checkout Suite. Four tips to convert more.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce" data-url="https://woocommerce.com/posts/ecommerce-shipping-solutions-guide/" onclick="window.open('https://woocommerce.com/posts/ecommerce-shipping-solutions-guide/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://woocommerce.com/posts/ecommerce-shipping-solutions-guide/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://woocommerce.com/posts/ecommerce-shipping-solutions-guide/" target="_blank">A guide to ecommerce shipping</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 24 Sep 2025</div>
+                                    <p class="card-summary">Protect profits and win customers with a fool-proof strategy to ship products affordably, efficiently, and safely.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WooCommerce" data-url="https://woocommerce.com/posts/upsell-cross-sell-woocommerce/" onclick="window.open('https://woocommerce.com/posts/upsell-cross-sell-woocommerce/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://woocommerce.com/posts/upsell-cross-sell-woocommerce/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://woocommerce.com/posts/upsell-cross-sell-woocommerce/" target="_blank">How to upsell and cross-sell your way to higher revenue with WooCommerce</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 19 Sep 2025</div>
+                                    <p class="card-summary">Make more money with your ecommerce store. Learn how to upsell and cross-sell effectively with these top strategies and tools.</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">WordPress VIP</h2>
+                        <div class="section-meta">
+                            <span class="post-count">5 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="WordPress VIP" data-url="https://wpvip.com/blog/ai-governance-in-journalism-culture-adoption/" onclick="window.open('https://wpvip.com/blog/ai-governance-in-journalism-culture-adoption/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wpvip.com/blog/ai-governance-in-journalism-culture-adoption/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wpvip.com/blog/ai-governance-in-journalism-culture-adoption/" target="_blank">Why AI Governance in Journalism Starts with the Right Culture and Mindset</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 14 Oct 2025</div>
+                                    <p class="card-summary">Gannett’s VP of News Automation and AI Product shares the best practices that are boosting adoption and delivering results.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress VIP" data-url="https://wpvip.com/blog/soc2-type1-attestation/" onclick="window.open('https://wpvip.com/blog/soc2-type1-attestation/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wpvip.com/blog/soc2-type1-attestation/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wpvip.com/blog/soc2-type1-attestation/" target="_blank">WordPress VIP Achieves SOC 2 Type I Attestation, Expanding Enterprise-Grade Compliance</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 07 Oct 2025</div>
+                                    <p class="card-summary">Digital experiences are central to business growth, and enterprises are demanding more from their content management systems without sacrificing security or compliance.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress VIP" data-url="https://wpvip.com/blog/behind-the-build-modernize-publishing/" onclick="window.open('https://wpvip.com/blog/behind-the-build-modernize-publishing/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wpvip.com/blog/behind-the-build-modernize-publishing/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wpvip.com/blog/behind-the-build-modernize-publishing/" target="_blank">Behind the Build: How Christianity Today Modernized its Publishing Experience</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 01 Oct 2025</div>
+                                    <p class="card-summary">A four-part video series on how WebDevStudios helped transform editorial workflows, infrastructure, and content operations for one of America’s most trusted media brands.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress VIP" data-url="https://wpvip.com/blog/ai-readiness-content-strategy/" onclick="window.open('https://wpvip.com/blog/ai-readiness-content-strategy/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wpvip.com/blog/ai-readiness-content-strategy/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wpvip.com/blog/ai-readiness-content-strategy/" target="_blank">Help Close the Enterprise AI Readiness Gap</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 01 Oct 2025</div>
+                                    <p class="card-summary">Contribute to a critical research effort by sharing your experience and perspective.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WordPress VIP" data-url="https://wpvip.com/blog/govramp-txramp-certified-wordpress/" onclick="window.open('https://wpvip.com/blog/govramp-txramp-certified-wordpress/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wpvip.com/blog/govramp-txramp-certified-wordpress/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wpvip.com/blog/govramp-txramp-certified-wordpress/" target="_blank">GovRAMP & TX-RAMP Certified: Secure WordPress for Government</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 22 Sep 2025</div>
+                                    <p class="card-summary">The future of digital government depends on secure, compliant, and people-first platforms. Building on our FedRAMP® Moderate Authorization, WordPress VIP has now achieved GovRAMP authorization and...</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">WordPress.org News</h2>
+                        <div class="section-meta">
+                            <span class="post-count">1 post this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="WordPress.org News" data-url="https://wordpress.org/news/2025/09/wordpress-6-8-3-release/" onclick="window.open('https://wordpress.org/news/2025/09/wordpress-6-8-3-release/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wordpress.org/news/2025/09/wordpress-6-8-3-release/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wordpress.org/news/2025/09/wordpress-6-8-3-release/" target="_blank">WordPress 6.8.3 Release</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 30 Sep 2025</div>
+                                    <p class="card-summary">WordPress 6.8.3 is now available! This is a security release that features two fixes. Because this is a security release, it is recommended that you update your sites immediately. You can download...</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+            
+
+            
+            
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+                
+                    
+                
+            
+            
+            <div class="divider"></div>
+
+            <div style="padding: 0 40px; margin-bottom: 25px;">
+                <h2 style="font-size: 32px; font-weight: 700; color: #1a1a1a;">Industry Insights</h2>
+            </div>
+
+            
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">WP Engine</h2>
+                        <div class="section-meta">
+                            <span class="post-count">3 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="WP Engine" data-url="https://wpengine.com/blog/ensuring-stability-and-security/" onclick="window.open('https://wpengine.com/blog/ensuring-stability-and-security/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wpengine.com/blog/ensuring-stability-and-security/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wpengine.com/blog/ensuring-stability-and-security/" target="_blank">Ensuring Stability and Security: WP Engine’s Legal Actions Against Matt Mullenweg and Automattic</a>
+                                    </h3>
+                                    <div class="card-meta">Sat, 04 Oct 2025</div>
+                                    <p class="card-summary">WP Engine is deeply grateful to the many partners and customers who stood by WP Engine in the face of last year’s unprecedented and unwarranted attacks and attempts to disrupt our platform.  WP...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WP Engine" data-url="https://wpengine.com/blog/meet-the-experts-anna-rogert/" onclick="window.open('https://wpengine.com/blog/meet-the-experts-anna-rogert/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wpengine.com/blog/meet-the-experts-anna-rogert/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wpengine.com/blog/meet-the-experts-anna-rogert/" target="_blank">Meet the Experts: Anna Rogert</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 29 Sep 2025</div>
+                                    <p class="card-summary">WP Engine’s mission to power confidence online is fueled by the expertise and dedication of more than 1,000 global employees. Every individual plays a key role in our continued growth, whether...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="WP Engine" data-url="https://wpengine.com/blog/loopconf-2025/" onclick="window.open('https://wpengine.com/blog/loopconf-2025/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://wpengine.com/blog/loopconf-2025/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://wpengine.com/blog/loopconf-2025/" target="_blank">WP Engine Proudly Sponsored LoopConf!</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 26 Sep 2025</div>
+                                    <p class="card-summary">WP Engine was proud to sponsor this year’s LoopConf, a dedicated event for WordPressⓇ[1] developers and engineers.  For the past decade, LoopConf has brought together the brightest minds in the...</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Kinsta</h2>
+                        <div class="section-meta">
+                            <span class="post-count">3 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="Kinsta" data-url="https://kinsta.com/blog/black-friday-website-downtime/" onclick="window.open('https://kinsta.com/blog/black-friday-website-downtime/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://kinsta.com/blog/black-friday-website-downtime/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://kinsta.com/blog/black-friday-website-downtime/" target="_blank">How much revenue could downtime cost you on Black Friday?</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 14 Oct 2025</div>
+                                    <p class="card-summary">Featured image for How much revenue could downtime cost you on Black Friday?</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Kinsta" data-url="https://kinsta.com/blog/brightonseo-2025/" onclick="window.open('https://kinsta.com/blog/brightonseo-2025/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://kinsta.com/blog/brightonseo-2025/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://kinsta.com/blog/brightonseo-2025/" target="_blank">Meet Kinsta at brightonSEO</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 13 Oct 2025</div>
+                                    <p class="card-summary">Featured image for Meet Kinsta at brightonSEO</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Kinsta" data-url="https://kinsta.com/blog/wordcamp-canada-2025/" onclick="window.open('https://kinsta.com/blog/wordcamp-canada-2025/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://kinsta.com/blog/wordcamp-canada-2025/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://kinsta.com/blog/wordcamp-canada-2025/" target="_blank">Meet Kinsta at WordCamp Canada 2025</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 13 Oct 2025</div>
+                                    <p class="card-summary">Featured image for Meet Kinsta at WordCamp Canada 2025</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Pantheon</h2>
+                        <div class="section-meta">
+                            <span class="post-count">4 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="Pantheon" data-url="https://pantheon.io/blog/why-Pantheon-deploys-new-php-runtime" onclick="window.open('https://pantheon.io/blog/why-Pantheon-deploys-new-php-runtime', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pantheon.io/blog/why-Pantheon-deploys-new-php-runtime')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pantheon.io/blog/why-Pantheon-deploys-new-php-runtime" target="_blank">Why we’re deploying a new PHP runtime</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 09 Oct 2025</div>
+                                    <p class="card-summary">PHP Runtime Gen 2 is a significant yet largely invisible part of how Pantheon works behind the scenes to ensure your sites run smoothly and securely.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pantheon" data-url="https://pantheon.io/blog/start-your-drupal-ai-journey-gemini" onclick="window.open('https://pantheon.io/blog/start-your-drupal-ai-journey-gemini', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pantheon.io/blog/start-your-drupal-ai-journey-gemini')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pantheon.io/blog/start-your-drupal-ai-journey-gemini" target="_blank">Pantheon Brings Gemini to Drupal AI Initiative</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 09 Oct 2025</div>
+                                    <p class="card-summary">Bringing first class support for Gemini into Drupal AI</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pantheon" data-url="https://pantheon.io/blog/seo-for-ai" onclick="window.open('https://pantheon.io/blog/seo-for-ai', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pantheon.io/blog/seo-for-ai')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pantheon.io/blog/seo-for-ai" target="_blank">From ChatGPT to AI Overviews: How Enterprises Win in Multiplatform AI Search</a>
+                                    </h3>
+                                    <div class="card-meta">Wed, 01 Oct 2025</div>
+                                    <p class="card-summary">Learn how enterprises can adapt their SEO strategies for the evolving multi-platform AI search landscape, moving from keywords to natural language queries.</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Pantheon" data-url="https://pantheon.io/blog/content-publisher-for-media" onclick="window.open('https://pantheon.io/blog/content-publisher-for-media', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://pantheon.io/blog/content-publisher-for-media')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://pantheon.io/blog/content-publisher-for-media" target="_blank">Why Anderson Cooper Should Use Content Publisher</a>
+                                    </h3>
+                                    <div class="card-meta">Tue, 16 Sep 2025</div>
+                                    <p class="card-summary">A new era of newsroom efficiency: learn about Content Publisher for media organizations.</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+                
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Rocket.net</h2>
+                        <div class="section-meta">
+                            <span class="post-count">4 posts this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            
+                            <article class="post-card" data-blog="Rocket.net" data-url="https://rocket.net/blog/introducing-new-rocket-net-control-panel/" onclick="window.open('https://rocket.net/blog/introducing-new-rocket-net-control-panel/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://rocket.net/blog/introducing-new-rocket-net-control-panel/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://rocket.net/blog/introducing-new-rocket-net-control-panel/" target="_blank">Introducing: New Rocket.net Control Panel, The Easiest Way to Manage Hosting for WordPress</a>
+                                    </h3>
+                                    <div class="card-meta">Mon, 06 Oct 2025</div>
+                                    <p class="card-summary">Since its inception, Rocket.net has crafted a distinctive customer experience through its API-first approach and industry-leading control panel. Over the last five years, we’ve learned a great deal...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Rocket.net" data-url="https://rocket.net/blog/what-are-the-best-email-providers-for-your-clients/" onclick="window.open('https://rocket.net/blog/what-are-the-best-email-providers-for-your-clients/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://rocket.net/blog/what-are-the-best-email-providers-for-your-clients/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://rocket.net/blog/what-are-the-best-email-providers-for-your-clients/" target="_blank">Agency Owners: What are the Best Email Providers for Your Clients?</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 03 Oct 2025</div>
+                                    <p class="card-summary">If you read the news that AOL was ending their dial-up service, you may have done a head tilt. Do people still use AOL? In the tech world, we’re always using the latest and greatest. Sometimes we...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Rocket.net" data-url="https://rocket.net/blog/top-5-ways-to-monetize-your-blog/" onclick="window.open('https://rocket.net/blog/top-5-ways-to-monetize-your-blog/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://rocket.net/blog/top-5-ways-to-monetize-your-blog/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://rocket.net/blog/top-5-ways-to-monetize-your-blog/" target="_blank">Top 5 Ways to Monetize Your Blog</a>
+                                    </h3>
+                                    <div class="card-meta">Thu, 25 Sep 2025</div>
+                                    <p class="card-summary">When was the last time you looked at a popular blog and thought: “Cool content, but how are they actually paying rent?” Right? Happens all the time. Blog Monetization Solutions (That Actually Make...</p>
+                                </div>
+                            </article>
+                            
+                            <article class="post-card" data-blog="Rocket.net" data-url="https://rocket.net/blog/what-does-omnichannel-marketing-look-like-in-2025/" onclick="window.open('https://rocket.net/blog/what-does-omnichannel-marketing-look-like-in-2025/', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, 'https://rocket.net/blog/what-does-omnichannel-marketing-look-like-in-2025/')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="https://rocket.net/blog/what-does-omnichannel-marketing-look-like-in-2025/" target="_blank">What Does Omnichannel Marketing Look Like in 2025?</a>
+                                    </h3>
+                                    <div class="card-meta">Fri, 19 Sep 2025</div>
+                                    <p class="card-summary">Got Omnichannel? Nope. That’s a 1990s Multi-channel. In 2025, that approach is about as effective as a flip phone at a TikTok convention. Scratch that – your flip phone flex would probably take you...</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            
+            
+        </div>
+
+        <div class="footer">
+            <p><strong>WP Agency Ecosystem Roundup</strong></p>
+            <p>Updated Daily with the latest news from the Automattic and WP Ecosystem</p>
+        </div>
+    </div>
+
+    <script>
+        // Copy to clipboard functionality
+        function copyToClipboard(button, url) {
+            navigator.clipboard.writeText(url).then(() => {
+                button.textContent = 'Copied!';
+                button.classList.add('copied');
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                    button.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        // Horizontal drag scrolling functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollContainers = document.querySelectorAll('.cards-scroll-container');
+
+            scrollContainers.forEach(container => {
+                let isDown = false;
+                let startX;
+                let scrollLeft;
+
+                container.addEventListener('mousedown', (e) => {
+                    isDown = true;
+                    container.style.cursor = 'grabbing';
+                    startX = e.pageX - container.offsetLeft;
+                    scrollLeft = container.scrollLeft;
+                });
+
+                container.addEventListener('mouseleave', () => {
+                    isDown = false;
+                    container.style.cursor = 'grab';
+                });
+
+                container.addEventListener('mouseup', () => {
+                    isDown = false;
+                    container.style.cursor = 'grab';
+                });
+
+                container.addEventListener('mousemove', (e) => {
+                    if (!isDown) return;
+                    e.preventDefault();
+                    const x = e.pageX - container.offsetLeft;
+                    const walk = (x - startX) * 2; // Scroll speed multiplier
+                    container.scrollLeft = scrollLeft - walk;
+                });
+            });
+        });
+    </script>
+</body>
+</html>

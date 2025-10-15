@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option 2: Collapsible Accordion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2271b1 0%, #135e96 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .header .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .header .date {
+            margin-top: 15px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .accordion-item {
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+
+        .accordion-header {
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            padding: 18px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+            user-select: none;
+        }
+
+        .accordion-header:hover {
+            background: linear-gradient(135deg, #edf2f7 0%, #e2e8f0 100%);
+        }
+
+        .accordion-header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .bu-title {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #2271b1;
+        }
+
+        .bu-count {
+            font-size: 12px;
+            color: #ffffff;
+            background-color: #2271b1;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        .accordion-toggle {
+            font-size: 20px;
+            color: #718096;
+            transition: transform 0.3s;
+        }
+
+        .accordion-item.active .accordion-toggle {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .accordion-item.active .accordion-content {
+            max-height: 2000px;
+            transition: max-height 0.5s ease-in;
+        }
+
+        .accordion-body {
+            padding: 20px;
+            border-top: 2px solid #e2e8f0;
+        }
+
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .bu-post {
+            padding: 15px;
+            background-color: #f7fafc;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .post-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .post-title a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .post-title a:hover {
+            color: #2271b1;
+        }
+
+        .post-meta {
+            font-size: 11px;
+            color: #718096;
+            margin-bottom: 10px;
+        }
+
+        .post-summary {
+            font-size: 13px;
+            color: #4a5568;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: #2271b1;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 12px;
+            transition: all 0.2s ease;
+        }
+
+        .read-more:hover {
+            color: #135e96;
+        }
+
+        .read-more::after {
+            content: " →";
+        }
+
+        .no-posts {
+            padding: 30px 20px;
+            text-align: center;
+            color: #a0aec0;
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        .footer {
+            background-color: #f7fafc;
+            padding: 25px 30px;
+            text-align: center;
+            color: #718096;
+            font-size: 13px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .footer p {
+            margin-bottom: 8px;
+        }
+
+        .footer a {
+            color: #2271b1;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Automattic Weekly Digest</h1>
+            <div class="subtitle">Option 2: Collapsible Accordion</div>
+            <div class="date">{{ current_date }}</div>
+        </div>
+
+        <div class="content">
+            {% for blog_name, blog_posts in posts_by_blog.items() %}
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+                    <div class="accordion-header-left">
+                        <div class="bu-title">{{ blog_name }}</div>
+                        <div class="bu-count">{{ blog_posts|length }}</div>
+                    </div>
+                    <div class="accordion-toggle">▼</div>
+                </div>
+                <div class="accordion-content">
+                    {% if blog_posts %}
+                    <div class="accordion-body">
+                        <div class="posts-grid">
+                            {% for post in blog_posts %}
+                            <article class="bu-post">
+                                <h3 class="post-title">
+                                    <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+                                </h3>
+                                <div class="post-meta">{{ post.pubDate }}</div>
+                                <p class="post-summary">{{ post.summary }}</p>
+                                <a href="{{ post.link }}" target="_blank" class="read-more">Read article</a>
+                            </article>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="no-posts">No posts this week</div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="footer">
+            <p><strong>Automattic Weekly Digest</strong></p>
+            <p>Option 2: Collapsible Accordion Layout</p>
+        </div>
+    </div>
+
+    <script>
+        // Auto-expand sections with posts on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const items = document.querySelectorAll('.accordion-item');
+            items.forEach(item => {
+                const count = parseInt(item.querySelector('.bu-count').textContent);
+                if (count > 0) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "feeds": [
+    {
+      "name": "WordPress.com",
+      "url": "https://wordpress.com/blog/feed/"
+    },
+    {
+      "name": "Pressable",
+      "url": "https://pressable.com/blog/feed/"
+    },
+    {
+      "name": "Jetpack",
+      "url": "https://jetpack.com/blog/feed/"
+    },
+    {
+      "name": "WordPress VIP",
+      "url": "https://wpvip.com/blog/feed/"
+    },
+    {
+      "name": "WordPress.org News",
+      "url": "https://wordpress.org/news/feed/"
+    },
+    {
+      "name": "Automattic",
+      "url": "https://automattic.com/feed/"
+    },
+    {
+      "name": "Automattic for Agencies",
+      "url": "https://automattic.com/for-agencies/blog/feed/"
+    },
+    {
+      "name": "WooCommerce",
+      "url": "https://woocommerce.com/blog/feed/"
+    },
+    {
+      "name": "WooCommerce Developer",
+      "url": "https://developer.woocommerce.com/feed/"
+    },
+    {
+      "name": "WP Engine",
+      "url": "https://wpengine.com/blog/feed/"
+    },
+    {
+      "name": "Kinsta",
+      "url": "https://kinsta.com/blog/feed/"
+    },
+    {
+      "name": "Pantheon",
+      "url": "https://pantheon.io/blog/feed"
+    },
+    {
+      "name": "Rocket.net",
+      "url": "https://rocket.net/blog/feed/"
+    }
+  ]
+}

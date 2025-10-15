@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automattic Monthly Digest</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        .header {
+            background: #ffffff;
+            color: #1a1a1a;
+            padding: 30px 30px 25px;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .header .date {
+            font-size: 13px;
+            color: #718096;
+        }
+
+        .content {
+            padding: 40px 0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section:last-child {
+            margin-bottom: 20px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .section-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .post-count {
+            font-size: 14px;
+            color: #718096;
+            font-weight: 600;
+        }
+
+        .cards-scroll-container {
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            padding: 0 40px 20px;
+            cursor: grab;
+        }
+
+        .cards-scroll-container:active {
+            cursor: grabbing;
+        }
+
+        .cards-scroll-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .cards-scroll-container::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .cards-scroll-container::-webkit-scrollbar-thumb {
+            background: transparent;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .cards-scroll-container:hover::-webkit-scrollbar-thumb {
+            background: #cbd5e0;
+        }
+
+        .cards-scroll-container::-webkit-scrollbar-thumb:hover {
+            background: #a0aec0;
+        }
+
+        .cards-row {
+            display: flex;
+            gap: 20px;
+            padding-bottom: 5px;
+        }
+
+        .post-card {
+            flex: 0 0 360px;
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+            min-height: 200px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            border: 2px solid;
+        }
+
+        .post-card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Brand-specific border colors */
+        .post-card[data-blog="WordPress.com"] {
+            border-color: #0087be;
+        }
+
+        .post-card[data-blog="Pressable"] {
+            border-color: #de3901;
+        }
+
+        .post-card[data-blog="Jetpack"] {
+            border-color: #669c34;
+        }
+
+        .post-card[data-blog="WordPress VIP"] {
+            border-color: #13191E;
+        }
+
+        .post-card[data-blog="Automattic"] {
+            border-color: #3858e9;
+        }
+
+        .post-card[data-blog="Automattic for Agencies"] {
+            border-color: #7c3aed;
+        }
+
+        .post-card[data-blog="WooCommerce"] {
+            border-color: #720EEC;
+        }
+
+        .post-card[data-blog="WooCommerce Developer"] {
+            border-color: #720EEC;
+        }
+
+        .post-card[data-blog="WP Engine"] {
+            border-color: #0ECAD4;
+        }
+
+        .post-card[data-blog="Kinsta"] {
+            border-color: #5333ED;
+        }
+
+        .post-card[data-blog="Pantheon"] {
+            border-color: #EFD01B;
+        }
+
+        .post-card[data-blog="Rocket.net"] {
+            border-color: #FF6C37;
+        }
+
+        .post-card[data-blog="WordPress.org News"] {
+            border-color: #21759b;
+        }
+
+        .card-content {
+            padding: 25px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-title {
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+        }
+
+        .card-title a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .card-meta {
+            font-size: 12px;
+            color: #718096;
+            margin-bottom: 12px;
+        }
+
+        .card-summary {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #4a5568;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 11px;
+            font-weight: 600;
+            color: #4a5568;
+            cursor: pointer;
+            transition: all 0.2s;
+            opacity: 0;
+            z-index: 10;
+        }
+
+        .post-card:hover .copy-button {
+            opacity: 1;
+        }
+
+        .copy-button:hover {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            border-color: #cbd5e0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .copy-button:active {
+            transform: scale(0.95);
+        }
+
+        .copy-button.copied {
+            background-color: #00a32a;
+            color: white;
+            border-color: #00a32a;
+        }
+
+        .no-posts-section {
+            padding: 0 40px;
+            margin-bottom: 60px;
+        }
+
+        .no-posts-message {
+            background-color: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            color: #718096;
+            font-style: italic;
+        }
+
+        .footer {
+            background-color: #1a1a1a;
+            color: #a0aec0;
+            padding: 30px 40px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer p {
+            margin-bottom: 8px;
+        }
+
+        .footer a {
+            color: #0087be;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+            margin: 20px 40px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 40px 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .section-header {
+                padding: 0 20px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .section-title {
+                font-size: 22px;
+            }
+
+            .cards-scroll-container {
+                padding: 0 20px 20px;
+            }
+
+            .post-card {
+                flex: 0 0 300px;
+            }
+
+            .footer {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>WP Agency Ecosystem Roundup</h1>
+            <div class="date">Last updated: {{ current_date }}</div>
+        </div>
+
+        <div class="content">
+            {% set automattic_blogs = ["Automattic for Agencies", "Pressable", "WordPress.com", "Jetpack", "WooCommerce Developer", "WooCommerce", "WordPress VIP", "WordPress.org News", "Automattic"] %}
+            {% set industry_blogs = ["WP Engine", "Kinsta", "Pantheon", "Rocket.net"] %}
+
+            {# Automattic Family Section #}
+            {% for blog_name in automattic_blogs %}
+                {% if blog_name in posts_by_blog and posts_by_blog[blog_name] %}
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">{{ blog_name }}</h2>
+                        <div class="section-meta">
+                            <span class="post-count">{{ posts_by_blog[blog_name]|length }} post{% if posts_by_blog[blog_name]|length != 1 %}s{% endif %} this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            {% for post in posts_by_blog[blog_name] %}
+                            <article class="post-card" data-blog="{{ blog_name }}" data-url="{{ post.link }}" onclick="window.open('{{ post.link }}', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, '{{ post.link }}')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+                                    </h3>
+                                    <div class="card-meta">{{ post.pubDate[:16] }}</div>
+                                    <p class="card-summary">{{ post.summary }}</p>
+                                </div>
+                            </article>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+
+            {# Industry Insights Divider #}
+            {% set has_industry_posts = namespace(value=false) %}
+            {% for blog_name in industry_blogs %}
+                {% if blog_name in posts_by_blog and posts_by_blog[blog_name] %}
+                    {% set has_industry_posts.value = true %}
+                {% endif %}
+            {% endfor %}
+            {% if has_industry_posts.value %}
+            <div class="divider"></div>
+
+            <div style="padding: 0 40px; margin-bottom: 25px;">
+                <h2 style="font-size: 32px; font-weight: 700; color: #1a1a1a;">Industry Insights</h2>
+            </div>
+
+            {# Industry Insights Section #}
+            {% for blog_name in industry_blogs %}
+                {% if blog_name in posts_by_blog and posts_by_blog[blog_name] %}
+                <div class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">{{ blog_name }}</h2>
+                        <div class="section-meta">
+                            <span class="post-count">{{ posts_by_blog[blog_name]|length }} post{% if posts_by_blog[blog_name]|length != 1 %}s{% endif %} this month</span>
+                        </div>
+                    </div>
+                    <div class="cards-scroll-container">
+                        <div class="cards-row">
+                            {% for post in posts_by_blog[blog_name] %}
+                            <article class="post-card" data-blog="{{ blog_name }}" data-url="{{ post.link }}" onclick="window.open('{{ post.link }}', '_blank')">
+                                <button class="copy-button" onclick="event.stopPropagation(); copyToClipboard(this, '{{ post.link }}')">Copy</button>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+                                    </h3>
+                                    <div class="card-meta">{{ post.pubDate[:16] }}</div>
+                                    <p class="card-summary">{{ post.summary }}</p>
+                                </div>
+                            </article>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+            {% endif %}
+        </div>
+
+        <div class="footer">
+            <p><strong>WP Agency Ecosystem Roundup</strong></p>
+            <p>Updated Daily with the latest news from the Automattic and WP Ecosystem</p>
+        </div>
+    </div>
+
+    <script>
+        // Copy to clipboard functionality
+        function copyToClipboard(button, url) {
+            navigator.clipboard.writeText(url).then(() => {
+                button.textContent = 'Copied!';
+                button.classList.add('copied');
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                    button.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        // Horizontal drag scrolling functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollContainers = document.querySelectorAll('.cards-scroll-container');
+
+            scrollContainers.forEach(container => {
+                let isDown = false;
+                let startX;
+                let scrollLeft;
+
+                container.addEventListener('mousedown', (e) => {
+                    isDown = true;
+                    container.style.cursor = 'grabbing';
+                    startX = e.pageX - container.offsetLeft;
+                    scrollLeft = container.scrollLeft;
+                });
+
+                container.addEventListener('mouseleave', () => {
+                    isDown = false;
+                    container.style.cursor = 'grab';
+                });
+
+                container.addEventListener('mouseup', () => {
+                    isDown = false;
+                    container.style.cursor = 'grab';
+                });
+
+                container.addEventListener('mousemove', (e) => {
+                    if (!isDown) return;
+                    e.preventDefault();
+                    const x = e.pageX - container.offsetLeft;
+                    const walk = (x - startX) * 2; // Scroll speed multiplier
+                    container.scrollLeft = scrollLeft - walk;
+                });
+            });
+        });
+    </script>
+</body>
+</html>

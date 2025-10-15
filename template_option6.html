@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option 6: Compact Multi-Column</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2271b1 0%, #135e96 100%);
+            color: white;
+            padding: 35px 25px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .header .subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .header .date {
+            margin-top: 12px;
+            font-size: 13px;
+            opacity: 0.8;
+        }
+
+        .content {
+            padding: 25px;
+        }
+
+        .business-units {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .business-unit {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .bu-header {
+            background-color: #2271b1;
+            color: white;
+            padding: 12px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .bu-title {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .bu-count {
+            font-size: 11px;
+            background-color: rgba(255, 255, 255, 0.25);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .bu-posts {
+            padding: 0;
+        }
+
+        .bu-post {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            transition: background-color 0.2s;
+        }
+
+        .bu-post:hover {
+            background-color: #f7fafc;
+        }
+
+        .bu-post:last-child {
+            border-bottom: none;
+        }
+
+        .post-title {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            line-height: 1.3;
+        }
+
+        .post-title a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.2s ease;
+            display: block;
+        }
+
+        .post-title a:hover {
+            color: #2271b1;
+        }
+
+        .post-meta {
+            font-size: 10px;
+            color: #718096;
+            margin-bottom: 6px;
+        }
+
+        .post-summary {
+            font-size: 11px;
+            color: #4a5568;
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .no-posts {
+            padding: 25px 12px;
+            text-align: center;
+            color: #a0aec0;
+            font-size: 11px;
+            font-style: italic;
+        }
+
+        .footer {
+            background-color: #f7fafc;
+            padding: 20px 25px;
+            text-align: center;
+            color: #718096;
+            font-size: 12px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .footer p {
+            margin-bottom: 6px;
+        }
+
+        .footer a {
+            color: #2271b1;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 1200px) {
+            .business-units {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .business-units {
+                grid-template-columns: 1fr;
+            }
+
+            .content {
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Automattic Weekly Digest</h1>
+            <div class="subtitle">Option 6: Compact Multi-Column (Information Dense)</div>
+            <div class="date">{{ current_date }}</div>
+        </div>
+
+        <div class="content">
+            <div class="business-units">
+                {% for blog_name, blog_posts in posts_by_blog.items() %}
+                <div class="business-unit">
+                    <div class="bu-header">
+                        <div class="bu-title">{{ blog_name }}</div>
+                        <div class="bu-count">{{ blog_posts|length }}</div>
+                    </div>
+
+                    {% if blog_posts %}
+                    <div class="bu-posts">
+                        {% for post in blog_posts %}
+                        <article class="bu-post">
+                            <h3 class="post-title">
+                                <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+                            </h3>
+                            <div class="post-meta">{{ post.pubDate[:16] }}</div>
+                            <p class="post-summary">{{ post.summary }}</p>
+                        </article>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <div class="no-posts">No posts this week</div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Automattic Weekly Digest</strong></p>
+            <p>Option 6: Compact Multi-Column Layout</p>
+        </div>
+    </div>
+</body>
+</html>

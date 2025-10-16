@@ -8,7 +8,6 @@ import json
 import feedparser
 import ssl
 from datetime import datetime, timedelta
-from jinja2 import Template
 from bs4 import BeautifulSoup
 
 # Handle SSL certificate verification issues
@@ -125,36 +124,6 @@ def fetch_posts(days_back=30):
 
     return all_posts
 
-def generate_html(posts):
-    """Generate HTML from posts using the template."""
-    # Load feed configuration to get all blog names
-    with open('feed_urls.json', 'r') as f:
-        config = json.load(f)
-
-    # Group posts by blog name, maintaining order from feed_urls.json
-    posts_by_blog = {}
-    for feed_config in config['feeds']:
-        blog_name = feed_config['name']
-        blog_posts = [p for p in posts if p['blog_name'] == blog_name]
-        posts_by_blog[blog_name] = blog_posts
-
-    # Load template
-    with open('template.html', 'r') as f:
-        template_content = f.read()
-
-    template = Template(template_content)
-
-    # Render
-    html_output = template.render(
-        posts_by_blog=posts_by_blog,
-        current_date=datetime.now().strftime("%B %d, %Y"),
-        post_count=len(posts)
-    )
-
-    # Write to preview.html
-    with open('preview.html', 'w') as f:
-        f.write(html_output)
-
 def main():
     print("=" * 60)
     print("Automattic RSS Digest - Real Feed Fetcher")
@@ -168,12 +137,7 @@ def main():
     print("=" * 60 + "\n")
 
     if posts:
-        # Generate HTML
-        generate_html(posts)
-        print("✓ Generated preview.html with real blog posts")
-        print("  Open preview.html in your browser to see the digest\n")
-
-        # Also save as JSON for inspection
+        # Save as JSON
         with open('fetched_posts.json', 'w') as f:
             json.dump(posts, f, indent=2)
         print("✓ Saved post data to fetched_posts.json")

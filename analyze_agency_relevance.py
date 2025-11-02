@@ -23,7 +23,8 @@ AUTOMATTIC_BLOGS = [
     "WooCommerce",
     "WordPress VIP",
     "WordPress.org News",
-    "Automattic"
+    "Automattic",
+    "Automattic Source Code"
 ]
 
 def analyze_posts():

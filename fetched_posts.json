@@ -1,5 +1,25 @@
 [
   {
+    "title": "New features, new blocks, new APIs: here is what\u2019s new in WordPress 6.9",
+    "link": "https://kinsta.com/blog/wordpress-6-9/",
+    "pubDate": "Thu, 27 Nov 2025 13:31:39 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2025/11/wordpress-6.9.png",
+    "summary": "Featured image for New features, new blocks, new APIs: here is what\u2019s new in WordPress 6.9",
+    "agency_relevant": false,
+    "agency_reason": null
+  },
+  {
+    "title": "Scaling typeface gracefully with fluid typography",
+    "link": "https://kinsta.com/blog/fluid-typography/",
+    "pubDate": "Thu, 27 Nov 2025 11:30:06 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2025/10/scaling-typeface-gracefully-with-fluid-typography.png",
+    "summary": "Featured image for Scaling typeface gracefully with fluid typography",
+    "agency_relevant": false,
+    "agency_reason": null
+  },
+  {
     "title": "The Ultimate WordPress Migration Checklist for Beginners",
     "link": "https://wordpress.com/blog/2025/11/26/wordpress-migration-checklist/",
     "pubDate": "Wed, 26 Nov 2025 15:00:00 GMT",
@@ -7,7 +27,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/wordpress-migration-checklist.jpg",
     "summary": "Planning to move your site to WordPress.com? This checklist walks you through every step you'll need to take.",
     "agency_relevant": true,
-    "agency_reason": "Helps streamline client migrations to WordPress.com, reducing errors and project timelines."
+    "agency_reason": "Use as client migration SOP to streamline site moves and avoid downtime."
   },
   {
     "title": "Help Your Clients Understand How to Ask For What They Want on a Website",
@@ -18,6 +38,16 @@
     "summary": "It is possible to get clear website requirements from your clients. But first you have to translate for them with these 5 discovery call strategies! Most client-agency conflicts stem from...",
     "agency_relevant": false,
     "agency_reason": null
+  },
+  {
+    "title": "WooCommerce vs. Shopify: Choosing the Right Platform for Your Ecommerce Business",
+    "link": "https://pressable.com/blog/woocommerce-vs-shopify-choosing-the-right-platform-for-your-ecommerce-business/",
+    "pubDate": "Tue, 25 Nov 2025 19:30:59 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "When starting an online business, many decisions have to be made regarding operations, marketing, and logistics. Among these decisions, choosing an online platform may be the most important because...",
+    "agency_relevant": true,
+    "agency_reason": "Advise clients choosing platforms; scope projects and hosting requirements."
   },
   {
     "title": "Meet Kinsta at WordCamp Brazil 2025",
@@ -37,17 +67,17 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The third Release Candidate (\u201cRC3\u201d) for WordPress 6.9 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version...",
     "agency_relevant": true,
-    "agency_reason": "Early testing info to prepare agencies for compatibility and plugin/theme updates."
+    "agency_reason": "Test upcoming core changes to prepare client compatibility and plugin updates."
   },
   {
-    "title": "What is white-label hosting? (And what Kinsta offers agencies and resellers)",
-    "link": "https://kinsta.com/blog/white-label-hosting/",
-    "pubDate": "Tue, 25 Nov 2025 11:05:15 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2025/11/what-is-white-label-hosting-at-kinsta.png",
-    "summary": "Featured image for What is white-label hosting? (And what Kinsta offers agencies and resellers)",
-    "agency_relevant": false,
-    "agency_reason": null
+    "title": "How to Connect WordPress Forms to Google Sheets in 5 Minutes",
+    "link": "https://jetpack.com/resources/wordpress-form-to-google-sheets/",
+    "pubDate": "Tue, 25 Nov 2025 13:32:30 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2025/11/google_forms.png",
+    "summary": "Cleaner data & faster workflows: Connect WordPress forms to Google Sheets in under 5 minutes. Automate exports, organize data, & collaborate more easily",
+    "agency_relevant": true,
+    "agency_reason": "Offer automated data workflows for clients to improve lead management."
   },
   {
     "title": "WooCommerce 10.4: Pre-release updates",
@@ -57,7 +87,7 @@
     "image_url": "https://s.w.org/images/core/emoji/16.0.1/72x72/1f9ea.png",
     "summary": "\ud83e\uddea WooCommerce 10.4 Beta is ready for testing! \u2728 Accessibility upgrades for carousels & emails, HPOS data caching gets a hard launch, and REST API requests are now 30-60ms faster \ud83d\uded2\ud83d\udca8 The post...",
     "agency_relevant": true,
-    "agency_reason": "Pre-release performance and accessibility changes that agencies must test for client stores."
+    "agency_reason": "Monitor performance and accessibility improvements impacting store speed and UX."
   },
   {
     "title": "Managed vs. Shared WordPress Hosting: Which is Best for You?",
@@ -67,7 +97,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/managed-vs-shared-wordpress-hosting.jpg",
     "summary": "This guide breaks down managed vs. shared WordPress hosting in plain language, so you know exactly what you\u2019re paying for and which option fits you best.",
     "agency_relevant": true,
-    "agency_reason": "Guides hosting recommendations for clients, informing upsell opportunities and support expectations."
+    "agency_reason": "Help clients choose hosting plans and position agency hosting services."
   },
   {
     "title": "Understanding Google Referral Traffic in 2025",
@@ -77,7 +107,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2025/09/Answer-Engine-Optimization-AEO-How-to-Optimize-Content-for-LLMs.jpg?w=1032",
     "summary": "Google remains one of the most important sources of website traffic \u2014 and that traffic can show up in a few different ways.",
     "agency_relevant": true,
-    "agency_reason": "Insights on Google traffic sources to optimize client acquisition and reporting strategies."
+    "agency_reason": "Inform SEO strategies and client reporting about evolving Google referral patterns."
   },
   {
     "title": "LLM Referral Traffic Conversions: Data and Tactics for Enterprise Marketers",
@@ -87,7 +117,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2025/11/Understanding-Google-Referral-Traffic-in-2025-2.jpg?w=1032",
     "summary": "AI search tools are influencing online behavior, but it\u2019s not too late to capitalize on the shift.",
     "agency_relevant": true,
-    "agency_reason": "Shows AI search referral impacts; helps agencies adapt enterprise SEO and monetization strategies."
+    "agency_reason": "Adapt client marketing for AI-driven referrals and conversion attribution changes."
   },
   {
     "title": "20 Years of WordPress.com: Show Us What You\u2019ve Built",
@@ -97,7 +127,17 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/celebrating-20-years-wordpress-dot-com-header.jpg",
     "summary": "Today, we're celebrating 20 years of WordPress.com! Share your story and show us what you're building on our platform.",
     "agency_relevant": true,
-    "agency_reason": "Brand milestone content to leverage for client marketing and trust-building narratives."
+    "agency_reason": "Use milestone for client marketing campaigns and credibility-building case studies."
+  },
+  {
+    "title": "The Best AI Chatbots for WordPress",
+    "link": "https://pressable.com/blog/chatbots-for-wordpress/",
+    "pubDate": "Thu, 20 Nov 2025 18:30:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "E-commerce customers come to your website with high expectations. They want instant answers to questions and 24/7 support should they run into a problem. The challenge for business owners is you...",
+    "agency_relevant": true,
+    "agency_reason": "Implement chatbots to boost support and sales for e-commerce clients."
   },
   {
     "title": "Why B2B checkout is not one size fits all",
@@ -107,7 +147,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "B2B ecommerce checkout requires a custom experience. Discover how to handle ACH, invoicing, and ERP integration for complex, contract-based sales.",
     "agency_relevant": true,
-    "agency_reason": "Highlights complex B2B checkout needs, prompting custom development and integration services."
+    "agency_reason": "Design bespoke B2B checkout solutions for contract, invoicing, and ERP needs."
   },
   {
     "title": "Polestar Additionals grows B2C sales 232% with WooCommerce",
@@ -117,7 +157,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "When Polestar Additionals needed to quickly expand their ecommerce across international markets, WooCommerce delivered.",
     "agency_relevant": true,
-    "agency_reason": "Case study demonstrating WooCommerce scalability for international expansions to pitch prospective clients."
+    "agency_reason": "Leverage internationalization and scaling case study to win similar e-commerce clients."
   },
   {
     "title": "How to Choose a WooCommerce Extension Without Breaking Your Store",
@@ -137,17 +177,17 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/wordpress-and-its-open-source-nature.jpg",
     "summary": "Open source is the reason WordPress is the way it is \u2014 flexible, customizable, and fully yours. This guide breaks down what that actually means and how it compares to alternatives.",
     "agency_relevant": true,
-    "agency_reason": "Explains open-source benefits to reassure clients and differentiate agency offerings."
+    "agency_reason": "Explain open-source benefits to clients and justify customization and ownership decisions."
   },
   {
-    "title": "How to resell hosting with Kinsta and boost your agency\u2019s revenue",
-    "link": "https://kinsta.com/blog/how-to-resell-kinsta-hosting/",
-    "pubDate": "Thu, 20 Nov 2025 11:15:00 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2025/11/how-to-resell-hosting-with-kinsta.png",
-    "summary": "Featured image for How to resell hosting with Kinsta and boost your agency\u2019s revenue",
-    "agency_relevant": false,
-    "agency_reason": null
+    "title": "What is the Best White-Label Hosting for WordPress Sites?",
+    "link": "https://jetpack.com/resources/white-label-wordpress-hosting/",
+    "pubDate": "Thu, 20 Nov 2025 13:00:00 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2025/11/jp-hosting.png",
+    "summary": "Discover the best white-label WordPress hosting for agencies and freelancers. Compare providers, key features, and common pitfalls to avoid.",
+    "agency_relevant": true,
+    "agency_reason": "Evaluate white-label hosting options to offer branded managed services to clients."
   },
   {
     "title": "Deprecation of \u00a0wc_enqueue_js()\u00a0 in 10.4",
@@ -157,7 +197,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Starting with WooCommerce 10.4, the wc_enqueue_js()\u00a0function is deprecated and scheduled for removal in a future version. The post Deprecation of \u00a0wc_enqueue_js()\u00a0 in 10.4 appeared first on The...",
     "agency_relevant": true,
-    "agency_reason": "Important developer notice to update customizations before removal breaks client sites."
+    "agency_reason": "Update extensions and custom code to avoid breakage when wc_enqueue_js is removed."
   },
   {
     "title": "8 Games You Can Play in WordPress Right Now",
@@ -167,7 +207,17 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/games-you-can-play-in-wordpress.jpg",
     "summary": "Want to add something fun and interactive to your WordPress site? This roundup covers eight playable games, how they work, and how to add them.",
     "agency_relevant": true,
-    "agency_reason": "Ideas for interactive client site enhancements and engagement-focused features."
+    "agency_reason": "Add interactive features to client sites to increase engagement and retention."
+  },
+  {
+    "title": "Rank Math vs Yoast",
+    "link": "https://pressable.com/blog/rank-math-vs-yoast/",
+    "pubDate": "Tue, 18 Nov 2025 18:30:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Rank Math vs Yoast: A Head-to-Head Comparison for On-Page SEO A WordPress site can have great content but if it isn\u2019t optimized for SEO, your audience may never find it.. Great content also needs...",
+    "agency_relevant": true,
+    "agency_reason": "Advise on SEO plugin selection affecting client performance, features, and support."
   },
   {
     "title": "WordPress 6.9 Release Candidate 2",
@@ -177,7 +227,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The second Release Candidate (\u201cRC2\u201d) for WordPress 6.9 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version...",
     "agency_relevant": true,
-    "agency_reason": "Another release candidate alert encouraging agencies to test compatibility and report issues."
+    "agency_reason": "Test prerelease to catch regressions affecting client sites before final release."
   },
   {
     "title": "11 Common WordPress Myths vs. Reality",
@@ -187,7 +237,17 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/wordpress-myths-vs-reality.jpg",
     "summary": "There\u2019s a big gap between what people think WordPress is and how it really works. Here\u2019s a clear look at the myths, the facts, and what matters for new site owners.",
     "agency_relevant": true,
-    "agency_reason": "Content to educate prospects, dispel misconceptions, and simplify sales conversations."
+    "agency_reason": "Use myth-busting to educate prospects and reduce sales friction with accurate expectations."
+  },
+  {
+    "title": "Where Should Forms Go on Your Website for Better Conversions?",
+    "link": "https://jetpack.com/resources/where-should-forms-go-on-your-website/",
+    "pubDate": "Tue, 18 Nov 2025 13:00:00 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2025/11/jp-forms-go.png",
+    "summary": "What's the best form placement to maximize conversions? See the best tools to improve results and speed up production. Proven tips and examples!",
+    "agency_relevant": true,
+    "agency_reason": "Optimize form placement for conversions and improve client lead generation outcomes."
   },
   {
     "title": "Our Industry-Leading Managed WordPress Hosting is now Available in India!",
@@ -207,7 +267,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/black-friday-blog-header.jpg",
     "summary": "Want a website without the heavy lifting? Get an annual Business plan this Black Friday, save 10%, and we\u2019ll build your site for free.",
     "agency_relevant": true,
-    "agency_reason": "Competitive offer to monitor for client acquisition opportunities and pricing comparisons."
+    "agency_reason": "Monitor competitor promotions and craft agency Black Friday offers accordingly."
   },
   {
     "title": "Sleigh your holiday sales: A guide to TikTok for WooCommerce",
@@ -217,7 +277,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Reach holiday shoppers on TikTok! How stores can harness TikTok to boost holiday sales with authentic, trend-driven content (Plus a $1,500 bonus?!)",
     "agency_relevant": true,
-    "agency_reason": "Tactics for clients to boost holiday sales via TikTok integrations and campaigns."
+    "agency_reason": "Advise merchants on social commerce strategies to drive holiday organic and paid sales."
   },
   {
     "title": "Black Friday social media campaigns: Examples, tools, and tips for success",
@@ -227,7 +287,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Learn how to create a winning Black Friday social media campaign with real examples, smart tools, and proven strategies for better results.",
     "agency_relevant": true,
-    "agency_reason": "Provides campaign examples agencies can repurpose for clients' seasonal marketing strategies."
+    "agency_reason": "Provide clients campaign examples and tools to execute seasonal social strategies."
   },
   {
     "title": "Ensuring Stability and Security: WP Engine\u2019s Legal Actions Against Matt Mullenweg and Automattic",
@@ -247,7 +307,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/12-cool-blocks-made-with-telex.jpg",
     "summary": "Discover 12 creative WordPress blocks made with Telex \u2014 from quizzes and games to interactive effects. Each one is free to explore, remix, and add to your site.",
     "agency_relevant": true,
-    "agency_reason": "Showcases AI blocks to accelerate site features and create new upsell services."
+    "agency_reason": "Explore AI blocks for innovative client features and rapid prototyping."
   },
   {
     "title": "How to Create a High-Converting Lead Capture Form in WordPress",
@@ -257,7 +317,7 @@
     "image_url": "https://jetpack.com/wp-content/uploads/2025/10/jp-lead.png",
     "summary": "Easily create a WordPress lead capture form to collect emails and grow your audience \u2014 no coding, complex instructions, or advanced setup required.",
     "agency_relevant": true,
-    "agency_reason": "Practical guide to build high-converting forms for client lead generation services."
+    "agency_reason": "Quickly implement high-converting forms to increase client email list growth."
   },
   {
     "title": "The 2025 WooCommerce holiday gift guide",
@@ -267,7 +327,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Unique, fun gift ideas for friends, family, or yourself! 'Tis the season to celebrate some of the amazing stores on WooCommerce.",
     "agency_relevant": true,
-    "agency_reason": "Curates store examples agencies can feature in promotions or inspiration for ecommerce clients."
+    "agency_reason": "Curate e-commerce content for client seasonal marketing and product promotion ideas."
   },
   {
     "title": "WooCommerce 10.3.5: Dot Release",
@@ -277,7 +337,7 @@
     "image_url": "https://s.w.org/images/core/emoji/16.0.1/72x72/1f449.png",
     "summary": "WooCommerce 10.3.5 delivers critical bug fixes including WordPress 6.9 compatibility improvements, hierarchical brand CSV import support, and refined asset loading control for block themes. The post...",
     "agency_relevant": true,
-    "agency_reason": "Patch notes highlight bug fixes and compatibility updates agencies should apply promptly."
+    "agency_reason": "Install 10.3.5 fixes to ensure client store compatibility with WordPress 6.9."
   },
   {
     "title": "For Humans Who Work Together: The Future of Collaborative Editing in WordPress VIP",
@@ -287,7 +347,7 @@
     "image_url": "https://player.vimeo.com/video/1135935034?h=1c0a26e579&amp%3Bdnt=1&amp%3Bapp_id=122963",
     "summary": "A look at the next generation of collaboration in WordPress.",
     "agency_relevant": true,
-    "agency_reason": "Signals collaboration features useful for enterprise clients' editorial workflows and value propositions."
+    "agency_reason": "Prepare for real-time collaboration features affecting editorial workflows and client needs."
   },
   {
     "title": "8 Must-Try AI Tools for Web Development (Build Faster & Smarter)",
@@ -297,7 +357,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/blog-header403x-1.jpg",
     "summary": "From code editors to AI site builders, these eight AI tools are reshaping how web developers work. Discover which ones can help you build smarter and faster.",
     "agency_relevant": true,
-    "agency_reason": "Tool recommendations to improve agency productivity and speed up delivery."
+    "agency_reason": "Adopt AI tools to accelerate agency delivery and reduce development costs."
   },
   {
     "title": "Agency Pricing Strategies for Hosting and Maintenance That Actually Work",
@@ -317,7 +377,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "In 2025, artificial intelligence (AI) needs no introduction. Most of us use it in our professional and personal lives. The main AI app services boast hundreds of millions of users who send billions...",
     "agency_relevant": true,
-    "agency_reason": "Opportunities to implement AI features for revenue growth in WooCommerce stores."
+    "agency_reason": "Implement AI tactics to boost personalization and conversion for WooCommerce clients."
   },
   {
     "title": "How to Embed a Vimeo Video in WordPress: 5 Methods & Pro Tips",
@@ -327,7 +387,7 @@
     "image_url": "https://jetpack.com/wp-content/uploads/2025/11/jp-vimeo.png",
     "summary": "Easily embed Vimeo videos in WordPress. Instructions for all methods \u2014 block editor, classic editor, & plugins. Customize playback, size, & other settings",
     "agency_relevant": true,
-    "agency_reason": "Technical guide to efficiently add video for client content and performance optimization."
+    "agency_reason": "Provide clients video embedding options and optimize playback across themes."
   },
   {
     "title": "WordPress 6.9 Release Candidate 1",
@@ -337,7 +397,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The first Release Candidate (\u201cRC1\u201d) for WordPress 6.9 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this...",
     "agency_relevant": true,
-    "agency_reason": "First RC alert to begin compatibility testing and prepare client upgrade plans."
+    "agency_reason": "Early testing opportunity to identify breaking changes before client sites update."
   },
   {
     "title": "Top Simple Prompts to Build Your First WordPress Site With AI",
@@ -347,7 +407,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2025/11/final.jpg",
     "summary": "See how WordPress.com\u2019s AI website builder helps you create and customize a site using simple prompts. Follow along with real examples and tips.",
     "agency_relevant": true,
-    "agency_reason": "Examples to accelerate site builds and demonstrate AI-assisted design to clients."
+    "agency_reason": "Leverage AI prompts to prototype sites faster and upsell rapid-launch packages."
   },
   {
     "title": "WordPress Cookie Consent: What Site Owners Need to Know",
@@ -357,7 +417,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Over the last decade, consumers have grown more concerned about how businesses use personal data. In response, legislators introduced rules to govern the collection and storage of that data. In many...",
     "agency_relevant": true,
-    "agency_reason": "Compliance guidance agencies must implement for client GDPR and privacy law adherence."
+    "agency_reason": "Ensure client compliance with privacy laws through cookie consent implementations."
   },
   {
     "title": "Top six things to consider for last-mile shipping in EMEA",
@@ -367,7 +427,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Last-mile shipping can pose a challenge to international expansion. Here are six ways to solve for its complexities and keep your business growing.",
     "agency_relevant": true,
-    "agency_reason": "Operational considerations for clients expanding in EMEA to avoid fulfillment pitfalls."
+    "agency_reason": "Advise international clients on logistics choices to improve fulfillment and margins."
   },
   {
     "title": "November Office Hours: Exploring WooCommerce MCP Beta",
@@ -377,7 +437,7 @@
     "image_url": "https://s.w.org/images/core/emoji/16.0.1/72x72/1f4c5.png",
     "summary": "Join us for our November Office Hours to talk about the WooCommerce MCP Beta and explore how AI integration could transform the core Woo experience. The post November Office Hours: Exploring...",
     "agency_relevant": true,
-    "agency_reason": "Invitation to learn MCP beta, informing agencies about upcoming AI commerce integrations."
+    "agency_reason": "Participate in MCP beta to influence features and prepare client integrations."
   },
   {
     "title": "Top 7 WooCommerce Best Practices for Black Friday",
@@ -397,7 +457,7 @@
     "image_url": "https://jetpack.com/wp-content/uploads/2025/10/build-site.png",
     "summary": "New to WordPress? Learn to build your website or blog step by step \u2014 from domain setup to themes, plugins, design, and publishing \u2014 no coding required!",
     "agency_relevant": true,
-    "agency_reason": "Resource to onboard clients quickly or train non-technical stakeholders."
+    "agency_reason": "Use tutorial to onboard DIY clients and reduce support overhead."
   },
   {
     "title": "A Q&A with Economy Candy",
@@ -407,7 +467,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Economy Candy has a Lower East Side mainstay since 1937. With WooCommerce, they keep their business modern and ready for what's next.",
     "agency_relevant": true,
-    "agency_reason": "Small-business case study demonstrating local brand modernization agencies can reference."
+    "agency_reason": "Use storytelling case studies to showcase ecommerce modernization for prospects."
   },
   {
     "title": "Badeloft increases email-driven revenue by 40% with Klaviyo and WooCommerce",
@@ -417,7 +477,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Badeloft's switch to Klaviyo enabled a robust personalization strategy \u2014 ultimately driving a 40% increase in email-attributed revenue.",
     "agency_relevant": true,
-    "agency_reason": "Email personalization case study to justify Klaviyo integrations for client revenue growth."
+    "agency_reason": "Recommend Klaviyo integrations to clients aiming to grow email-driven revenue."
   },
   {
     "title": "Generative Engine Optimization: How to Optimize Your WooCommerce Store for AI Search",
@@ -427,7 +487,7 @@
     "image_url": "https://i0.wp.com/pressable.com/wp-content/uploads/2025/11/ecommerce-ai-search.webp?resize=1024%2C723&ssl=1",
     "summary": "Organic ecommerce search engine optimization (SEO) used to be all about getting your product pages to the top of the famous ten blue links. The assumption was that if you achieved that, then your...",
     "agency_relevant": true,
-    "agency_reason": "Guidance on optimizing ecommerce for AI search, critical for SEO service updates."
+    "agency_reason": "Update SEO strategies for generative AI search to maintain product discoverability."
   },
   {
     "title": "WordPress 6.9 Beta 3",
@@ -437,7 +497,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WordPress 6.9 Beta 3 is available for download and testing! This beta version of the WordPress software is still under development. Please don\u2019t install, run, or test this version of WordPress on...",
     "agency_relevant": true,
-    "agency_reason": "Beta release alert urging testing for compatibility and early issue identification."
+    "agency_reason": "Test beta to find regressions impacting clients before final release."
   },
   {
     "title": "How to Implement Two-Factor Authentication (2FA) in WordPress",
@@ -447,7 +507,7 @@
     "image_url": "https://jetpack.com/wp-content/uploads/2025/10/two-factor.png",
     "summary": "Two-factor authentication adds a strong layer of security. Here\u2019s how to set it up on WordPress. Review top methods, pros and cons, and proven tools.",
     "agency_relevant": true,
-    "agency_reason": "Security implementation guide agencies should offer to protect client accounts and reputations."
+    "agency_reason": "Implement 2FA for clients to harden security and reduce breach risk."
   },
   {
     "title": "Call for Testing: WooCommerce MCP Beta",
@@ -457,7 +517,7 @@
     "image_url": "https://s.w.org/images/core/emoji/16.0.1/72x72/1f6cd.png",
     "summary": "As of WooCommerce 10.3, an early version of the WooCommerce MCP integration is in beta and ready for broader testing. The post Call for Testing: WooCommerce MCP Beta appeared first on The WooCommerce...",
     "agency_relevant": true,
-    "agency_reason": "Encourages agencies to test MCP beta to influence development and prepare clients."
+    "agency_reason": "Recruit testers and prepare client pilots for WooCommerce MCP integration."
   },
   {
     "title": "WooCommerce 10.3.4: Dot Release",
@@ -467,7 +527,7 @@
     "image_url": "https://s.w.org/images/core/emoji/16.0.1/72x72/1f449.png",
     "summary": "WooCommerce 10.3.4 is a minor release with script performance updates and a number of fixes targeting the PayPal payment gateway integration. The post WooCommerce 10.3.4: Dot Release appeared first...",
     "agency_relevant": true,
-    "agency_reason": "Minor release fixes affecting PayPal and performance; apply updates to client sites."
+    "agency_reason": "Apply minor fixes, especially PayPal fixes, to prevent payment disruptions."
   },
   {
     "title": "Five ways automation will scale your ecommerce business",
@@ -477,7 +537,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Automation in ecommerce offers a huge opportunity to scale \u2014 no pun intended. Here are five ways to automate operations for ecommerce efficiency.",
     "agency_relevant": true,
-    "agency_reason": "Practical automation strategies agencies can implement to scale client ecommerce operations."
+    "agency_reason": "Offer automation services to scale ecommerce operations and reduce manual tasks."
   },
   {
     "title": "Fragrance Revival improves refund rates by 32% with ShipStation and Woo",
@@ -487,7 +547,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "With WooCommerce and ShipStation, Fragrance Revival has increased revenue by 23% and decreased refunds by 32%.",
     "agency_relevant": true,
-    "agency_reason": "Logistics integration case study showing fulfillment improvements agencies can recommend."
+    "agency_reason": "Promote ShipStation integrations to clients to improve fulfillment and reduce refunds."
   },
   {
     "title": "Understanding the Interactivity API-driven future for WooCommerce Blocks",
@@ -497,7 +557,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The Interactivity API is a powerful way of bringing modern client-side logic while supporting PHP server-side development to WooCommerce Blocks. Check out our roadmap introduction to IAPI. The post...",
     "agency_relevant": true,
-    "agency_reason": "Technical roadmap for IAPI helps agencies future-proof block-based WooCommerce development."
+    "agency_reason": "Build interactive block experiences using IAPI to modernize client storefronts."
   },
   {
     "title": "The 18 Best Ecommerce WordPress Themes (Free & Premium)",
@@ -507,7 +567,7 @@
     "image_url": "https://jetpack.com/wp-content/uploads/2025/10/ecommerce.png",
     "summary": "Compare the top ecommerce themes for WordPress. Review key features, pricing information, and more. Learn the can\u2019t-miss tools for a winning site.",
     "agency_relevant": true,
-    "agency_reason": "Theme comparisons help agencies choose optimal templates for client stores and speed deployments."
+    "agency_reason": "Curate recommended themes to speed deployment and advise client design choices."
   },
   {
     "title": "Why One Podcast Pro Only Has Ears for Pocket Casts",
@@ -517,7 +577,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2025/10/a8c-blog-header-2x.png",
     "summary": "There\u2019s liking podcasts, and then there\u2019s Arielle Nissenblatt.",
     "agency_relevant": true,
-    "agency_reason": "Human-interest piece with limited agency relevance; useful for internal culture sharing."
+    "agency_reason": "Share cultural/company content to humanize agency and engage audiences."
   },
   {
     "title": "Build customer trust and loyalty by syncing online and in-store orders with Square",
@@ -527,7 +587,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Square for WooCommerce syncs online and in-store sales so you can boost BOPIS, cut errors, and build trust with a seamless shopping experience.",
     "agency_relevant": true,
-    "agency_reason": "Integration info to offer omnichannel solutions and improve client POS synchronization."
+    "agency_reason": "Offer Square synchronization for omnichannel retailers to unify online and in-store sales."
   },
   {
     "title": "Crafted With Code: Code That Scales",
@@ -548,45 +608,5 @@
     "summary": "Today, we\u2019re happy to announce that Rocket.net is now available in Dubai!\u00a0 In case you missed it, we also recently announced the launch of our Toronto location, thanks to our partnership with...",
     "agency_relevant": false,
     "agency_reason": null
-  },
-  {
-    "title": "WordPress Local SEO: An Introduction to Local Search for SMBs",
-    "link": "https://pressable.com/blog/wordpress-local-seo/",
-    "pubDate": "Tue, 28 Oct 2025 18:39:00 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "If you market a business that serves a specific geographic area, search optimization involves tasks beyond standard SEO best practices. WordPress local SEO is the process of optimizing a WordPress...",
-    "agency_relevant": true,
-    "agency_reason": "Local SEO primer agencies can use to service geographically-targeted SMB clients."
-  },
-  {
-    "title": "WordPress 6.9 Beta 2",
-    "link": "https://wordpress.org/news/2025/10/wordpress-6-9-beta-2/",
-    "pubDate": "Tue, 28 Oct 2025 15:23:27 GMT",
-    "blog_name": "WordPress.org News",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WordPress 6.9 Beta 2 is now ready for testing! This beta version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or...",
-    "agency_relevant": true,
-    "agency_reason": "Beta update reminder to test and ensure plugin/theme compatibility before stable release."
-  },
-  {
-    "title": "What Is WordPress VIP?",
-    "link": "https://wpvip.com/blog/what-is-wordpress-vip/",
-    "pubDate": "Tue, 28 Oct 2025 14:22:19 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2025/09/aaron-segal_bbd68c.png?w=120",
-    "summary": "It\u2019s the WordPress you know and love, built for the world\u2019s biggest brands.",
-    "agency_relevant": true,
-    "agency_reason": "Overview useful for pitching enterprise clients and benchmarking premium hosting offerings."
-  },
-  {
-    "title": "What is a WebP Image? What are its Benefits Over JPEG and PNG?",
-    "link": "https://jetpack.com/resources/what-is-webp/",
-    "pubDate": "Tue, 28 Oct 2025 13:47:13 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2025/10/jp-webp.png",
-    "summary": "Discover the benefits of WebP images, including smaller file sizes, fast performance, and transparency support. Compare it to JPEG and PNG formats.",
-    "agency_relevant": true,
-    "agency_reason": "Explains WebP benefits to optimize client images and improve site performance."
   }
 ]

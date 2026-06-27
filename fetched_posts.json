@@ -1,5 +1,35 @@
 [
   {
+    "title": "Introducing Feature Clips: Turn Posts Into Social-ready Video",
+    "link": "https://wordpress.com/blog/2026/06/26/feature-clips/",
+    "pubDate": "Fri, 26 Jun 2026 18:56:41 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/06/introducing-feature-clips-turn-posts-into-social-ready-video-1.png",
+    "summary": "Feature Clips is a new experimental preview that turns your WordPress.com posts into short vertical videos for Reels, TikTok, and YouTube Shorts.",
+    "agency_relevant": true,
+    "agency_reason": "Offer clients social-ready video content quickly by converting posts into vertical short-form videos."
+  },
+  {
+    "title": "Call for testing: Shopper Lists in WooCommerce",
+    "link": "https://developer.woocommerce.com/2026/06/26/shopper-lists/",
+    "pubDate": "Fri, 26 Jun 2026 16:06:42 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WooCommerce 10.9 introduces experimental features Save for Later and Wishlists for logged-in shoppers. These allow users to save items between sessions, enhancing shopping experiences. Share your...",
+    "agency_relevant": true,
+    "agency_reason": "Test and integrate wishlist/save-for-later to improve client store conversion and retention."
+  },
+  {
+    "title": "Customize Your Newsletter Subscription Experience",
+    "link": "https://wordpress.com/blog/2026/06/26/customize-your-newsletter-subscription-experience/",
+    "pubDate": "Fri, 26 Jun 2026 13:58:49 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/06/customize-your-newsletter-subscription-experience-1.png",
+    "summary": "Customize your newsletter signup experience with a personalized welcome message, custom subscription-tier descriptions, and flexible plan options for new subscribers.",
+    "agency_relevant": true,
+    "agency_reason": "Customize subscription flows to increase client email signups and monetize tiered newsletters."
+  },
+  {
     "title": "How enterprise brands lose customer trust through over-automation (and how to fix it)",
     "link": "https://wpvip.com/blog/bot-fatigue-customer-trust/",
     "pubDate": "Thu, 25 Jun 2026 16:17:35 GMT",
@@ -7,7 +37,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2026/06/Future-of-the-web-logo-2.webm",
     "summary": "WordPress VIP\u2019s Future of the Web report shows enterprises need to ensure AI efficiencies don\u2019t jeopardize customer retention and exacerbate feelings of bot fatigue.",
     "agency_relevant": true,
-    "agency_reason": "Shows agencies how over-automation harms customer trust and guides human-centered AI strategies."
+    "agency_reason": "Balance AI automation with human touch to preserve customer trust and retention."
   },
   {
     "title": "WordPress performance during background activity (cron jobs, imports, backups)",
@@ -27,7 +57,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/06/studio-code-desktop-wordpress.png",
     "summary": "Studio Code is now in beta and available on desktop for macOS, Windows, and Linux. It replaces the AI assistant, offering enhanced features for local WordPress development.",
     "agency_relevant": true,
-    "agency_reason": "Desktop Studio Code beta requires agencies to adapt local AI-powered development workflows."
+    "agency_reason": "Use Studio Code desktop for faster local development and smoother client delivery."
   },
   {
     "title": "PayPal Standard is Sunsetting: What WooCommerce merchants need to know",
@@ -37,7 +67,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "PayPal Standard is officially sunsetting soon. Read up on how you can upgrade with confidence in PayPal 4.1.0 and plan your move accordingly. The post PayPal Standard is Sunsetting: What WooCommerce...",
     "agency_relevant": true,
-    "agency_reason": "Sunsetting PayPal Standard requires agencies to plan merchant migrations and payment strategy updates."
+    "agency_reason": "Plan PayPal migrations now to avoid payment disruptions for WooCommerce clients."
   },
   {
     "title": "Jetpack Search 7.0: Find Products Faster in WooCommerce",
@@ -47,7 +77,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/06/jetpack-search-featured-image.png",
     "summary": "Jetpack Search 7.0 brings product filters, cards, and sorting to WooCommerce, helping shoppers find what they want faster on WordPress.com Commerce.",
     "agency_relevant": true,
-    "agency_reason": "New product filters improve WooCommerce search UX\u2014opportunity for agencies to optimize product discovery."
+    "agency_reason": "Leverage Jetpack Search enhancements to improve product discovery and conversion on client shops."
   },
   {
     "title": "WooCommerce 10.9.1 Release Notes",
@@ -57,7 +87,17 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce has released version 10.9.1, fixing compatibility issues with older Stripe Payment Gateway versions. The post WooCommerce 10.9.1 Release Notes appeared first on The WooCommerce Developer...",
     "agency_relevant": true,
-    "agency_reason": "Patch fixes Stripe compatibility\u2014agencies should update clients to avoid payment regressions."
+    "agency_reason": "Patch stores to maintain Stripe compatibility and prevent payment regressions for clients."
+  },
+  {
+    "title": "Best WordPress Payment Gateway Plugins",
+    "link": "https://rocket.net/blog/best-wordpress-payment-gateway-plugins/",
+    "pubDate": "Wed, 24 Jun 2026 13:39:23 GMT",
+    "blog_name": "Rocket.net",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Picking the wrong payment gateway for a client\u2019s online shop or donation platform can mean lost sales, failed transactions, and a 2 a.m. phone call asking why the checkout is broken. Not ideal. The...",
+    "agency_relevant": false,
+    "agency_reason": null
   },
   {
     "title": "WooCommerce 10.9: Order email visibility, checkout headroom, and a cleaner admin",
@@ -67,7 +107,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 10.9 has launched with key updates and one new tool that appears directly in your admin.",
     "agency_relevant": true,
-    "agency_reason": "Admin and checkout improvements can reduce support tickets and improve store conversions."
+    "agency_reason": "Understand 10.9 admin tools to streamline store management and offer client training."
   },
   {
     "title": "WooCommerce 10.9.0 Release Notes",
@@ -77,7 +117,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 10.9.0 introduces performance enhancements, UI updates for admin screens, and built-in transactional email logging, enhancing store management and checkout efficiency. The post...",
     "agency_relevant": true,
-    "agency_reason": "Performance and email logging changes impact store scalability and troubleshooting workflows."
+    "agency_reason": "Review 10.9 performance and email logging features to improve client site reliability."
   },
   {
     "title": "Automattic Celebrates Graduates of University of Illinois Chicago\u2019s AI Leaders Program",
@@ -87,7 +127,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/06/blog-header.png",
     "summary": "On June 23, around 40 students from Illinois and Louisiana will wrap up the year at University of Illinois Chicago (UIC) as the first graduating cohort of AI Leaders\u2014the nation\u2019s first...",
     "agency_relevant": true,
-    "agency_reason": "Signals talent pipeline in AI; hire or recruit trained graduates for agency capabilities."
+    "agency_reason": "Spot talent pipeline and partnership opportunities from Automattic-supported AI education programs."
   },
   {
     "title": "Why bot traffic is now an infrastructure problem (not just an SEO problem)",
@@ -107,7 +147,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/06/image-7-1.png",
     "summary": "Ask a room full of consumers to name a brand that uses AI well in its messaging, and most of them go quiet. In WordPress VIP\u2019s Future of the Web 2026 report, 61% couldn\u2019t name one. Another 16% said...",
     "agency_relevant": true,
-    "agency_reason": "Highlights agency opportunity to craft distinctive AI messaging for clients lacking clear examples."
+    "agency_reason": "Position agencies to craft distinctive AI brand messaging for clients lacking clear AI positioning."
   },
   {
     "title": "The AI Maturity Ladder for WordPress Agencies",
@@ -117,7 +157,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/06/image-8.png",
     "summary": "Nearly every agency uses AI now. What separates the ones pulling ahead isn't better tools, it's where AI lives: in a few people's heads, or built into how the agency runs. This field guide maps the...",
     "agency_relevant": true,
-    "agency_reason": "Framework helps agencies map AI adoption stages and operationalize capabilities for competitive advantage."
+    "agency_reason": "Assess agency AI maturity to prioritize integrations, workflows, and competitive differentiation."
   },
   {
     "title": "Browse the New Mercantile Swag Store",
@@ -127,7 +167,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/06/image-1.png?resize=2048%2C1055&ssl=1",
     "summary": "Mercantile, the official swag store of the WordPress project, has a newly redesigned storefront with a catalog that now sits front and center, and a design tuned to hold up across a wide range of...",
     "agency_relevant": true,
-    "agency_reason": "New store offers branding/merchandise options agencies can use for client or event branding."
+    "agency_reason": "Leverage official merchandise for community engagement, swag partnerships, or client event marketing."
   },
   {
     "title": "Kim Parsell Memorial Scholarship Opens for WordCamp US 2026",
@@ -137,7 +177,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/06/Kim-Parsell-Blog-post.png?resize=1920%2C1080&ssl=1",
     "summary": "Applications are now open for the 2026 Kim Parsell Memorial Scholarship, which supports one active WordPress contributor who identifies as a woman and has not previously attended WordCamp US. The...",
     "agency_relevant": true,
-    "agency_reason": "Scholarship news useful for agencies promoting diversity, sponsorships, and community engagement."
+    "agency_reason": "Promote scholarships to support diversity and recruit contributor talent for agency teams."
   },
   {
     "title": "Top 6 Ways For Agencies to Build MRR",
@@ -157,7 +197,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/06/changelog-image-editing-multitask.jpg",
     "summary": "The latest WordPress.com updates enhance image editing, introduce Desktop Mode for multitasking, and expand AI capabilities for design and plugin management, alongside various reliability fixes.",
     "agency_relevant": true,
-    "agency_reason": "Image editing, Desktop Mode, and AI features improve content production and client efficiency."
+    "agency_reason": "Update clients about enhanced image editing and multitasking features impacting content workflows."
   },
   {
     "title": "How buy now, pay later works \u2014 and why it\u2019s worth enabling on your store",
@@ -167,7 +207,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Customers appreciate the option to pay in installments. For stores, this means more sales and better margins. Here\u2019s how to get started.",
     "agency_relevant": true,
-    "agency_reason": "BNPL increases conversion; agencies should advise merchants on implementation and risk management."
+    "agency_reason": "Recommend BNPL options to increase average order value and conversion for stores."
   },
   {
     "title": "Global Partners Across the First Half of the 2026 WordPress Event Season",
@@ -177,7 +217,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/06/55169598894_0199c1bbb9_o-scaled.jpg?ssl=1",
     "summary": "This post recaps how the WordPress project\u2019s five Global Partners \u2014 Jetpack, WordPress.com, WooCommerce, Bluehost, and Hostinger \u2014 supported community events during the first half of 2026. Across...",
     "agency_relevant": true,
-    "agency_reason": "Track partner event support for networking opportunities and partnership signals."
+    "agency_reason": "Track partner activity to inform agency partnerships and sponsorship opportunities."
   },
   {
     "title": "Why scaling infrastructure doesn\u2019t fix bot traffic problems",
@@ -197,7 +237,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2026/06/Future-of-the-web-logo-2.webm",
     "summary": "WordPress VIP\u2019s Future of the Web report shows why your brand\u2019s digital presence needs to serve two audiences at once.",
     "agency_relevant": true,
-    "agency_reason": "Teaches agencies to design sites trusted by humans and AI for better client attribution."
+    "agency_reason": "Design sites as trust layers to satisfy both human users and AI consumption."
   },
   {
     "title": "Product Object Caching Enabled by Default for New Stores in WooCommerce 11.0",
@@ -207,7 +247,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.0 enables product object caching by default for new stores, helping reduce duplicate product loads while leaving existing stores unchanged. The post Product Object Caching Enabled by...",
     "agency_relevant": true,
-    "agency_reason": "Default product object caching affects performance tuning for new WooCommerce stores."
+    "agency_reason": "Use product object caching to boost WooCommerce performance for new client stores."
   },
   {
     "title": "What\u2019s changing in Action Scheduler 4.0.0",
@@ -217,7 +257,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Action Scheduler 4.0.0 is ready for testing and ships with WooCommerce 11.0 (July 28). Updates include failed actions now purge after 3 months, uniqueness checks include args, plus daily clean up...",
     "agency_relevant": true,
-    "agency_reason": "Action Scheduler updates impact scheduled jobs; agencies must test cron and cleanup behaviors."
+    "agency_reason": "Test Action Scheduler 4.0 changes to avoid job purging or uniqueness issues on client sites."
   },
   {
     "title": "Four AI Questions Every Agency Should Answer Before Kickoff",
@@ -227,7 +267,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/06/the-ai-era-agency-raci_-how-top-teams-are-restructuring-client-delivery.png",
     "summary": "Three weeks into a project, the delivery lead\u2019s inbox fills up with client questions.\u00a0 What AI tools did you use? Who reviewed the output? What changed between the first draft and the version we saw?...",
     "agency_relevant": true,
-    "agency_reason": "Standardizing AI disclosures reduces risk and sets clear client expectations pre-project."
+    "agency_reason": "Document AI usage, review, and disclosures before kickoff to manage client expectations."
   },
   {
     "title": "June Office Hours: Contributor Day at WCEU and open dialogue",
@@ -237,7 +277,7 @@
     "image_url": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png",
     "summary": "Join us for Office Hours on Wednesday June 24 in the Woo Community Slack! We are chatting about our WCEU experiences, and sharing what we've been working on. Hope to see you there! The post June...",
     "agency_relevant": true,
-    "agency_reason": "Community office hours offer developer insights and networking for agency contributors."
+    "agency_reason": "Join WooCommerce Office Hours for developer insights and community networking opportunities."
   },
   {
     "title": "\u2018AI Is Killing Web Traffic\u2019 Is The Wrong Narrative. Here\u2019s The Right One",
@@ -247,7 +287,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2026/06/Future-of-the-web-logo-2.webm",
     "summary": "WordPress VIP\u2019s Future of the Web Report debunks conventional wisdom about AI search and shows where enterprises should prioritize digital investments.",
     "agency_relevant": true,
-    "agency_reason": "Reframes AI search impacts\u2014agencies should pivot client investment priorities accordingly."
+    "agency_reason": "Understand AI search impacts to guide client content strategy and measurement priorities."
   },
   {
     "title": "How Agencies are Managing AI Risks, Compliance, and Responsible Adoption",
@@ -257,7 +297,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/06/how-agencies-are-managing-ai-risks-compliance-and-responsible-adoption.png",
     "summary": "The strongest agencies walk into enterprise pitches with their AI governance already documented. They wrote down their data rules, their human-review steps, and their disclosure defaults, and they...",
     "agency_relevant": true,
-    "agency_reason": "Documented AI governance helps agencies win enterprise contracts and ensure compliance."
+    "agency_reason": "Develop AI governance documentation to win enterprise trust and compliance-sensitive projects."
   },
   {
     "title": "The Credential Gap That\u2019s Costing Agencies Enterprise Deals",
@@ -267,17 +307,17 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/06/how-certified-wordpress-teams-close-the-ai-era-enterprise-skills-gap.png",
     "summary": "You have a great initial call. You wait for the RFP, but it never materializes. The opportunity disappears from your pipeline without feedback or explanation. It\u2019s easy to assume you lost to a lower...",
     "agency_relevant": true,
-    "agency_reason": "Credential deficiencies explain lost RFPs; agencies should credential and showcase enterprise experience."
+    "agency_reason": "Close credential gaps by showcasing certifications and case studies to secure enterprise RFPs."
   },
   {
     "title": "Meet Desktop Mode: A New Workspace for WordPress Admin",
     "link": "https://wordpress.com/blog/2026/06/12/meet-desktop-mode/",
     "pubDate": "Fri, 12 Jun 2026 17:15:43 GMT",
     "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/06/meet-desktop-mode-featured-image.png",
+    "image_url": "https://en-blog.files.wordpress.com/2026/06/header-wpbrand-482.png",
     "summary": "Desktop Mode is a free plugin from Automattic that turns your WordPress admin into a real desktop workspace with windows, drag and drop, AI search, virtual desktops, and hundreds of hooks to extend...",
     "agency_relevant": true,
-    "agency_reason": "Desktop Mode alters admin workflows\u2014agencies can build extensions or streamline client dashboards."
+    "agency_reason": "Offer Desktop Mode to improve team workflows and propose custom admin workspace solutions."
   },
   {
     "title": "4 Ways to Make Your Website More Discoverable by AI Search",
@@ -287,7 +327,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/06/header-5.png",
     "summary": "Your website acts as a critical entry point in the era of AI-driven search. As AI-generated results expand, clarity in your messaging becomes essential. Establish an easily navigable site that...",
     "agency_relevant": true,
-    "agency_reason": "Optimizing content for AI discovery is a new SEO service agencies can offer."
+    "agency_reason": "Optimize site clarity and structure for AI discovery to maintain organic visibility."
   },
   {
     "title": "Develop Locally on Linux with WordPress Studio",
@@ -297,7 +337,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/06/wordpress-studio-desktop-linux.png",
     "summary": "The WordPress Studio desktop app is now available for Linux users, providing a quick, server-free way to develop local WordPress sites.",
     "agency_relevant": true,
-    "agency_reason": "Linux Studio enables consistent local development; agencies should standardize tools across teams."
+    "agency_reason": "Use WordPress Studio on Linux to standardize local development environments across teams."
   },
   {
     "title": "How to build a brand identity for your online store",
@@ -307,7 +347,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Branding is more than a logo. Here are our expert tips for creating a lasting ecommerce brand.",
     "agency_relevant": true,
-    "agency_reason": "Branding guidance helps agencies offer comprehensive ecommerce strategy beyond technical builds."
+    "agency_reason": "Help ecommerce clients define brand identity for differentiation and customer loyalty."
   },
   {
     "title": "10 Brand-New WordPress.com Features From Radical Speed Month",
@@ -317,7 +357,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/06/110c2e70-506f-4182-9fc6-eb00c4f3c839.png",
     "summary": "WordPress.com launched 10 new features during Radical Speed Month, including WordPress Workspace for Mac, the Blueprints Gallery in Studio, Easy Site Editor, Social Feeds in the Reader, and...",
     "agency_relevant": true,
-    "agency_reason": "Ten features from speed month present agency opportunities for faster builds and new tools."
+    "agency_reason": "Leverage Radical Speed Month features to accelerate builds and pitch faster delivery to clients."
   },
   {
     "title": "WordPress.com Is Now Available in Stripe Projects",
@@ -327,17 +367,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/06/header.png",
     "summary": "WordPress.com is now available as a provider on Stripe Projects. Starting June 10, developers can provision a complete site, secure a custom domain name, and activate a plan directly from the CLI \u2014...",
     "agency_relevant": true,
-    "agency_reason": "Stripe Projects integration enables CLI provisioning\u2014agencies can automate developer workflows and onboarding."
-  },
-  {
-    "title": "WordCamp Europe 2026: Worth the Wait",
-    "link": "https://wordpress.com/blog/2026/06/09/wordcamp-europe-2026-worth-the-wait/",
-    "pubDate": "Tue, 09 Jun 2026 03:00:03 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/06/header-wpbrand-485_-blog-wordpress.com-e28094-social-asset-set_-wordcamp-europe-2026_-worth-the-wait.png",
-    "summary": "What I learned at my first WordCamp about community, search, and how some things never change (in a good way).",
-    "agency_relevant": true,
-    "agency_reason": "Event insights on community and search trends inform agency positioning and content strategy."
+    "agency_reason": "Use Stripe Projects integration to provision client sites programmatically and streamline deployments."
   },
   {
     "title": "WooCommerce 10.9: What\u2019s coming for developers",
@@ -347,7 +377,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 10.9 is in beta testing, featuring performance enhancements, UI improvements, and transactional email logging. The official release is scheduled for June 23, 2026. The post WooCommerce...",
     "agency_relevant": true,
-    "agency_reason": "Beta reveals upcoming APIs and UI changes agencies must prepare for in client updates."
+    "agency_reason": "Participate in the 10.9 beta to prepare agency plugins and customizations for release."
   },
   {
     "title": "Pressable MCP Just Got a Lot More Powerful",
@@ -357,17 +387,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "When we launched Pressable MCP earlier this year, the core idea was simple: stop switching between your AI tools and your hosting dashboard. Ask for what you need, and your AI assistant handles it....",
     "agency_relevant": true,
-    "agency_reason": "Pressable MCP streamlines AI-hosting workflows\u2014agencies can improve efficiency and reduce tool switching."
-  },
-  {
-    "title": "Click, Comment, Done: A Better Client Feedback Loop with Studio Code",
-    "link": "https://wordpress.com/blog/2026/06/08/studio-code-client-feedback-loop/",
-    "pubDate": "Mon, 08 Jun 2026 10:35:00 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/06/studio-code-client-feedback-loop.png",
-    "summary": "Tired of manually sending screenshot to your coding agent? Studio Code's /annotate turns click-to-comment feedback into edits, all in one go. Free in beta.",
-    "agency_relevant": true,
-    "agency_reason": "Client feedback via /annotate speeds revisions\u2014agencies can increase delivery velocity and clarity."
+    "agency_reason": "Explore Pressable MCP to centralize AI tools and hosting workflows for client management."
   },
   {
     "title": "What Happened at WordCamp Europe 2026",
@@ -377,7 +397,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/06/WhatsApp-Image-2026-06-04-at-01.08.10-1-scaled-edited.jpeg?resize=2560%2C1440&ssl=1",
     "summary": "WordCamp Europe 2026 brought the WordPress community to Krak\u00f3w for three days of contribution and conversation, from CERN going live on WordPress to WordPress 7.0, AI, and a closing fireside chat on...",
     "agency_relevant": true,
-    "agency_reason": "Recap highlights major project news like WordPress 7.0 and AI developments for agencies."
+    "agency_reason": "Use WCEU insights to spot trending technologies and network opportunities for agencies."
   },
   {
     "title": "Radical Speed Month: Built Fast, Built for Agencies",
@@ -387,7 +407,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/06/automattic-for-agencies-radical-speed-month.png",
     "summary": "For one month, the Automattic for Agencies team ran an experiment alongside other product teams at Automattic. The question was simple: what happens when you strip away the overhead and let small,...",
     "agency_relevant": true,
-    "agency_reason": "Describes rapid product iteration methods agencies can adopt to accelerate delivery."
+    "agency_reason": "Adopt rapid iteration practices from Radical Speed Month to shorten client delivery cycles."
   },
   {
     "title": "Making WooCommerce monorepo builds faster and lighter",
@@ -397,7 +417,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The WooCommerce monorepo build pipeline rework dropped cold build time by 60%, watch ready time by 75%, and watch memory usage by 84%. The post Making WooCommerce monorepo builds faster and lighter...",
     "agency_relevant": true,
-    "agency_reason": "Build pipeline improvements signal faster developer feedback loops for agencies contributing to WooCommerce."
+    "agency_reason": "Apply monorepo build optimizations to speed development and reduce CI costs for agency projects."
   },
   {
     "title": "Protect The Shire",
@@ -407,7 +427,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "tl;dr: Temporary 24-hour cooldown period for plugin/theme releases before auto-updates. AI can give defenders an edge. We want to secure all 78K plugins and themes on WordPress.org.\u00a0 One of the...",
     "agency_relevant": true,
-    "agency_reason": "Plugin/theme cooldown and security focus affect release timing; agencies should adjust deployment processes."
+    "agency_reason": "Prepare for 24-hour cooldowns on plugin/theme releases to adjust deployment workflows."
   },
   {
     "title": "Introducing Reader Chat, Powered by Jetpack Search",
@@ -417,7 +437,7 @@
     "image_url": "https://jetpack.com/wp-content/uploads/2026/06/reader-chat.png",
     "summary": "Reader Chat gives visitors a new way to explore your site. Readers can ask questions, get answers based on your content, and keep following the threads that brought them there.",
     "agency_relevant": true,
-    "agency_reason": "On-site chat for content discovery creates client engagement opportunities and conversational UX services."
+    "agency_reason": "Implement Reader Chat to boost engagement and surface content for client sites."
   },
   {
     "title": "Introducing the WooCommerce dual API",
@@ -427,7 +447,7 @@
     "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/06/image_1055e7.png?w=848",
     "summary": "WooCommerce 10.9 introduces an experimental dual API and GraphQL infrastructure. It consists of a code API using PHP classes, an autogenerated GraphQL API mirroring the code API, and a build script...",
     "agency_relevant": true,
-    "agency_reason": "Experimental dual API and GraphQL may affect integrations; agencies should test new developer interfaces."
+    "agency_reason": "Evaluate the dual API and GraphQL for building performant, future-proof WooCommerce integrations."
   },
   {
     "title": "Keeping track of commerce emails",
@@ -437,7 +457,7 @@
     "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/05/CleanShot-2026-05-21-at-11.25.55@2x.png?w=1024",
     "summary": "WooCommerce 10.9 introduces transactional email logging to enhance troubleshooting. Merchants can now track sent emails, failures, and statuses, improving diagnostics for email processes in online...",
     "agency_relevant": true,
-    "agency_reason": "Email logging eases debugging and reduces support time for ecommerce clients."
+    "agency_reason": "Use transactional email logging to diagnose order notification failures and improve merchant support."
   },
   {
     "title": "How OWUP used Automattic for Agencies tools to cut debugging time from days to minutes",
@@ -447,7 +467,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/06/image-5.png",
     "summary": "OWUP spent years chasing ghost entries, sync failures, and POS mismatches across 60+ WooCommerce sites for Scandinavian watch and jewelry retailers. Then Pressable MCP cut that debugging work from...",
     "agency_relevant": true,
-    "agency_reason": "Case study shows MCP tools dramatically cut debugging\u2014sell time-savings to clients."
+    "agency_reason": "Showcase case study to sell efficiency gains from Automattic tools to prospective clients."
   },
   {
     "title": "AI Workflows for WordPress and WooCommerce: Live Event",
@@ -457,17 +477,7 @@
     "image_url": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png",
     "summary": "Join us for a live panel discussion on practical AI workflows for WordPress and WooCommerce, including WooCommerce MCP, the WordPress Abilities API, Pressable MCP, and the agency workflows these...",
     "agency_relevant": true,
-    "agency_reason": "Panel discusses practical AI workflows\u2014agencies can learn operational patterns to adopt."
-  },
-  {
-    "title": "Introducing color swatches in WooCommerce core",
-    "link": "https://developer.woocommerce.com/2026/06/03/introducing-color-swatches-in-woocommerce-core/",
-    "pubDate": "Wed, 03 Jun 2026 09:42:01 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/06/imatge_b06c3f.png",
-    "summary": "WooCommerce 10.9 introduces a Color/Image product attribute, allowing visual swatches for colors and images. This feature enhances user experience with improved product representation and streamlined...",
-    "agency_relevant": true,
-    "agency_reason": "Color/image attributes improve product presentation; agencies should enable for better conversions."
+    "agency_reason": "Attend live AI workflow panels to learn practical agency implementations and tooling."
   },
   {
     "title": "Rocket.net Partners with WP Umbrella to Deliver the Most Complete Agency Experience in Managed WordPress Hosting",
@@ -487,7 +497,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2025/10/Why-AI-Governance-in-Journalism-Starts-with-the-Right-Culture-and-Mindset-2.jpg?w=1032",
     "summary": "WordPress VIP\u2019s Media Product Forum gathered execs from People Inc., The New York Post, Yahoo, and more to discuss how they are innovating to grow their businesses.",
     "agency_relevant": true,
-    "agency_reason": "Publisher strategies inform agency guidance on responsible AI use and audience trust."
+    "agency_reason": "Learn publisher strategies balancing AI adoption with audience trust to advise media clients."
   },
   {
     "title": "Agent-Ready Content Infrastructure: What It Is And How It Will Help AI Adoption",
@@ -497,7 +507,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2026/04/Agent-Experience-AX-in-Content-Operations_-Helping-AI-Agents-Succeed.jpg?w=1032",
     "summary": "Enterprises need to move beyond ad hoc AI usage to operate at scale. WordPress VIP is ready to assist.",
     "agency_relevant": true,
-    "agency_reason": "Preparing content for AI agents is a service opportunity for agencies to standardize clients' content."
+    "agency_reason": "Build agent-ready content systems to scale AI-driven personalization and editorial workflows."
   },
   {
     "title": "Meet the Moment: How Enterprise Nonprofits Are Modernizing Digital Platforms",
@@ -507,7 +517,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2024/09/mike-manuel.png",
     "summary": "Enterprise nonprofits are under pressure to move faster, scale campaigns, and prove impact. Here\u2019s how leading organizations are rethinking their digital foundation.",
     "agency_relevant": true,
-    "agency_reason": "Nonprofits' modernization needs open agency opportunities in platform, scalability, and impact measurement."
+    "agency_reason": "Offer modernization services to nonprofits needing scalability, campaign agility, and impact measurement."
   },
   {
     "title": "Automattic Joins the Tech Coalition",
@@ -517,7 +527,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/05/12.png",
     "summary": "We're proud to announce that Automattic  has joined the Tech Coalition, a global alliance of technology companies working together to combat online child sexual exploitation and abuse.",
     "agency_relevant": true,
-    "agency_reason": "Joining Tech Coalition signals agency expectation for stronger safety standards and compliance partnerships."
+    "agency_reason": "Promote agency alignment with child safety initiatives when vetting partners and compliance."
   },
   {
     "title": "The ecommerce shipping setup that grows with your store",
@@ -527,7 +537,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Before you ship your first package, you need to make 5 core decisions around fulfillment models, rates, carriers, packaging, and returns.",
     "agency_relevant": true,
-    "agency_reason": "Fulfillment decisions affect store scalability; agencies should advise shipping strategies and integrations."
+    "agency_reason": "Advise clients on fulfillment models and rates to optimize shipping costs and customer experience."
   },
   {
     "title": "Free WooCommerce extensions to help new stores get moving",
@@ -537,7 +547,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "There are hundreds of extensions in the WooCommerce Marketplace. These are the free ones you'll need from day one.",
     "agency_relevant": true,
-    "agency_reason": "Starter extensions list helps agencies recommend cost-effective solutions for new merchants."
+    "agency_reason": "Recommend essential free extensions to accelerate new store setups and reduce costs."
   },
   {
     "title": "May Product Update: Deeper Metrics, Smarter Workflows, and Better Security",
@@ -547,7 +557,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "May was a big one. Nine new features shipped this month, touching everything from how deeply you can see into your site\u2019s performance to how securely your team can collaborate. Here\u2019s everything we...",
     "agency_relevant": true,
-    "agency_reason": "New metrics, workflows, and security features offer agency-managed hosting improvements to promote."
+    "agency_reason": "Track Pressable updates for improved metrics, workflows, and security offerings for clients."
   },
   {
     "title": "WordPress Workflow Automation: Enterprise Guide to Streamlining Operations",
@@ -557,7 +567,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2026/05/The-AI-\u2018Marketing-Recipes-Enterprises-Need-for-High-Performing-Content-Operations-n.png?w=1032",
     "summary": "Learn how to implement WordPress workflow automation at enterprise scale. Covers triggers, actions, tools, AI automation, and workflow management for large teams.",
     "agency_relevant": true,
-    "agency_reason": "Automation guide enables agencies to architect scaleable workflows and reduce manual operational costs."
+    "agency_reason": "Implement workflow automation to reduce manual tasks and scale enterprise content operations."
   },
   {
     "title": "WordPress VIP Earns Secure Hosting Alliance Certification",
@@ -567,7 +577,7 @@
     "image_url": "https://wpvip.com/wp-content/uploads/sites/3/2026/05/WordPress-Scalability_-How-to-Scale-for-Enterprise.png?w=1032",
     "summary": "Reinforcing dedication to building a trusted, secure, and ethical web hosting platform.",
     "agency_relevant": true,
-    "agency_reason": "SHA certification is sales credibility for agencies partnering with WordPress VIP hosting."
+    "agency_reason": "Use SHA certification as a trust signal when recommending hosting solutions to clients."
   },
   {
     "title": "Pressable Achieves Secure Hosting Alliance Certification",
@@ -577,7 +587,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "We\u2019re excited to share that Pressable has officially earned certification from the Secure Hosting Alliance (SHA), an initiative of the i2 Coalition that sets a higher bar for security, reliability,...",
     "agency_relevant": true,
-    "agency_reason": "Pressable\u2019s SHA certification validates secure hosting options agencies can recommend confidently."
+    "agency_reason": "Leverage Pressable's SHA certification for reassuring clients about hosting security and compliance."
   },
   {
     "title": "Pressable, WordPress VIP, and WP Cloud Partners Earn Secure Hosting Alliance Certification",
@@ -587,26 +597,6 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/05/blog-header-a8c-blog.png",
     "summary": "Pressable and WordPress VIP have each earned official certification from the Secure Hosting Alliance (SHA), an i2Coalition initiative that recognizes hosting providers with a genuine, demonstrable...",
     "agency_relevant": true,
-    "agency_reason": "Multiple SHA certifications indicate industry security standardization agencies should highlight to clients."
-  },
-  {
-    "title": "WP23",
-    "link": "https://wordpress.org/news/2026/05/wp23/",
-    "pubDate": "Wed, 27 May 2026 17:40:10 GMT",
-    "blog_name": "WordPress.org News",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WordPress at 23 is simultaneously both the strongest and most precarious it\u2019s ever been. Last week, we shipped WordPress 7 to the world. In seven days, 46% of all WordPresses, tens of millions across...",
-    "agency_relevant": true,
-    "agency_reason": "WordPress 7 adoption stats and ecosystem health inform agency roadmaps and client upgrade priorities."
-  },
-  {
-    "title": "How Pressable MCP is Changing the Game for WordPress Agencies: A Live Breakdown with Matt Medeiros and Phill Clapham",
-    "link": "https://pressable.com/blog/how-pressable-mcp-is-changing-the-game-for-wordpress-agencies-a-live-breakdown-with-matt-medeiros-and-phill-clapham/",
-    "pubDate": "Wed, 27 May 2026 17:22:50 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Pressable Senior TAM Phill Clapham joined Matt Medeiros on WP Minute to put Pressable MCP through its paces live. Watch how multi-site triage, log analysis, and backup recovery - tasks that used to...",
-    "agency_relevant": true,
-    "agency_reason": "Live breakdown demonstrates MCP features; agencies can evaluate operational benefits for client portfolios."
+    "agency_reason": "Highlight multi-provider SHA certifications to support agency security recommendations across vendors."
   }
 ]

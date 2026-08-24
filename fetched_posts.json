@@ -1,15 +1,5 @@
 [
   {
-    "title": "Performance Plugins Need to Keep Pace With WordPress",
-    "link": "https://jetpack.com/resources/performance-plugins-need-to-keep-pace-with-wordpress/",
-    "pubDate": "Fri, 21 Aug 2026 17:58:43 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2026/08/boost-wp-release-responsibility-featured-imng.jpg",
-    "summary": "The WP Rocket fatal error around WordPress 7.1 shows why performance plugins must keep pace with core. See how Jetpack handles serious reports and how Jetpack Boost can simplify your performance...",
-    "agency_relevant": true,
-    "agency_reason": "Ensure plugin compatibility to prevent client outages and reduce support burden."
-  },
-  {
     "title": "WordPress Localization",
     "link": "https://wpvip.com/blog/wordpress-localization/",
     "pubDate": "Fri, 21 Aug 2026 14:54:34 GMT",
@@ -17,7 +7,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "What WordPress localization is, how it differs from internationalization, and how POT, PO, and MO files and plugins power the localization workflow.",
     "agency_relevant": true,
-    "agency_reason": "Offer localization services and master POT/PO/MO workflows for global client projects."
+    "agency_reason": "Guides localization workflow essentials agencies need to manage multilingual client sites effectively."
   },
   {
     "title": "Ecommerce fulfillment: How to know when you\u2019ve outgrown your process",
@@ -27,7 +17,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Has your business outgrown its fulfillment process? Learn the warning signs, when to consider a 3PL, and how to build a better fulfillment stack.",
     "agency_relevant": true,
-    "agency_reason": "Advise ecommerce clients on fulfillment scaling and integrating 3PLs to support growth."
+    "agency_reason": "Helps agencies advise ecommerce clients when to adopt 3PLs and improve fulfillment stacks."
   },
   {
     "title": "The Two-track Internet Trap: Why the Best AI Strategy Stays Human-focused",
@@ -37,7 +27,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "There are now more bots than people on the web, but optimizing for AI agents shouldn't mean duplicated content, inconsistency, and overtaxed teams.",
     "agency_relevant": true,
-    "agency_reason": "Prioritize human-focused AI strategies to avoid duplicated content and poor client UX."
+    "agency_reason": "Warns agencies to prioritize human-focused content strategies despite rising AI agent traffic."
   },
   {
     "title": "Why agency growth breaks workflows long before it breaks infrastructure",
@@ -67,7 +57,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "You\u2019ve already set up your content operations to support localization and multilingual needs. Here\u2019s what needs to happen as AI enters the picture.",
     "agency_relevant": true,
-    "agency_reason": "Prepare multisite management workflows for AI-assisted localization and centralized content operations."
+    "agency_reason": "Highlights multisite governance changes agencies must plan for as AI augments localization."
   },
   {
     "title": "AI Creates Opportunity While Artists Ship at WordCamp US 2026",
@@ -77,7 +67,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/08/260818_WCUS_EC_00367.png?resize=1943%2C730&ssl=1",
     "summary": "WordCamp US (WCUS) 2026\u00a0just wrapped up after 4 days at the Phoenix Convention Center in Phoenix, Arizona. Over 1,100 people from around the world registered to attend, and thousands more watched...",
     "agency_relevant": true,
-    "agency_reason": "Monitor WCUS trends to spot networking and emerging AI-driven opportunities."
+    "agency_reason": "Recap identifies trends and networking opportunities agencies should leverage from WCUS."
   },
   {
     "title": "WordPress 7.1 \u201cMary Lou\u201d",
@@ -87,7 +77,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/08/release-edition-featured-image-7-1-scaled.webp?resize=2560%2C1337&ssl=1",
     "summary": "WordPress 7.1, \u201cMary Lou,\u201d is here\u2014celebrating the pioneering jazz pianist, composer, and arranger Mary Lou Williams and her spirit of reinvention and collaboration. This release brings a more...",
     "agency_relevant": true,
-    "agency_reason": "Plan for WordPress 7.1 updates and adapt client sites to new features."
+    "agency_reason": "WordPress 7.1 introduces features agencies must test for client-site compatibility and updates."
   },
   {
     "title": "Every Site, One Click Away in the Hosting Dashboard",
@@ -97,7 +87,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/08/header-every-site-one-click-away-in-the-hosting-dashboard.png",
     "summary": "Manage all your WordPress.com sites from one consistent interface, with persistent navigation for domains, hosting, updates, and performance.",
     "agency_relevant": true,
-    "agency_reason": "Leverage unified hosting dashboards to streamline multisite management and client maintenance."
+    "agency_reason": "Centralized dashboard simplifies agencies' management of multiple WordPress.com client sites."
   },
   {
     "title": "Ecommerce logistics issues are about visibility and connection",
@@ -107,7 +97,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Most ecommerce logistics problems come down to systems that don't talk to each other. Here's how to connect inventory, shipping, and returns using WooCommerce.",
     "agency_relevant": true,
-    "agency_reason": "Integrate inventory, shipping, and returns systems to prevent logistics problems for clients."
+    "agency_reason": "Emphasizes systems integration agencies should implement to solve clients' logistics visibility problems."
   },
   {
     "title": "The AI \u2018Grammar\u2019 Agents Need to Source and Cite Your Marketing Content",
@@ -117,7 +107,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "You may know where to place a comma, but AI visibility depends on a host of other editorial and technical details.",
     "agency_relevant": true,
-    "agency_reason": "Structure client content for AI sourcing, accurate citations, and improved discoverability."
+    "agency_reason": "Details content structure optimizations agencies must apply for AI sourcing and content attribution."
   },
   {
     "title": "How to build a WordPress MCP integration for AI Agents on Kinsta-powered websites",
@@ -137,7 +127,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/08/when-wordpress.com-support-knows-its-time-for-a-human-header-image.png",
     "summary": "WordPress.com\u2019s Support Assistant helps thousands of customers every day, from resetting forgotten passwords to connecting a domain name and explaining settings.\u00a0 It resolves most questions on its...",
     "agency_relevant": true,
-    "agency_reason": "Provide clear escalation paths and human support where automated assistants fall short."
+    "agency_reason": "Shows where automation helps and when agencies should provide human support escalation."
   },
   {
     "title": "WooCommerce 11.1: What\u2019s coming for developers",
@@ -147,7 +137,7 @@
     "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/08/Content.jpg?w=700",
     "summary": "Pre-release notes for WooCommerce 11.1 have dropped! The REST API has a new refund endpoint, right of withdrawal is available for EU users, and variable products get some performance improvements!...",
     "agency_relevant": true,
-    "agency_reason": "Review WooCommerce 11.1 developer changes to update integrations and ensure regulatory compliance."
+    "agency_reason": "Pre-release dev notes inform agencies about WooCommerce 11.1 APIs and developer-impacting changes."
   },
   {
     "title": "Give Your WordPress.com Site a Memory with Guidelines",
@@ -157,7 +147,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/08/give-your-wordpress.com-site-a-memory-with-guidelines.png",
     "summary": "Set your brand voice, visual style, and goals once with WordPress.com Guidelines, so WordPress Agent can work from the same context wherever you are.",
     "agency_relevant": true,
-    "agency_reason": "Use brand guidelines to ensure consistent AI-assisted content and client brand voice."
+    "agency_reason": "Guidelines enable agencies to maintain consistent brand voice for automated WordPress agents."
   },
   {
     "title": "Do That Which Makes Your Life Easy",
@@ -167,7 +157,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/08/elijahpotter_a8c_blogheader.png",
     "summary": "Elijah Potter, a software engineer who founded and maintains Harper, explores quality of life as a critical decision-making factor.",
     "agency_relevant": true,
-    "agency_reason": "Prioritize tooling and workflows that improve team quality of life and productivity."
+    "agency_reason": "Encourages agencies to prioritize quality-of-life improvements for sustainable team productivity."
   },
   {
     "title": "Reserved item meta keys are no longer persisted in the admin",
@@ -177,7 +167,7 @@
     "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-17-at-22.22.00.png?w=700",
     "summary": "In WooCommerce 11.0.0, reserved order item meta keys added via the Add meta button are no longer saved in the admin, preventing unstable behavior and keeping internal order data consistent. The post...",
     "agency_relevant": true,
-    "agency_reason": "Adjust custom order-meta workflows to align with WooCommerce's reserved meta persistence changes."
+    "agency_reason": "Technical change agencies should know to avoid plugin conflicts and order-data issues."
   },
   {
     "title": "Why AI makes infrastructure decisions more important",
@@ -197,7 +187,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/08/wp-education_program-announcement_v01_blog.png",
     "summary": "Today at WordCamp US 2026, we\u2019re officially launching WordPress.com Education. A free dedicated Student Plan, built to give students the tools of a professional WordPress.com environment while they...",
     "agency_relevant": true,
-    "agency_reason": "Target educational institutions and offer onboarding services for WordPress.com Student Plan users."
+    "agency_reason": "Student Plan opens agencies opportunities in education-focused site provisioning and long-term retention."
   },
   {
     "title": "WordPress.com Changelog: Brand Memory and Better Renewal Warnings",
@@ -207,7 +197,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/08/changelog-brand-memory-better-renewal-warnings.jpg",
     "summary": "A new AI tool for brand voice guidelines, plan expiration notices, and various fixes.",
     "agency_relevant": true,
-    "agency_reason": "Inform clients about renewal warning improvements and new AI brand-memory features to boost retention."
+    "agency_reason": "New brand memory and renewal notices affect how agencies manage client subscriptions and AI tools."
   },
   {
     "title": "How To Handle A Client\u2019s Website When They Stop Paying",
@@ -227,7 +217,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/08/header-wpbrand-485_-blog-wordpress.com-e28094-social-asset-set_-wordcamp-europe-2026_-worth-the-wait-2.png",
     "summary": "WordCamp US 2026 is coming to Phoenix for the first time on August 16\u201319, and there\u2019s a lot competing for your time and attention. If you\u2019re planning your schedule, start here: our selection of eight...",
     "agency_relevant": true,
-    "agency_reason": "Plan WCUS sessions that advance your agency's skills, partnerships, and business development."
+    "agency_reason": "Event guide helps agencies plan sessions and demos for networking and skill-building."
   },
   {
     "title": "Introducing the WordPress Browser Extension",
@@ -237,7 +227,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/08/Slide-16_9-9-scaled.png?resize=2560%2C1440&ssl=1",
     "summary": "The official WordPress Browser Extension is now available for Google Chrome and Chromium-based browsers in the Chrome Web Store and for Safari on macOS in the Mac App Store. This new open source...",
     "agency_relevant": true,
-    "agency_reason": "Evaluate the WordPress Browser Extension to simplify client editing and content workflows."
+    "agency_reason": "Browser extension offers agencies tools for streamlined content publishing and developer workflows."
   },
   {
     "title": "Integrating Akamai with WordPress VIP",
@@ -247,7 +237,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Learn how to integrate Akamai with WordPress VIP, configure caching, secure origin traffic, and manage DNS cutover with minimal downtime.",
     "agency_relevant": true,
-    "agency_reason": "Learn Akamai integration and DNS cutover practices for enterprise WordPress VIP deployments."
+    "agency_reason": "Akamai integration guide helps agencies optimize caching, security, and downtime during migrations."
   },
   {
     "title": "Your Next Post Can Be a Podcast",
@@ -257,7 +247,7 @@
     "image_url": "https://jetpack.com/wp-content/uploads/2026/08/jetpack-podcast.png",
     "summary": "Jetpack 16.1 makes starting a podcast easy: simply upload audio to a post and publish. Your episode is distributed across your site, email subscribers, and major podcast platforms automatically. With...",
     "agency_relevant": true,
-    "agency_reason": "Offer podcast production and distribution services leveraging Jetpack's integrated publishing capabilities."
+    "agency_reason": "Jetpack podcast feature enables agencies to add podcasting services for client content expansion."
   },
   {
     "title": "WordPress 7.0.4 Release",
@@ -267,7 +257,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WordPress 7.0.4 is now available WordPress 7.0.4 is now available which features a security fix. Because this is a security release, it is recommended that you update your sites immediately. You can...",
     "agency_relevant": true,
-    "agency_reason": "Apply WordPress 7.0.4 security fixes immediately to protect client sites."
+    "agency_reason": "Security release agencies must patch client sites immediately to prevent exploitation."
   },
   {
     "title": "WRONG AGAIN",
@@ -277,7 +267,7 @@
     "image_url": "https://1.gravatar.com/avatar/4cd458b58c7d6f9160f7a5985a7d195b8e69751c5970a06d01e8b7ccb0113fb3?s=96&d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96",
     "summary": "WP Engine\u2019s motion is a desperate attempt to get sanctions and other extreme remedies because Matt used ephemeral messaging in personal communications with romantic partners having nothing to do with...",
     "agency_relevant": true,
-    "agency_reason": "Monitor public legal disputes for potential impacts on partnerships and platform reputation."
+    "agency_reason": "Legal dispute coverage alerts agencies to potential partner, reputation, or contractual impacts."
   },
   {
     "title": "What Comes After AI Adoption",
@@ -287,7 +277,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Enterprise teams are embracing AI. The challenge now is deciding how it fits into the business.",
     "agency_relevant": true,
-    "agency_reason": "Help clients operationalize AI by aligning tools with measurable business objectives."
+    "agency_reason": "Helps agencies design post-adoption AI strategies aligning tools with business objectives."
   },
   {
     "title": "WooCommerce 11.0.1 Release Notes",
@@ -297,7 +287,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.0.1 has been released with targeted fixes for security, WordPress 7.1 compatibility, Store API behavior, analytics validation, and logging performance. The post WooCommerce 11.0.1...",
     "agency_relevant": true,
-    "agency_reason": "Update WooCommerce to 11.0.1 for security fixes and WordPress 7.1 compatibility."
+    "agency_reason": "Patch notes inform agencies which client stores require urgent updates and compatibility checks."
   },
   {
     "title": "We Wrote a Guide for Every Kind of WordPress Team. Here\u2019s the Prompt for Yours.",
@@ -307,7 +297,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Model Context Protocol, or MCP, is what lets an AI client like Claude or ChatGPT connect directly to an account and take real action in it, instead of just answering questions about it. For hosting,...",
     "agency_relevant": true,
-    "agency_reason": "Leverage MCP to enable AI-driven automation and safer account-level actions for hosting clients."
+    "agency_reason": "MCP awareness lets agencies evaluate secure AI automation options for client account actions."
   },
   {
     "title": "The Figma-to-WordPress Handoff Is Still Broken",
@@ -327,7 +317,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/06/wcus-2026-teaser.png?resize=1024%2C321&ssl=1",
     "summary": "WordPress 7.0.3 is now available WordPress 7.0.3 is now available which features several security fixes. Because this is a security release, it is recommended that you update your sites immediately....",
     "agency_relevant": true,
-    "agency_reason": "Immediately apply WordPress 7.0.3 security updates to protect client sites."
+    "agency_reason": "Another security release agencies must prioritize updating across client environments."
   },
   {
     "title": "August Office Hours: WCUS and WooCommerce Foundations",
@@ -337,7 +327,7 @@
     "image_url": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png",
     "summary": "Join our August Developer Office Hours to compare notes from WordCamp US and discuss the first weeks of WooCommerce's renewed focus on core performance, reliability, extensibility, and developer...",
     "agency_relevant": true,
-    "agency_reason": "Attend office hours to learn WooCommerce's renewed focus on performance and extensibility."
+    "agency_reason": "Office hours offer agencies a forum to align with WooCommerce's developer roadmap and best practices."
   },
   {
     "title": "Security update for Stripe for WooCommerce",
@@ -347,7 +337,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Please update Stripe for WooCommerce for the latest security update. The post Security update for Stripe for WooCommerce appeared first on The WooCommerce Developer Blog .",
     "agency_relevant": true,
-    "agency_reason": "Update Stripe for WooCommerce immediately to mitigate critical security vulnerabilities."
+    "agency_reason": "Stripe plugin security update requires agencies to patch client stores using Stripe quickly."
   },
   {
     "title": "Introducing Reconciliation Reports for WooPayments",
@@ -357,7 +347,7 @@
     "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/07/Balance-report-1.png",
     "summary": "WooPayments is introducing Reconciliation Reports that explain how the balance moves from the start to the end of the specified period. The post Introducing Reconciliation Reports for WooPayments...",
     "agency_relevant": true,
-    "agency_reason": "Use WooPayments reconciliation reports to streamline client accounting and financial reconciliation."
+    "agency_reason": "Reconciliation reports help agencies support clients' accounting and payment reconciliation needs."
   },
   {
     "title": "Security update for WooCommerce Subscriptions",
@@ -367,7 +357,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "If you have sites running WooCommerce Subscriptions (production or staging), please update to 9.1.0. If you have trouble updating, contact our Happiness team for further assistance. The post Security...",
     "agency_relevant": true,
-    "agency_reason": "Patch WooCommerce Subscriptions promptly and support clients struggling with updates."
+    "agency_reason": "Subscription security fix agencies must deploy to protect recurring-payment client sites."
   },
   {
     "title": "Why 65% of digital leaders say their platform is a top barrier to scaling AI",
@@ -377,7 +367,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/08/idc-woo-cover3402x_707e40.webp",
     "summary": "A new IDC study commissioned by WooCommerce found that 65% of digital leaders see legacy platform rigidity as a top barrier to scaling AI. Here's how agencies can turn that finding into a sharper...",
     "agency_relevant": true,
-    "agency_reason": "Position agencies to modernize client platforms to overcome AI-scaling barriers identified by IDC."
+    "agency_reason": "Use IDC findings to pitch modernization services for clients scaling AI initiatives."
   },
   {
     "title": "What\u2019s new in WooCommerce 11.0: Faster product pages, analytics updates, and more",
@@ -387,7 +377,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Check out the latest updates in the WooCommerce 11.0 release.",
     "agency_relevant": true,
-    "agency_reason": "Evaluate WooCommerce 11.0 performance and analytics updates for client store improvements."
+    "agency_reason": "Release highlights help agencies market performance and analytics upgrades to ecommerce clients."
   },
   {
     "title": "WordPress 7.1 Release Candidate 1",
@@ -397,7 +387,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/06/wcus-2026-teaser.png?resize=1024%2C321&ssl=1",
     "summary": "The first Release Candidate (\u201cRC1\u201d) for WordPress 7.1 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this...",
     "agency_relevant": true,
-    "agency_reason": "Test WordPress 7.1 RC1 to identify compatibility issues before client rollouts."
+    "agency_reason": "RC1 alerts agencies to begin compatibility testing before WordPress 7.1 public release."
   },
   {
     "title": "How to Safely Roll Out WordPress and PHP Updates at Scale",
@@ -407,7 +397,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Keeping WordPress core and PHP versions current is one of the clearest ways to protect site performance, compatibility, and security. It is also one of the most tedious parts of managing more than a...",
     "agency_relevant": true,
-    "agency_reason": "Implement safe, automated update rollouts to scale WordPress and PHP updates across clients."
+    "agency_reason": "Provides agencies operational process to safely roll out core and PHP updates at scale."
   },
   {
     "title": "What\u2019s the value of DataViews and who is it for?",
@@ -417,7 +407,7 @@
     "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/08/image_4e277c.png",
     "summary": "What are DataViews and DataForms actually for? An honest look at whether they're the right foundation for WordPress and WooCommerce admin screens, and where we'd like your input. The post What\u2019s the...",
     "agency_relevant": true,
-    "agency_reason": "Assess DataViews/DataForms suitability before using them to build custom admin interfaces."
+    "agency_reason": "Explains DataViews' fit, guiding agencies on building or avoiding them for admin UX."
   },
   {
     "title": "Newspack Helps Hong Kong Free Press Protect Its Stories",
@@ -427,7 +417,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/07/newspack-x-hkfp_a8c-blog-1840x920-1.png",
     "summary": "The site has developed a greater variety of member benefits, from feature previews and exclusive columns to ad-free browsing, and increased donations by 33 percent.",
     "agency_relevant": true,
-    "agency_reason": "Use Newspack strategies to increase publisher membership and diversify revenue streams."
+    "agency_reason": "Case study agencies can cite when proposing membership-driven revenue models to publishers."
   },
   {
     "title": "WooCommerce 11.0 Release Notes",
@@ -437,7 +427,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.0 is out with a focus on guest checkout, performance and backlog improvements, and a batch of experimental features for developers. The post WooCommerce 11.0 Release Notes appeared...",
     "agency_relevant": true,
-    "agency_reason": "Review WooCommerce 11.0 experimental features to plan client upgrades and developer adjustments."
+    "agency_reason": "Major release summary signals agencies to plan client upgrades and test experimental features."
   },
   {
     "title": "Brickomattic: A Celebration of What We Have Built",
@@ -447,7 +437,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/07/img_3104-1.jpg.jpeg",
     "summary": "How (and why) Automattician Zach Spears designed a collection of Automattic-specific LEGO\u00ae kits.",
     "agency_relevant": true,
-    "agency_reason": "Showcase company culture and storytelling to attract talent and humanize your agency brand."
+    "agency_reason": "Creative team initiative provides agencies inspiration for brand merchandising and internal culture-building."
   },
   {
     "title": "You can now sign into the WooCommerce app with one scan",
@@ -457,7 +447,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Our engineers built new way to login to your mobile app in seconds. Here's how.",
     "agency_relevant": true,
-    "agency_reason": "Adopt QR login to simplify client team access and mobile app onboarding."
+    "agency_reason": "Frictionless app login improves merchant UX agencies can highlight in onboarding."
   },
   {
     "title": "From found to bought: Getting your store ready to sell through AI",
@@ -467,7 +457,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Agentic commerce turns AI shoppers into buyers. Here's how to prepare your store and get discovered.",
     "agency_relevant": true,
-    "agency_reason": "Optimize ecommerce stores for agentic commerce to capture AI-driven shopper conversions."
+    "agency_reason": "Guides agencies on optimizing stores for agentic AI discovery and conversion opportunities."
   },
   {
     "title": "WordPress.com Changelog: New Blocks and Better Async Notes",
@@ -477,7 +467,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/07/new-blocks-better-async-notes-changelog.jpg",
     "summary": "New Tabs and Playlist blocks, self-filling galleries, phrase-level notes with @mentions, and self-service plan downgrades \u2014 here's what recently shipped on WordPress.com.",
     "agency_relevant": true,
-    "agency_reason": "Explore new WordPress.com blocks and async features to enhance client site functionality."
+    "agency_reason": "New blocks and UX improvements agencies can use to enhance client site functionality."
   },
   {
     "title": "We\u2019re headed to Phoenix! WCUS \u201926 is on.",
@@ -487,7 +477,7 @@
     "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/07/image_89f74e.png",
     "summary": "We are headed WCUS 2026. Join us at the booth, RSVP to the community meetup, or come heckle our talks Aug. 16-19 in sunny Phoenix, AZ! The post We\u2019re headed to Phoenix! WCUS \u201926 is on. appeared first...",
     "agency_relevant": true,
-    "agency_reason": "Attend WCUS to network with WooCommerce developers and discover partnership opportunities."
+    "agency_reason": "WCUS participation offers agencies networking, partnership, and visibility opportunities at the conference."
   },
   {
     "title": "WordCamp US 2026: 7 Reasons to Connect with Your WordPress Community",
@@ -497,7 +487,7 @@
     "image_url": "https://en-blog.files.wordpress.com/2026/07/header-wpbrand-536.png",
     "summary": "WordCamp US 2026 heads to Phoenix this August, and WordPress.com will be there. Here are seven reasons to join the WordPress community in person.",
     "agency_relevant": true,
-    "agency_reason": "Encourage your team to attend WordCamp US for learning, networking, and hiring opportunities."
+    "agency_reason": "Advocates in-person community engagement for agencies to build relationships and recruit talent."
   },
   {
     "title": "Our own newsletter took the site down",
@@ -507,7 +497,7 @@
     "image_url": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f92f.png",
     "summary": "At 09:15 we sent a newsletter to 800,000 people, and 3 minutes later the site was down. No deploy, no attack: corporate email security bots had fetched every link at once, faster than we could scale....",
     "agency_relevant": true,
-    "agency_reason": "Mitigate large-email-triggered traffic by load testing and controlling link prefetch behavior."
+    "agency_reason": "Outage post warns agencies to load-test link prefetching and newsletter scaling behaviors."
   },
   {
     "title": "July Product Update: Bulk Operations Everywhere, Expanded MCP Controls, and Sharper Reporting",
@@ -517,7 +507,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "July was a big month for automation. Twenty features shipped. The Bulk Operations suite now covers themes, plugins, users, cron jobs, firewall rules, caching, and authentication from a single...",
     "agency_relevant": true,
-    "agency_reason": "Use bulk operations automation to scale maintenance across clients efficiently."
+    "agency_reason": "Product update showcases automation features agencies can leverage for efficient multi-site management."
   },
   {
     "title": "WooCommerce security: Keep your store safe by catching problems early",
@@ -527,7 +517,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Learn how to catch security issues with tips from a WooCommerce Solutions Engineer.",
     "agency_relevant": true,
-    "agency_reason": "Implement proactive security monitoring and early detection to protect WooCommerce stores."
+    "agency_reason": "Security best-practices agencies should implement to proactively detect and remediate store vulnerabilities."
   },
   {
     "title": "What We Showed at the AI-Augmented Agency Webinar",
@@ -537,7 +527,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Pressable recently joined WordPress VIP and WordPress.com for an Automattic for Agencies webinar on how AI is changing the way development teams and agencies work. Each team walked through a real...",
     "agency_relevant": true,
-    "agency_reason": "Adopt AI-augmented workflows showcased to improve agency efficiency and client deliverables."
+    "agency_reason": "Webinar insights help agencies adopt AI workflows demonstrated by industry peers."
   },
   {
     "title": "WordPress 7.1 Beta 4",
@@ -547,7 +537,7 @@
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/06/wcus-2026-teaser.png?resize=1024%2C321&ssl=1",
     "summary": "WordPress 7.1 Beta 4 is ready for download and testing!\u00a0 This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or...",
     "agency_relevant": true,
-    "agency_reason": "Test WordPress 7.1 Beta4 to find and fix client compatibility issues early."
+    "agency_reason": "Beta release signals agencies to test compatibility ahead of final 7.1 release."
   },
   {
     "title": "Updates to removed order items actions in WooCommerce 11.0",
@@ -557,7 +547,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.0.0 changes the timing of the woocommerce_removed_order_items action, deferring database deletion until save() to enhance order resume flow and avoid data loss. The post Updates to...",
     "agency_relevant": true,
-    "agency_reason": "Update custom hooks relying on removed-order-items actions to prevent data-loss regressions."
+    "agency_reason": "Order-item action timing change may affect agency integrations and custom order workflows."
   },
   {
     "title": "We Built 40 Prompts for Pressable MCP. Here\u2019s the One to Start With.",
@@ -567,7 +557,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "If you manage more than a handful of WordPress sites, you already know the drill. Every morning, before any actual client work happens, someone on your team is opening dashboards, checking plugin...",
     "agency_relevant": true,
-    "agency_reason": "Use Pressable's MCP prompts to automate routine site checks and client communications."
+    "agency_reason": "Prebuilt MCP prompts accelerate agencies' automated management workflows across client sites."
   },
   {
     "title": "Which AI Assistant Should You Choose?",
@@ -587,7 +577,7 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "An inventory audit ahead of BFCM only helps if you can trust the data. Are your ecommerce systems connected and aligned?",
     "agency_relevant": true,
-    "agency_reason": "Ensure inventory data integrity and system integrations before peak ecommerce seasons."
+    "agency_reason": "Inventory prep guidance helps agencies advise ecommerce clients for reliable peak-season performance."
   },
   {
     "title": "Women at Work: A Podcast for Creatives on a Platform for Creatives",
@@ -597,7 +587,7 @@
     "image_url": "https://automattic.com/wp-content/uploads/2026/07/a8c-blog-1840x920-2.png",
     "summary": "For Hey Studio founder Ver\u00f2nica Fuerte, there was only one choice for their popular podcast's new home.",
     "agency_relevant": true,
-    "agency_reason": "Showcase podcast migration and hosting best practices when advising creative clients."
+    "agency_reason": "Podcast migration case study demonstrates agencies' role in platform selection and content migration."
   },
   {
     "title": "BigCommerce alternatives: Why it might be time to switch",
@@ -607,36 +597,6 @@
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Thinking about leaving BigCommerce? Compare costs, hosting, flexibility, and migration considerations to see whether WooCommerce is the better fit for your store.",
     "agency_relevant": true,
-    "agency_reason": "Position WooCommerce migrations as cost-effective, flexible alternatives for BigCommerce clients."
-  },
-  {
-    "title": "WooCommerce is the foundation of our entire ecosystem",
-    "link": "https://woocommerce.com/posts/woocommerce-core-foundations/",
-    "pubDate": "Fri, 24 Jul 2026 16:30:35 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Our product and engineering teams are focusing on our core WooCommerce plugin for the next few months. Here's why...",
-    "agency_relevant": true,
-    "agency_reason": "Align agency roadmaps with WooCommerce's core focus on stability, performance, and extensibility."
-  },
-  {
-    "title": "WooCommerce POS now runs on iPhone in the UK",
-    "link": "https://woocommerce.com/posts/uk-iphone-pos-update/",
-    "pubDate": "Fri, 24 Jul 2026 16:21:42 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce POS is now available on iPhone for stores based in the United Kingdom. Find out more about how to set it up.",
-    "agency_relevant": true,
-    "agency_reason": "Enable iPhone POS for UK retailers to expand clients' mobile selling capabilities."
-  },
-  {
-    "title": "Discover Your Local WordPress Community",
-    "link": "https://wordpress.com/blog/2026/07/24/find-your-local-wordpress-community/",
-    "pubDate": "Fri, 24 Jul 2026 15:38:03 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/07/image-9-1.png",
-    "summary": "Three ways to find the WordPress community near you: local meetups, WordCamps, and the WordPress Events and News widget in WP Admin.",
-    "agency_relevant": true,
-    "agency_reason": "Engage local WordPress communities to recruit talent, network, and find partnership opportunities."
+    "agency_reason": "Migration comparison arms agencies with talking points to win BigCommerce clients to WooCommerce."
   }
 ]

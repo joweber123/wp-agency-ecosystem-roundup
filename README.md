@@ -4,13 +4,14 @@
 
 ## What It Is
 
-An automated news aggregator that collects posts from 13 WordPress-related blogs (Automattic family + industry leaders), analyzes them with AI for agency relevance, and displays them in a clean, browsable format.
+An automated news aggregator that collects posts from 13 WordPress-related blogs (Automattic family + industry leaders) and displays them in a clean, browsable format.
 
 ## How It Works
 
+> Since 2026-10-24 the AI "why agencies should care" step is off, so the workflow holds no API keys. Posts that already had an insight keep it; new posts show title and summary only. `analyze_agency_relevance.py` is kept for reference (re-enabling it needs an OpenAI key in repo secrets).
+
 1. **Daily at 9 AM UTC**: GitHub Actions fetches the latest posts from all RSS feeds (last 30 days)
-2. **AI Analysis**: GPT-5-mini analyzes each Automattic/WordPress post to explain why agencies should care
-3. **Auto-Deploy**: Generates and publishes the updated digest to GitHub Pages
+2. **Auto-Deploy**: Generates and publishes the updated digest to GitHub Pages
 
 ## What It Does
 
@@ -29,13 +30,8 @@ An automated news aggregator that collects posts from 13 WordPress-related blogs
 # Install dependencies
 pip install -r requirements.txt
 
-# Set up OpenAI API key
-cp .env.example .env
-# Edit .env and add your OpenAI API key
-
 # Fetch posts and generate digest
 python fetch_real_posts.py
-python analyze_agency_relevance.py
 python generate_woocommerce_style.py
 
 # Open preview_woocommerce_style.html in browser

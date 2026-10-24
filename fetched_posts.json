@@ -16,20 +16,12 @@
     "summary": "Explore four ways to tackle website busywork with an AI assistant, from preparing posts and updating site details to reviewing alt text and comments."
   },
   {
-    "title": "How WordPress Agencies Can Use AI to Respond to Security Incidents",
-    "link": "https://automattic.com/for-agencies/blog/mcp-security-response-playbook/",
-    "pubDate": "Fri, 23 Oct 2026 13:43:33 GMT",
-    "blog_name": "Automattic for Agencies",
-    "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-blog-cover-bxupens0.png",
-    "summary": "Four tested incident response workflows and more than 30 ready-to-use prompts to help your agency contain, clean up, and document security issues across client sites."
-  },
-  {
-    "title": "Tell us what Jetpack should build next",
-    "link": "https://jetpack.com/resources/tell-us-what-jetpack-should-build-next/",
-    "pubDate": "Fri, 23 Oct 2026 01:33:52 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-tell-us-what-jetpack-should-build-blog-1680x964-1.png",
-    "summary": "Jetpack now has a public feature request board. It\u2019s one place to tell us what you want Jetpack to do next, see what other people are asking for, and follow along as we decide. Start with what\u2019s..."
+    "title": "PHP2Shell: How Kinsta protected WordPress sites",
+    "link": "https://kinsta.com/blog/php2shell-kinsta-wordpress/",
+    "pubDate": "Fri, 23 Oct 2026 15:50:20 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/how-kinsta-protected-wordpress-sites-from-php2shell-and-what-customers-need-to-know.png",
+    "summary": "Featured image for PHP2Shell: How Kinsta protected WordPress sites"
   },
   {
     "title": "What Critical Vulnerability Responses Reveal About Your Web Platform",
@@ -238,14 +230,6 @@
     "blog_name": "WordPress.com",
     "image_url": "https://en-blog.files.wordpress.com/2026/10/screenshot-2026-10-15-at-14.45.25-1.jpg",
     "summary": "When years of travel interviews disappeared from the web, Roge Blasco and WordPress.com brought the archive back \u2014 and the interviews kept coming."
-  },
-  {
-    "title": "Why faster content creation demands better governance",
-    "link": "https://kinsta.com/blog/content-creation-governance/",
-    "pubDate": "Thu, 15 Oct 2026 12:30:59 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/09/why-faster-content-creation-demands-better-governance.png",
-    "summary": "Featured image for Why faster content creation demands better governance"
   },
   {
     "title": "Meet the Pantheon Public API: Your Platform Is Now Programmable",
@@ -542,13 +526,5 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.2 introduces a new filter allowing developers to reject cart item quantity changes in the Store API. The post Developer advisory: New Store API filter for validating cart item..."
-  },
-  {
-    "title": "VideoPress now supports playlists",
-    "link": "https://jetpack.com/resources/videopress-now-supports-playlists/",
-    "pubDate": "Thu, 24 Sep 2026 07:30:00 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2026/09/videopress.png",
-    "summary": "VideoPress now lets you build video playlists and share them right on your own site."
   }
 ]

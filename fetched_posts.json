@@ -24,6 +24,22 @@
     "summary": "Featured image for PHP2Shell: How Kinsta protected WordPress sites"
   },
   {
+    "title": "How WordPress Agencies Can Use AI to Respond to Security Incidents",
+    "link": "https://automattic.com/for-agencies/blog/mcp-security-response-playbook/",
+    "pubDate": "Fri, 23 Oct 2026 13:43:33 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-blog-cover-bxupens0.png",
+    "summary": "Four tested incident response workflows and more than 30 ready-to-use prompts to help your agency contain, clean up, and document security issues across client sites."
+  },
+  {
+    "title": "Tell us what Jetpack should build next",
+    "link": "https://jetpack.com/resources/tell-us-what-jetpack-should-build-next/",
+    "pubDate": "Fri, 23 Oct 2026 01:33:52 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-tell-us-what-jetpack-should-build-blog-1680x964-1.png",
+    "summary": "Jetpack now has a public feature request board. It\u2019s one place to tell us what you want Jetpack to do next, see what other people are asking for, and follow along as we decide. Start with what\u2019s..."
+  },
+  {
     "title": "What Critical Vulnerability Responses Reveal About Your Web Platform",
     "link": "https://pantheon.io/blog/what-critical-vulnerability-responses-reveal-about-your-web-platform",
     "pubDate": "Thu, 22 Oct 2026 22:37:51 GMT",
@@ -205,7 +221,7 @@
     "pubDate": "Thu, 15 Oct 2026 21:24:22 GMT",
     "blog_name": "Jetpack",
     "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-meets-chatgpt.png",
-    "summary": "The Jetpack plugin is now available in ChatGPT. It\u2019s ready for your first prompt, but where to start? Jetpack handles the stuff that you\u2019re probably thinking about all the time. Backups, security,..."
+    "summary": "The WordPress plugin is now available in ChatGPT. It\u2019s ready for your first prompt, but where to start? Jetpack handles the stuff that you\u2019re probably thinking about all the time. Backups, security,..."
   },
   {
     "title": "Build Faster, Edit Your Way: What\u2019s New with WordPress Agent",
@@ -518,13 +534,5 @@
     "blog_name": "Rocket.net",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Every few weeks, someone publishes an article saying WordPress is dying. Usually, the reason is a slow site, a clunky plugin, or a bad experience with an old theme. But hidden inside that complaint..."
-  },
-  {
-    "title": "Developer advisory: New Store API filter for validating cart item quantities in 11.2",
-    "link": "https://developer.woocommerce.com/2026/09/24/new-cart-validation-filter/",
-    "pubDate": "Thu, 24 Sep 2026 19:00:58 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce 11.2 introduces a new filter allowing developers to reject cart item quantity changes in the Store API. The post Developer advisory: New Store API filter for validating cart item..."
   }
 ]

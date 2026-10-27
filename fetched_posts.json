@@ -1,8 +1,48 @@
 [
   {
+    "title": "Subscription churn: Turn retention insights into recurring revenue growth",
+    "link": "https://woocommerce.com/posts/subscription-churn-strategies/",
+    "pubDate": "Tue, 27 Oct 2026 12:00:00 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Using better data on subscription churn helps you decide where to act first. Here's what to know."
+  },
+  {
+    "title": "php2shell: What Teams Asked While the Fix Was Rolling Out",
+    "link": "https://pantheon.io/blog/php2shell-what-teams-asked-while-fix-was-rolling-out",
+    "pubDate": "Tue, 27 Oct 2026 00:45:12 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "A look at the questions Pantheon web teams raised when php2shell hit, from patch verification and site takedowns to AI-assisted defense."
+  },
+  {
+    "title": "How Nonprofit Revive & Restore Found a Better Home on WordPress.com",
+    "link": "https://wordpress.com/blog/2026/10/26/revive-and-restore/",
+    "pubDate": "Mon, 26 Oct 2026 21:46:37 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/10/how-nonprofit-revive-restore-found-a-better-home-on-wordpress.com_.png",
+    "summary": "Slow pages and difficult updates had Revive & Restore considering a move away from WordPress. A second opinion helped the nonprofit find a different way forward."
+  },
+  {
+    "title": "WooCommerce 11.3: What\u2019s coming for developers",
+    "link": "https://developer.woocommerce.com/2026/10/26/woocommerce-11-3-pre-release/",
+    "pubDate": "Mon, 26 Oct 2026 20:49:29 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/10/image-1.png",
+    "summary": "WooCommerce 11.3 beta is now available for testing, featuring enhanced styling controls, On-Sale Badge improvements, mobile gallery updates, and improvements to MCP. The post WooCommerce 11.3: What\u2019s..."
+  },
+  {
+    "title": "How Agencies Can Prove AI Discoverability Pays Off",
+    "link": "https://automattic.com/for-agencies/blog/how-agencies-can-prove-ai-discoverability-pays-off/",
+    "pubDate": "Mon, 26 Oct 2026 19:35:19 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://automattic.com/wp-content/uploads/2026/10/ai-discoverability-series-investing-in-ai-discoverability_-measuring-impact-e28094-session-3-_final_-1.jpg",
+    "summary": "Clients\u2019 CFOs want to know what AI discoverability is worth. WordPress VIP and 97th Floor share how to fund the work, which numbers to track, and a floor-and-ceiling ROI model for finance."
+  },
+  {
     "title": "Scaling ecommerce: Growing sales without losing margin",
     "link": "https://woocommerce.com/posts/how-to-scale-small-business/",
-    "pubDate": "Fri, 23 Oct 2026 20:01:14 GMT",
+    "pubDate": "Mon, 26 Oct 2026 13:31:28 GMT",
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Learn how to scale your ecommerce business without sacrificing margins. Calculate cost per order and find ways to reduce costs as sales grow."
@@ -108,7 +148,7 @@
     "link": "https://wordpress.com/blog/2026/10/21/php2shell-vulnerabilities/",
     "pubDate": "Wed, 21 Oct 2026 19:57:59 GMT",
     "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/your-wordpress.com-site-is-protected-against-the-recent-critical-php-vulnerabilities.webp",
+    "image_url": "https://en-blog.files.wordpress.com/2026/10/your-wordpress.com-site-is-protected-against-the-recent-critical-php-vulnerabilities.png",
     "summary": "Two critical PHP vulnerabilities were disclosed on October 21, 2026. WordPress.com sites are already protected, with no action required from site owners."
   },
   {
@@ -382,14 +422,6 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.2 is here \ud83d\ude80 \ud83d\udce6 Product CSV imports match by GTIN \ud83d\udcc5 Date fields at checkout \u2709\ufe0f Configurable withdrawal emails \ud83c\udfa8 More block styling options The post WooCommerce 11.2.0: Release notes..."
-  },
-  {
-    "title": "Black Friday Checklist: 10 Essential Tests to Run Before Your Customers Arrive",
-    "link": "https://wordpress.com/blog/2026/10/07/black-friday-checklist/",
-    "pubDate": "Wed, 07 Oct 2026 18:20:26 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/black-friday-checklist_-10-tests-to-run-before-your-customers-arrive.png",
-    "summary": "Black Friday traffic won\u2019t fix a weak customer journey. Before you promote your offer, use these 10 checks to test the price, page, purchase or booking flow, mobile experience, delivery, and tracking..."
   },
   {
     "title": "WordPress 7.1.3 Maintenance and Security Release",

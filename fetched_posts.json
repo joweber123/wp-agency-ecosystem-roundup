@@ -1,5 +1,53 @@
 [
   {
+    "title": "Declaring parent-child cart item relationships in WooCommerce 11.3",
+    "link": "https://developer.woocommerce.com/2026/10/27/cart-item-children/",
+    "pubDate": "Tue, 27 Oct 2026 21:26:14 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-27-at-2.17.31-PM.png",
+    "summary": "WooCommerce 11.3 introduces a filter for tracking product relationships in the cart, enhancing accurate \"N in cart\" counts for bundled items and extensions. The post Declaring parent-child cart item..."
+  },
+  {
+    "title": "The AI Readiness Problem Publishing Budgets Can\u2019t Hide",
+    "link": "https://wpvip.com/blog/ai-readiness-publishers/",
+    "pubDate": "Tue, 27 Oct 2026 19:21:12 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "AI is becoming a bigger line item, but that won\u2019t matter if media organizations aren\u2019t prepared to scale."
+  },
+  {
+    "title": "How Studio Visual Cut a Client\u2019s Hosting Bill by 70% with Pressable",
+    "link": "https://automattic.com/for-agencies/blog/studio-visual-pressable-hosting-costs/",
+    "pubDate": "Tue, 27 Oct 2026 19:12:36 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-blog-cover-0ykx3a92.png",
+    "summary": "S\u00e3o Paulo agency Studio Visual moved a high-traffic client from WP Engine to Pressable, cut the hosting bill by 70% in year one, and turned the move into an offer for other clients."
+  },
+  {
+    "title": "Web Loft Designs on Easy Migrations, Qualified Leads, and a \u201cno\u201d that Built Trust",
+    "link": "https://automattic.com/for-agencies/blog/web-loft-designs-easy-migrations-qualified-leads/",
+    "pubDate": "Tue, 27 Oct 2026 16:50:41 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-blog-cover-yxlnbyw2l.png",
+    "summary": "Web Loft Designs founder Marina Marsh on closing her first Automattic for Agencies referrals and why a \u201cno\u201d from Pressable made her trust it more."
+  },
+  {
+    "title": "WordPress 7.2 Beta 2",
+    "link": "https://wordpress.org/news/2026/10/wordpress-7-2-beta-2/",
+    "pubDate": "Tue, 27 Oct 2026 15:49:21 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WordPress 7.2 Beta 2 is ready for download and testing!\u00a0 This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or..."
+  },
+  {
+    "title": "AI doesn\u2019t remove complexity, it changes where complexity lives",
+    "link": "https://kinsta.com/blog/ai-complexity/",
+    "pubDate": "Tue, 27 Oct 2026 13:00:59 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/ai-doesnt-remove-complexity-it-changes-where-complexity-lives.png",
+    "summary": "Featured image for AI doesn\u2019t remove complexity, it changes where complexity lives"
+  },
+  {
     "title": "Subscription churn: Turn retention insights into recurring revenue growth",
     "link": "https://woocommerce.com/posts/subscription-churn-strategies/",
     "pubDate": "Tue, 27 Oct 2026 12:00:00 GMT",
@@ -222,14 +270,6 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The Purple theme development has transitioned to the WooCommerce monorepo, enhancing collaboration and maintenance while remaining a standalone WordPress theme with independent releases. The post..."
-  },
-  {
-    "title": "Why WordPress expertise still matters in AI-assisted development",
-    "link": "https://kinsta.com/blog/ai-wordpress-developers/",
-    "pubDate": "Tue, 20 Oct 2026 13:00:14 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/why-ai-makes-good-wordpress-developers-more-valuable-not-less.png",
-    "summary": "Featured image for Why WordPress expertise still matters in AI-assisted development"
   },
   {
     "title": "P1: A Fresh Start For Web Builders in the AI Era",
@@ -542,21 +582,5 @@
     "blog_name": "Pressable",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "People usually don\u2019t move to a new host until they\u2019ve already outgrown the one they\u2019re on, even when the pricing is wrong or support is slow. The migration itself is what stops them, not the [\u2026] The..."
-  },
-  {
-    "title": "How to Avoid Hidden CMS Costs and Lower Total Cost of Ownership",
-    "link": "https://wpvip.com/blog/cms-total-cost-of-ownership/",
-    "pubDate": "Mon, 28 Sep 2026 14:09:13 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "A CMS is one of the most important investments you\u2019ll make, which means careful planning and ongoing review are critical."
-  },
-  {
-    "title": "The Experimental WooCommerce Dual API is now a plugin",
-    "link": "https://developer.woocommerce.com/2026/09/28/experimental-dual-api-plugin/",
-    "pubDate": "Mon, 28 Sep 2026 09:16:39 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce 11.2 removes the experimental Dual API from core, offering it as a separate plugin for flexible development. The proof-of-concept API for products and coupons is also removed. The post..."
   }
 ]

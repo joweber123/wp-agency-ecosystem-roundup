@@ -1,5 +1,37 @@
 [
   {
+    "title": "AI didn\u2019t replace operations. It made good operations more valuable",
+    "link": "https://kinsta.com/blog/ai-operations/",
+    "pubDate": "Thu, 29 Oct 2026 12:45:38 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/ai-didnt-replace-operations-it-made-good-operations-more-valuable.png",
+    "summary": "Featured image for AI didn\u2019t replace operations. It made good operations more valuable"
+  },
+  {
+    "title": "10 Black Friday Ideas for Small Businesses That Go Beyond Discounts",
+    "link": "https://wordpress.com/blog/2026/10/28/black-friday-ideas/",
+    "pubDate": "Wed, 28 Oct 2026 22:43:29 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/10/10-black-friday-ideas-for-small-businesses-that-go-beyond-discounts.png",
+    "summary": "A useful bundle, a thoughtful bonus, or a few well-timed appointments can give customers a reason to buy. Explore ten Black Friday offers that fit a small business \u2014 without putting everything on..."
+  },
+  {
+    "title": "Everything your agency needs to learn, sell, and grow, now in one place",
+    "link": "https://automattic.com/for-agencies/blog/everything-your-agency-needs-to-learn-sell-and-grow-now-in-one-place/",
+    "pubDate": "Wed, 28 Oct 2026 20:28:37 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://automattic.com/wp-content/uploads/2026/10/featured-resources-center.png",
+    "summary": "Running an agency means learning constantly evolving products, pitching & building trust with clients, and shipping great work. Sometimes, the guides, talk tracks, documentation, and case studies..."
+  },
+  {
+    "title": "WordPress 7.1.4",
+    "link": "https://wordpress.org/news/2026/10/wordpress-7-1-4/",
+    "pubDate": "Wed, 28 Oct 2026 17:13:02 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "This security release features fixes for multiple issues. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.4 from..."
+  },
+  {
     "title": "Declaring parent-child cart item relationships in WooCommerce 11.3",
     "link": "https://developer.woocommerce.com/2026/10/27/cart-item-children/",
     "pubDate": "Tue, 27 Oct 2026 21:26:14 GMT",
@@ -160,14 +192,6 @@
     "summary": "When a plugin vulnerability gets announced, the first question is always the same: which of my sites are running it? If you manage a handful of sites, you can check them one at a time. [\u2026] The post..."
   },
   {
-    "title": "Monitor WordPress AI workloads with Kinsta APM and MyKinsta server logs",
-    "link": "https://kinsta.com/blog/monitor-wordpress-ai-workloads/",
-    "pubDate": "Thu, 22 Oct 2026 12:00:34 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/09/monitor-wordpress-ai-workloads-with-kinsta-apm-and-mykinsta-server-logs.png",
-    "summary": "Featured image for Monitor WordPress AI workloads with Kinsta APM and MyKinsta server logs"
-  },
-  {
     "title": "How Pantheon\u2019s Layered Security Response Helps Reduce Risk During Critical PHP Vulnerabilities",
     "link": "https://pantheon.io/blog/pantheon-response-during-critical-php-vulnerabilities",
     "pubDate": "Wed, 21 Oct 2026 22:37:39 GMT",
@@ -236,7 +260,7 @@
     "link": "https://wordpress.com/blog/2026/10/21/build-portfolio-website/",
     "pubDate": "Tue, 20 Oct 2026 23:52:49 GMT",
     "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/how-to-build-a-portfolio-website-that-gets-you-noticed.png",
+    "image_url": "https://en-blog.files.wordpress.com/2026/10/how-to-build-a-portfolio-website-that-gets-you-noticed-1.png",
     "summary": "Build along with our portrait photography tutorial, from choosing a domain name to showcasing your strongest work and helping clients get in touch."
   },
   {
@@ -432,14 +456,6 @@
     "summary": "Here\u2019s everything you need to know about updates that\u2019ll impact your store with WooCommerce 11.2."
   },
   {
-    "title": "Domain Names Explained: A Free Video Course",
-    "link": "https://wordpress.com/blog/2026/10/08/domain-names-course/",
-    "pubDate": "Thu, 08 Oct 2026 15:20:00 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/header-23.png",
-    "summary": "Domains don\u2019t have to be confusing. Our free 45-minute video course explains how to register, connect, transfer, and manage a domain name on WordPress.com."
-  },
-  {
     "title": "WooCommerce for Physical Stores",
     "link": "https://rocket.net/blog/woocommerce-for-physical-stores/",
     "pubDate": "Thu, 08 Oct 2026 13:22:39 GMT",
@@ -550,37 +566,5 @@
     "blog_name": "Automattic for Agencies",
     "image_url": "https://automattic.com/wp-content/uploads/2026/09/building-an-ai-ready-discoverability-strategy-e28094-session-2-thumb.jpg",
     "summary": "You've checked what AI says about your client's brand. Next comes the fix. WordPress VIP and 97th Floor share four ways to act on an AI audit, which tasks to do first, and who should own the work."
-  },
-  {
-    "title": "New Requirement for WooCommerce 11.6: PHP\u00a08.1+",
-    "link": "https://developer.woocommerce.com/2026/09/29/php-8-1-requirement/",
-    "pubDate": "Tue, 29 Sep 2026 13:38:20 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce 11.6 will move the minimum PHP requirement to 8.1. WooCommerce 11.3 will start informing users on older PHP versions, allowing time to upgrade before the change. The post New Requirement..."
-  },
-  {
-    "title": "Black Friday is also your payment processor\u2019s best day\u00a0of the year",
-    "link": "https://woocommerce.com/posts/black-friday-payment-processing-fees/",
-    "pubDate": "Mon, 28 Sep 2026 20:20:38 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "What doesn't make headlines during BFCM? How much you pay in transaction fees. Here's what to expect by platform."
-  },
-  {
-    "title": "AI Didn\u2019t Become Your Content Gatekeeper. You Built The Gate.",
-    "link": "https://wpvip.com/blog/ai-search-visibility-gatekeeper/",
-    "pubDate": "Mon, 28 Sep 2026 19:53:19 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Learn why the technology is only revealing a longstanding problem in online visibility."
-  },
-  {
-    "title": "What Actually Happens When You Migrate a WordPress Site",
-    "link": "https://pressable.com/blog/what-actually-happens-when-you-migrate-a-wordpress-site/",
-    "pubDate": "Mon, 28 Sep 2026 16:31:39 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "People usually don\u2019t move to a new host until they\u2019ve already outgrown the one they\u2019re on, even when the pricing is wrong or support is slow. The migration itself is what stops them, not the [\u2026] The..."
   }
 ]

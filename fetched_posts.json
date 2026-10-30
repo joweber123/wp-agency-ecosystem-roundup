@@ -1,5 +1,53 @@
 [
   {
+    "title": "WordPress Accessibility: What\u2019s New in 7.0 and 7.1",
+    "link": "https://wpvip.com/blog/wordpress-accessibility-improvements-2026/",
+    "pubDate": "Fri, 30 Oct 2026 15:10:35 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WordPress 7.0 and 7.1 quietly shipped 127 accessibility fixes. Here\u2019s what changed, and what it means for your WCAG, ADA, and Section 508 compliance work."
+  },
+  {
+    "title": "When Technology Outruns Its Institutions: Neal Stephenson on AI, Truth, and Control",
+    "link": "https://wordpress.com/blog/2026/10/29/neal-stephenson/",
+    "pubDate": "Thu, 29 Oct 2026 23:19:05 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/10/when-technology-outruns-its-institutions-neal-stephenson-on-ai-truth-and-control.jpg",
+    "summary": "Technology, truth, and the freedom to shape the tools we use. Neal Stephenson joins Zander Rose for the first Wide Margins conversation."
+  },
+  {
+    "title": "Who Is the Web For When Bots Do the Browsing?",
+    "link": "https://pantheon.io/blog/who-web-when-bots-do-browsing",
+    "pubDate": "Thu, 29 Oct 2026 21:56:46 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "What Cloudflare, Microsoft and Pantheon leaders think about adapting the web for bots, rethinking org structures & preserving brand trust."
+  },
+  {
+    "title": "The Future of AI Search: 3 Tips for Getting LLMs To Recommend Your Brand",
+    "link": "https://pantheon.io/blog/future-ai-search-3-tips-getting-llms-recommend-your-brand",
+    "pubDate": "Thu, 29 Oct 2026 20:25:03 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Learn how to shift from traditional SEO to AI search optimization and discover three practical ways to help LLMs recommend your brand."
+  },
+  {
+    "title": "How to Choose a Secure CMS Platform for Regulated Organizations",
+    "link": "https://wpvip.com/blog/how-to-choose-a-secure-cms/",
+    "pubDate": "Thu, 29 Oct 2026 19:44:45 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "There\u2019s no such thing as the most secure CMS, only vendors who can prove accountability, credential scope, and audit history."
+  },
+  {
+    "title": "Inside Kinsta\u2019s emergency PHP2Shell patch rollout",
+    "link": "https://kinsta.com/blog/php2shell-patch-rollout/",
+    "pubDate": "Thu, 29 Oct 2026 17:20:21 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/inside-kinstas-emergency-php2shell-patch-rollout.png",
+    "summary": "Featured image for Inside Kinsta\u2019s emergency PHP2Shell patch rollout"
+  },
+  {
     "title": "AI didn\u2019t replace operations. It made good operations more valuable",
     "link": "https://kinsta.com/blog/ai-operations/",
     "pubDate": "Thu, 29 Oct 2026 12:45:38 GMT",
@@ -134,14 +182,6 @@
     "blog_name": "WordPress.com",
     "image_url": "https://en-blog.files.wordpress.com/2026/10/wordpress-mcp-chores.png",
     "summary": "Explore four ways to tackle website busywork with an AI assistant, from preparing posts and updating site details to reviewing alt text and comments."
-  },
-  {
-    "title": "PHP2Shell: How Kinsta protected WordPress sites",
-    "link": "https://kinsta.com/blog/php2shell-kinsta-wordpress/",
-    "pubDate": "Fri, 23 Oct 2026 15:50:20 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/how-kinsta-protected-wordpress-sites-from-php2shell-and-what-customers-need-to-know.png",
-    "summary": "Featured image for PHP2Shell: How Kinsta protected WordPress sites"
   },
   {
     "title": "How WordPress Agencies Can Use AI to Respond to Security Incidents",
@@ -440,14 +480,6 @@
     "summary": "Enterprises need full confidence in their AI content operations. This three-question framework lets you get ahead of potential slip-ups."
   },
   {
-    "title": "WordPress.com Education: How Two Design Students Built a Nonprofit\u2019s Website",
-    "link": "https://wordpress.com/blog/2026/10/09/student-nonprofit-website/",
-    "pubDate": "Fri, 09 Oct 2026 03:20:00 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/wordpress.com-education-how-two-design-students-built-a-nonprofits-website.png",
-    "summary": "For their internship, two UDIT design students worked with Spanish nonprofit Od\u00f3n Solar to plan, design, and launch a WordPress.com website. The project gave them a real client, a portfolio piece,..."
-  },
-  {
     "title": "What\u2019s new for merchants in WooCommerce 11.2",
     "link": "https://woocommerce.com/posts/woocommerce-11-2/",
     "pubDate": "Thu, 08 Oct 2026 21:21:06 GMT",
@@ -542,29 +574,5 @@
     "blog_name": "Automattic for Agencies",
     "image_url": "https://automattic.com/wp-content/uploads/2026/09/a4a-webinar-banner-uud8klyf.png",
     "summary": "Get client stores ready for Black Friday. Experts from Automattic for Agencies, Pressable, and WooCommerce share when to start, what to test, how to sort clients by risk, and where AI agents fit in."
-  },
-  {
-    "title": "Managed WordPress Hosting: What Enterprises Actually Need to Know",
-    "link": "https://wpvip.com/blog/managed-wordpress-hosting-enterprise/",
-    "pubDate": "Wed, 30 Sep 2026 14:20:47 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Learn what to look for in security, uptime, scalability, compliance, multisite support, and dedicated support when evaluating a hosting provider."
-  },
-  {
-    "title": "September Product Update: A Redesigned Bulk Actions Experience and Multiple SSH Keys",
-    "link": "https://pressable.com/blog/september-product-update-a-redesigned-bulk-actions-experience-and-multiple-ssh-keys/",
-    "pubDate": "Wed, 30 Sep 2026 14:00:00 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://i0.wp.com/pressable.com/wp-content/uploads/2026/09/image-6.png?resize=1024%2C612&ssl=1",
-    "summary": "September brought two updates to MyPressable: Bulk Operations is now Bulk Actions, with a redesigned catalog and a review step before every run, and your account now supports multiple SSH keys with..."
-  },
-  {
-    "title": "From Audit to Action: How Agencies Can Close the AI Visibility Gap",
-    "link": "https://automattic.com/for-agencies/blog/from-audit-to-action-how-agencies-can-close-the-ai-visibility-gap/",
-    "pubDate": "Wed, 30 Sep 2026 00:05:50 GMT",
-    "blog_name": "Automattic for Agencies",
-    "image_url": "https://automattic.com/wp-content/uploads/2026/09/building-an-ai-ready-discoverability-strategy-e28094-session-2-thumb.jpg",
-    "summary": "You've checked what AI says about your client's brand. Next comes the fix. WordPress VIP and 97th Floor share four ways to act on an AI audit, which tasks to do first, and who should own the work."
   }
 ]

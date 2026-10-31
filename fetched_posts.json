@@ -1,11 +1,35 @@
 [
   {
+    "title": "WordPress.com Changelog: Manage Your Site and Build a Store with AI",
+    "link": "https://wordpress.com/blog/2026/10/31/changelog-site-store-ai/",
+    "pubDate": "Sat, 31 Oct 2026 02:00:00 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/10/build-sites-stores-ai.jpg",
+    "summary": "Build a store by telling the WordPress Agent what you want to sell. Plus: manage your site from your AI assistant, new Professional Email plans, and clearer staging syncs."
+  },
+  {
+    "title": "The Web Is an Iceberg: Why Context Matters More Than Frictionless Experiences",
+    "link": "https://pantheon.io/blog/web-is-iceberg-why-context-matters",
+    "pubDate": "Fri, 30 Oct 2026 22:52:33 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Discover how AI agents are transforming web marketing and why providing rich context & meaningful value matters more than offering simple shortcuts."
+  },
+  {
     "title": "WordPress Accessibility: What\u2019s New in 7.0 and 7.1",
     "link": "https://wpvip.com/blog/wordpress-accessibility-improvements-2026/",
     "pubDate": "Fri, 30 Oct 2026 15:10:35 GMT",
     "blog_name": "WordPress VIP",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WordPress 7.0 and 7.1 quietly shipped 127 accessibility fixes. Here\u2019s what changed, and what it means for your WCAG, ADA, and Section 508 compliance work."
+  },
+  {
+    "title": "Why a Shopify Partner Recommends WooCommerce for Manufacturers",
+    "link": "https://pressable.com/blog/why-a-shopify-partner-recommends-woocommerce-for-manufacturers/",
+    "pubDate": "Fri, 30 Oct 2026 14:00:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "MAXBURST is a New York agency that builds websites for manufacturers, aerospace and defense suppliers, engineering firms, and industrial B2B companies. They\u2019re a Pressable Pro Partner and a Shopify..."
   },
   {
     "title": "When Technology Outruns Its Institutions: Neal Stephenson on AI, Truth, and Control",
@@ -384,28 +408,12 @@
     "summary": "Discover how leaders can make people a true differentiator in the AI era by focusing on human judgment, redesigning workflows, and empowering managers."
   },
   {
-    "title": "How Roge Blasco Brought 6,500 Travel Stories Back Online",
-    "link": "https://wordpress.com/blog/2026/10/15/roge-blasco-wordpress-archive/",
-    "pubDate": "Thu, 15 Oct 2026 13:55:27 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/screenshot-2026-10-15-at-14.45.25-1.jpg",
-    "summary": "When years of travel interviews disappeared from the web, Roge Blasco and WordPress.com brought the archive back \u2014 and the interviews kept coming."
-  },
-  {
     "title": "Meet the Pantheon Public API: Your Platform Is Now Programmable",
     "link": "https://pantheon.io/blog/meet-pantheon-public-api",
     "pubDate": "Wed, 14 Oct 2026 15:58:42 GMT",
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The Pantheon Public API is live, giving every customer a supported, documented REST API for managing sites, environments, workspaces, and users."
-  },
-  {
-    "title": "Your Fleet Just Got Agent-Ready: Introducing the Pantheon MCP Server",
-    "link": "https://pantheon.io/blog/introducing-pantheon-mcp-server",
-    "pubDate": "Wed, 14 Oct 2026 15:34:29 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "The Pantheon MCP Server is now in Public Beta. Connect you AI tools directly to your Pantheon fleet and start acting on it, under your own permissions."
   },
   {
     "title": "Why Your Tech Stack Should Behave Like an Always-On Marketing Campaign",
@@ -566,13 +574,5 @@
     "blog_name": "WordPress VIP",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Why innovation needs to be inclusive to both technical pros and content creators alike."
-  },
-  {
-    "title": "Your Black Friday Playbook: How to Prepare for Peak Season",
-    "link": "https://automattic.com/for-agencies/blog/your-black-friday-playbook-how-to-prepare-for-peak-season/",
-    "pubDate": "Wed, 30 Sep 2026 17:14:40 GMT",
-    "blog_name": "Automattic for Agencies",
-    "image_url": "https://automattic.com/wp-content/uploads/2026/09/a4a-webinar-banner-uud8klyf.png",
-    "summary": "Get client stores ready for Black Friday. Experts from Automattic for Agencies, Pressable, and WooCommerce share when to start, what to test, how to sort clients by risk, and where AI agents fit in."
   }
 ]

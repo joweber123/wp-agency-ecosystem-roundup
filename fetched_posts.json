@@ -1,5 +1,13 @@
 [
   {
+    "title": "October Product Update: Single Sign-On, a Global Account Selector, and Self-Serve Site Restores",
+    "link": "https://pressable.com/blog/october-product-update-single-sign-on-a-global-account-selector-and-self-serve-site-restores/",
+    "pubDate": "Sat, 31 Oct 2026 14:00:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "October brought six updates to MyPressable: Single Sign-On through your company\u2019s identity provider, a Global Account Selector with new collaborator permissions for usage, billing, and Business..."
+  },
+  {
     "title": "WordPress.com Changelog: Manage Your Site and Build a Store with AI",
     "link": "https://wordpress.com/blog/2026/10/31/changelog-site-store-ai/",
     "pubDate": "Sat, 31 Oct 2026 02:00:00 GMT",
@@ -566,13 +574,5 @@
     "blog_name": "Jetpack",
     "image_url": "https://jetpack.com/wp-content/uploads/2026/10/new-jetpack-website-one-month-in.png",
     "summary": "A month after launch, here's what changed on Jetpack.com, how we built it as a WordPress block theme with its content in git, and what that lets us do now."
-  },
-  {
-    "title": "Enterprise AI Adoption Came Through the Developer Door. Now What?",
-    "link": "https://wpvip.com/blog/enterprise-ai-adoption-content-creators/",
-    "pubDate": "Fri, 02 Oct 2026 15:36:56 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Why innovation needs to be inclusive to both technical pros and content creators alike."
   }
 ]

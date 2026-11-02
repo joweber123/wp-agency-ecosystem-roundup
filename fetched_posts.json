@@ -1,13 +1,5 @@
 [
   {
-    "title": "October Product Update: Single Sign-On, a Global Account Selector, and Self-Serve Site Restores",
-    "link": "https://pressable.com/blog/october-product-update-single-sign-on-a-global-account-selector-and-self-serve-site-restores/",
-    "pubDate": "Sat, 31 Oct 2026 14:00:00 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "October brought six updates to MyPressable: Single Sign-On through your company\u2019s identity provider, a Global Account Selector with new collaborator permissions for usage, billing, and Business..."
-  },
-  {
     "title": "WordPress.com Changelog: Manage Your Site and Build a Store with AI",
     "link": "https://wordpress.com/blog/2026/10/31/changelog-site-store-ai/",
     "pubDate": "Sat, 31 Oct 2026 02:00:00 GMT",
@@ -566,13 +558,5 @@
     "blog_name": "Pressable",
     "image_url": "https://i0.wp.com/pressable.com/wp-content/uploads/2026/10/image-3.png?resize=1024%2C532&ssl=1",
     "summary": "For a lot of teams, MyPressable access started with one shared login. Then the team grew. Now 10, 20, sometimes 30 or more people use the same account, and nobody can say for sure who [\u2026] The post..."
-  },
-  {
-    "title": "The new Jetpack.com, one month in",
-    "link": "https://jetpack.com/resources/the-new-jetpack-com-one-month-in/",
-    "pubDate": "Fri, 02 Oct 2026 17:59:46 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/new-jetpack-website-one-month-in.png",
-    "summary": "A month after launch, here's what changed on Jetpack.com, how we built it as a WordPress block theme with its content in git, and what that lets us do now."
   }
 ]

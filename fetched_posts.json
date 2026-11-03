@@ -1,5 +1,69 @@
 [
   {
+    "title": "Security update for WooPayments",
+    "link": "https://developer.woocommerce.com/2026/11/03/security-update-for-woopayments/",
+    "pubDate": "Tue, 03 Nov 2026 16:25:00 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "A subscriptions function security update is now available for WooPayments. If you run the WooPayments plugin, please check your version and update to the fix version listed. The post Security update..."
+  },
+  {
+    "title": "WordPress 7.2 Beta 4",
+    "link": "https://wordpress.org/news/2026/11/wordpress-7-2-beta-4/",
+    "pubDate": "Tue, 03 Nov 2026 15:45:29 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WordPress 7.2 Beta 4 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or..."
+  },
+  {
+    "title": "Automated PHP stubs for Woo extensions",
+    "link": "https://developer.woocommerce.com/2026/11/03/php-stubs-for-extensions/",
+    "pubDate": "Tue, 03 Nov 2026 15:36:12 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WooCommerce introduces woocommerce/php-stubs to auto-generate PHP stubs for extensions, allowing PHPStan to verify integrations effectively, avoiding unverified class calls and enhancing..."
+  },
+  {
+    "title": "The Open Source Objections Executives Raise (and the Misconceptions Behind Them)",
+    "link": "https://wpvip.com/blog/open-source-advantages-executives/",
+    "pubDate": "Mon, 02 Nov 2026 20:23:23 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Misconceptions can get in the way of getting senior buy-in for important IT investments. Here\u2019s how to turn the conversation around."
+  },
+  {
+    "title": "How the SaaSpocalypse Ended DXP as a Category",
+    "link": "https://pantheon.io/blog/how-saaspocalypse-ended-dxp-category",
+    "pubDate": "Mon, 02 Nov 2026 20:18:56 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "With AI changing the unit economics of creating for the web, find out what's next for digital platforms in the post-DXP world."
+  },
+  {
+    "title": "Site Performance Insights: Drilling Deeper Into Your Traffic",
+    "link": "https://pantheon.io/blog/site-performance-insights-drilling-deeper-your-traffic",
+    "pubDate": "Mon, 02 Nov 2026 19:58:35 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "move from fleet-level traffic signals to request-level evidence when something on your site, or across your fleet, deserves a closer look."
+  },
+  {
+    "title": "Run your WordPress site from ChatGPT, free until November 30",
+    "link": "https://jetpack.com/resources/run-your-wordpress-site-from-chatgpt/",
+    "pubDate": "Mon, 02 Nov 2026 17:03:48 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-run-your-wordpress-site-from-chatgpt-blog-1680x964-1.png",
+    "summary": "Until November 30, connecting ChatGPT or Claude to your WordPress site is free on every Jetpack site. Here\u2019s how to set it up, and 12 things to ask."
+  },
+  {
+    "title": "October Product Update: Single Sign-On, a Global Account Selector, and Self-Serve Site Restores",
+    "link": "https://pressable.com/blog/october-product-update-single-sign-on-a-global-account-selector-and-self-serve-site-restores/",
+    "pubDate": "Sat, 31 Oct 2026 14:00:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "October brought six updates to MyPressable: Single Sign-On through your company\u2019s identity provider, a Global Account Selector with new collaborator permissions for usage, billing, and Business..."
+  },
+  {
     "title": "WordPress.com Changelog: Manage Your Site and Build a Store with AI",
     "link": "https://wordpress.com/blog/2026/10/31/changelog-site-store-ai/",
     "pubDate": "Sat, 31 Oct 2026 02:00:00 GMT",
@@ -398,22 +462,6 @@
     "blog_name": "WordPress.com",
     "image_url": "https://en-blog.files.wordpress.com/2026/10/build-faster-edit-your-way-whats-new-with-wordpress-agent.png",
     "summary": "The WordPress Agent can now build custom themes, help refine your site, and manage plugins. Here's how the latest updates work."
-  },
-  {
-    "title": "Humans vs. AI: A People Leader\u2019s Take on What Stays Human",
-    "link": "https://pantheon.io/blog/humans-vs-ai-people-leaders-take-what-stays-human",
-    "pubDate": "Thu, 15 Oct 2026 17:49:56 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Discover how leaders can make people a true differentiator in the AI era by focusing on human judgment, redesigning workflows, and empowering managers."
-  },
-  {
-    "title": "Meet the Pantheon Public API: Your Platform Is Now Programmable",
-    "link": "https://pantheon.io/blog/meet-pantheon-public-api",
-    "pubDate": "Wed, 14 Oct 2026 15:58:42 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "The Pantheon Public API is live, giving every customer a supported, documented REST API for managing sites, environments, workspaces, and users."
   },
   {
     "title": "Why Your Tech Stack Should Behave Like an Always-On Marketing Campaign",

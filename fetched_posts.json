@@ -1,11 +1,43 @@
 [
   {
+    "title": "Connect ChatGPT or Claude to Your WordPress.com Sites, Free Through November",
+    "link": "https://wordpress.com/blog/2026/11/03/free-chatgpt-claude/",
+    "pubDate": "Tue, 03 Nov 2026 20:45:00 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/free-chatgpt-claude-connection-to-wordpress.png",
+    "summary": "Connect ChatGPT or Claude to your WordPress.com sites free through November. Draft posts, clear comments, and check stats on every site from one chat."
+  },
+  {
+    "title": "AI Readiness for Federal Agencies: How to Keep Agency Information Accurate in AI Search",
+    "link": "https://wpvip.com/blog/generative-engine-optimization-government/",
+    "pubDate": "Tue, 03 Nov 2026 20:37:03 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "AI tools get government information wrong roughly half the time. Here\u2019s how federal agencies can fix the content issues causing the errors."
+  },
+  {
+    "title": "Before AI scales, Someone Has to Own it: What News Product Leaders Said at NPA Summit",
+    "link": "https://wpvip.com/blog/ai-in-newsrooms-npa-summit/",
+    "pubDate": "Tue, 03 Nov 2026 19:13:33 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "At NPA Summit in Chicago, news product, editorial, and technology leaders answered nine questions about AI in their newsrooms and compared notes on what's working and what's stuck. Here's what they..."
+  },
+  {
     "title": "Security update for WooPayments",
     "link": "https://developer.woocommerce.com/2026/11/03/security-update-for-woopayments/",
     "pubDate": "Tue, 03 Nov 2026 16:25:00 GMT",
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "A subscriptions function security update is now available for WooPayments. If you run the WooPayments plugin, please check your version and update to the fix version listed. The post Security update..."
+  },
+  {
+    "title": "Do More From Your Inbox With Professional Email Plus and Ultra",
+    "link": "https://wordpress.com/blog/2026/11/03/professional-email-plus-ultra/",
+    "pubDate": "Tue, 03 Nov 2026 16:17:43 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/do-more-from-your-inbox-with-professional-email-plus-and-ultra.png",
+    "summary": "More room for your messages, less time on email admin. Meet Plus and Ultra, the new Professional Email plans, and see which fits your business."
   },
   {
     "title": "WordPress 7.2 Beta 4",
@@ -22,6 +54,14 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce introduces woocommerce/php-stubs to auto-generate PHP stubs for extensions, allowing PHPStan to verify integrations effectively, avoiding unverified class calls and enhancing..."
+  },
+  {
+    "title": "How to implement AI search in WordPress and stay in control",
+    "link": "https://kinsta.com/blog/implement-ai-search-in-wordpress/",
+    "pubDate": "Tue, 03 Nov 2026 13:00:11 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/how-to-implement-ai-search-in-wordpress-and-stay-in-control.png",
+    "summary": "Featured image for How to implement AI search in WordPress and stay in control"
   },
   {
     "title": "The Open Source Objections Executives Raise (and the Misconceptions Behind Them)",
@@ -46,14 +86,6 @@
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "move from fleet-level traffic signals to request-level evidence when something on your site, or across your fleet, deserves a closer look."
-  },
-  {
-    "title": "Run your WordPress site from ChatGPT, free until November 30",
-    "link": "https://jetpack.com/resources/run-your-wordpress-site-from-chatgpt/",
-    "pubDate": "Mon, 02 Nov 2026 17:03:48 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-run-your-wordpress-site-from-chatgpt-blog-1680x964-1.png",
-    "summary": "Until November 30, connecting ChatGPT or Claude to your WordPress site is free on every Jetpack site. Here\u2019s how to set it up, and 12 things to ask."
   },
   {
     "title": "October Product Update: Single Sign-On, a Global Account Selector, and Self-Serve Site Restores",
@@ -206,14 +238,6 @@
     "blog_name": "WordPress.org News",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WordPress 7.2 Beta 2 is ready for download and testing!\u00a0 This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or..."
-  },
-  {
-    "title": "AI doesn\u2019t remove complexity, it changes where complexity lives",
-    "link": "https://kinsta.com/blog/ai-complexity/",
-    "pubDate": "Tue, 27 Oct 2026 13:00:59 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/ai-doesnt-remove-complexity-it-changes-where-complexity-lives.png",
-    "summary": "Featured image for AI doesn\u2019t remove complexity, it changes where complexity lives"
   },
   {
     "title": "Subscription churn: Turn retention insights into recurring revenue growth",
@@ -432,14 +456,6 @@
     "summary": "Learn about P1, Pantheon's AI-native web composition tool, moving beyond traditional CMS limitations by operating on a modern Next.js and JavaScript stack."
   },
   {
-    "title": "WordPress.com Changelog: Premium Themes on Paid Plans and an Upgraded Newsletter Hub",
-    "link": "https://wordpress.com/blog/2026/10/16/changelog-premium-themes-newsletters/",
-    "pubDate": "Fri, 16 Oct 2026 21:30:00 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/premium-themes-newsletter-hub-1.jpg",
-    "summary": "Premium themes now come with every paid WordPress.com plan, starting at Personal. Plus a theme-matched comment form and a new newsletter Overview tab."
-  },
-  {
     "title": "From Fleet-Level Signal to Site-Level Action: Understanding What Drives Your Traffic",
     "link": "https://pantheon.io/blog/from-fleet-level-signal-to-site-level-action",
     "pubDate": "Fri, 16 Oct 2026 19:22:34 GMT",
@@ -454,14 +470,6 @@
     "blog_name": "Jetpack",
     "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-meets-chatgpt.png",
     "summary": "The WordPress plugin is now available in ChatGPT. It\u2019s ready for your first prompt, but where to start? Jetpack handles the stuff that you\u2019re probably thinking about all the time. Backups, security,..."
-  },
-  {
-    "title": "Build Faster, Edit Your Way: What\u2019s New with WordPress Agent",
-    "link": "https://wordpress.com/blog/2026/10/15/wordpress-agent-updates/",
-    "pubDate": "Thu, 15 Oct 2026 19:00:00 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/build-faster-edit-your-way-whats-new-with-wordpress-agent.png",
-    "summary": "The WordPress Agent can now build custom themes, help refine your site, and manage plugins. Here's how the latest updates work."
   },
   {
     "title": "Why Your Tech Stack Should Behave Like an Always-On Marketing Campaign",
@@ -528,14 +536,6 @@
     "summary": "If your WooCommerce store is underperforming, there are a few simple things you can do to speed it up. Here's how to do it \u2014 no code required."
   },
   {
-    "title": "Designing AI Content Operations That Limit The Risk Of Agent Mistakes",
-    "link": "https://wpvip.com/blog/ai-content-operations-agent-mistakes/",
-    "pubDate": "Fri, 09 Oct 2026 15:48:05 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Enterprises need full confidence in their AI content operations. This three-question framework lets you get ahead of potential slip-ups."
-  },
-  {
     "title": "What\u2019s new for merchants in WooCommerce 11.2",
     "link": "https://woocommerce.com/posts/woocommerce-11-2/",
     "pubDate": "Thu, 08 Oct 2026 21:21:06 GMT",
@@ -584,27 +584,11 @@
     "summary": "The next 5 years of commerce are being built on open source. Here's how to decide if it\u2019s right for you."
   },
   {
-    "title": "How LinkedIn is Turning Senior Execs Into Your Website\u2019s Concierge",
-    "link": "https://wpvip.com/blog/linkedin-content-strategy-executives/",
-    "pubDate": "Tue, 06 Oct 2026 15:58:11 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Linking on the social networking platform risked getting penalized, but you can still capitalize on its popularity among AI search tools."
-  },
-  {
     "title": "How to be the email they open on Black Friday",
     "link": "https://woocommerce.com/posts/black-friday-email-marketing/",
     "pubDate": "Mon, 05 Oct 2026 18:28:45 GMT",
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Black Friday is when inboxes go from manageable to overwhelming. The emails that cut through are more specific to the customer and the moment. Here's how to stand out."
-  },
-  {
-    "title": "Pressable Single Sign-On: Team Access, Managed by Your Identity Provider",
-    "link": "https://pressable.com/blog/pressable-single-sign-on-team-access-managed-by-your-identity-provider/",
-    "pubDate": "Mon, 05 Oct 2026 14:00:00 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://i0.wp.com/pressable.com/wp-content/uploads/2026/10/image-3.png?resize=1024%2C532&ssl=1",
-    "summary": "For a lot of teams, MyPressable access started with one shared login. Then the team grew. Now 10, 20, sometimes 30 or more people use the same account, and nobody can say for sure who [\u2026] The post..."
   }
 ]

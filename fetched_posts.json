@@ -1,5 +1,37 @@
 [
   {
+    "title": "Pantheon achieves ISO 27001 certification",
+    "link": "https://pantheon.io/blog/pantheon-achieves-iso-27001-certification",
+    "pubDate": "Thu, 05 Nov 2026 16:00:41 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Learn how Pantheon's ISO 27001 certification provides enterprise teams with recognized validation of its information security management systems."
+  },
+  {
+    "title": "WooCommerce 11.2.2: Release notes",
+    "link": "https://developer.woocommerce.com/2026/11/04/woocommerce-11-2-2-release-notes/",
+    "pubDate": "Wed, 04 Nov 2026 21:29:42 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WooCommerce 11.2.2 has been released with a number of updates focused on security. We strongly recommend updating to the latest release. The post WooCommerce 11.2.2: Release notes appeared first on..."
+  },
+  {
+    "title": "A New Workspace for Building with WordPress",
+    "link": "https://wordpress.com/blog/2026/11/04/wordpress-studio-workspace/",
+    "pubDate": "Wed, 04 Nov 2026 16:33:17 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/understanding-your-wordpress-agent-usage_header_2350x1480-4.png",
+    "summary": "In WordPress Studio, a website starts as a conversation. You describe what you want, and an AI agent builds a first version for you. To change something, just tell the agent what you\u2019d like instead...."
+  },
+  {
+    "title": "Everything that keeps your site safe, now on one page",
+    "link": "https://jetpack.com/resources/jetpack-protect-page/",
+    "pubDate": "Wed, 04 Nov 2026 16:00:00 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-protect-page-blog-1680x964-1.png",
+    "summary": "Jetpack 16.4 brings Scan, Firewall, Login protection and Downtime monitoring together on one Protect page in wp-admin, so you can see whether your site is safe and fix what's wrong without leaving..."
+  },
+  {
     "title": "Connect ChatGPT or Claude to Your WordPress.com Sites, Free Through November",
     "link": "https://wordpress.com/blog/2026/11/03/free-chatgpt-claude/",
     "pubDate": "Tue, 03 Nov 2026 20:45:00 GMT",
@@ -22,6 +54,14 @@
     "blog_name": "WordPress VIP",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "At NPA Summit in Chicago, news product, editorial, and technology leaders answered nine questions about AI in their newsrooms and compared notes on what's working and what's stuck. Here's what they..."
+  },
+  {
+    "title": "Jetpack 16.4 release: One Protect page, a new Backup dashboard, and more",
+    "link": "https://jetpack.com/resources/jetpack-16-4-protect-backup-and-more/",
+    "pubDate": "Tue, 03 Nov 2026 19:00:00 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-16-4-blog-1680x964-1.png",
+    "summary": "All of Jetpack's security on one Protect page, a rebuilt Backup dashboard, Trim & cut for VideoPress, a new comment form, and the new Jetpack Pro plan."
   },
   {
     "title": "Security update for WooPayments",
@@ -86,6 +126,14 @@
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "move from fleet-level traffic signals to request-level evidence when something on your site, or across your fleet, deserves a closer look."
+  },
+  {
+    "title": "Run your WordPress site from ChatGPT, free until November 30",
+    "link": "https://jetpack.com/resources/run-your-wordpress-site-from-chatgpt/",
+    "pubDate": "Mon, 02 Nov 2026 17:03:48 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-run-your-wordpress-site-from-chatgpt-blog-1680x964-1.png",
+    "summary": "Until November 30, connecting ChatGPT or Claude to your WordPress site is free on every Jetpack site. Here\u2019s how to set it up, and 12 things to ask."
   },
   {
     "title": "October Product Update: Single Sign-On, a Global Account Selector, and Self-Serve Site Restores",
@@ -408,14 +456,6 @@
     "summary": "The PHP project has announced a security release that fixes two critical security vulnerabilities discovered in PHP. Due to the critical severity of the issues, site owners are encouraged to..."
   },
   {
-    "title": "How to Build a Portfolio Website That Gets You Hired",
-    "link": "https://wordpress.com/blog/2026/10/21/build-portfolio-website/",
-    "pubDate": "Tue, 20 Oct 2026 23:52:49 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/how-to-build-a-portfolio-website-that-gets-you-noticed-1.png",
-    "summary": "Build along with our portrait photography tutorial, from choosing a domain name to showcasing your strongest work and helping clients get in touch."
-  },
-  {
     "title": "WordPress 7.2 Beta 1 is Ready for Download and Testing",
     "link": "https://wordpress.org/news/2026/10/wordpress-7-2-beta-1-is-ready-for-download-and-testing/",
     "pubDate": "Tue, 20 Oct 2026 16:02:09 GMT",
@@ -454,14 +494,6 @@
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Learn about P1, Pantheon's AI-native web composition tool, moving beyond traditional CMS limitations by operating on a modern Next.js and JavaScript stack."
-  },
-  {
-    "title": "From Fleet-Level Signal to Site-Level Action: Understanding What Drives Your Traffic",
-    "link": "https://pantheon.io/blog/from-fleet-level-signal-to-site-level-action",
-    "pubDate": "Fri, 16 Oct 2026 19:22:34 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Discover how Pantheon's Fleet-Level Traffic Insights and Site Metrics help your team move quickly from fleet-wide signal to site-level action."
   },
   {
     "title": "Where to start with Jetpack in ChatGPT",
@@ -566,29 +598,5 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.2 is here \ud83d\ude80 \ud83d\udce6 Product CSV imports match by GTIN \ud83d\udcc5 Date fields at checkout \u2709\ufe0f Configurable withdrawal emails \ud83c\udfa8 More block styling options The post WooCommerce 11.2.0: Release notes..."
-  },
-  {
-    "title": "WordPress 7.1.3 Maintenance and Security Release",
-    "link": "https://wordpress.org/news/2026/10/wordpress-7-1-3-maintenance-and-security-release/",
-    "pubDate": "Tue, 06 Oct 2026 17:00:00 GMT",
-    "blog_name": "WordPress.org News",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "This security and maintenance release features 7 security fixes and 4 bug fixes. Because this is a security release, it is recommended that you update your sites immediately. You can download..."
-  },
-  {
-    "title": "Open source is a competitive advantage for ecommerce brands",
-    "link": "https://woocommerce.com/posts/open-source-advantage/",
-    "pubDate": "Tue, 06 Oct 2026 16:34:33 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "The next 5 years of commerce are being built on open source. Here's how to decide if it\u2019s right for you."
-  },
-  {
-    "title": "How to be the email they open on Black Friday",
-    "link": "https://woocommerce.com/posts/black-friday-email-marketing/",
-    "pubDate": "Mon, 05 Oct 2026 18:28:45 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Black Friday is when inboxes go from manageable to overwhelming. The emails that cut through are more specific to the customer and the moment. Here's how to stand out."
   }
 ]

@@ -1,11 +1,43 @@
 [
   {
+    "title": "We went looking: what Woo has done about security since June",
+    "link": "https://developer.woocommerce.com/2026/11/06/woo-latest-security/",
+    "pubDate": "Fri, 06 Nov 2026 15:43:00 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/11/image.png",
+    "summary": "Why so many WooCommerce security updates lately? Well, we went looking. Here\u2019s what we found, what we changed, and what store owners and devs can do now to be a part of the security conversation and..."
+  },
+  {
+    "title": "What We Learned in a Room Full of New York Agencies",
+    "link": "https://automattic.com/for-agencies/blog/new-york-agency-roundtable-what-we-learned/",
+    "pubDate": "Thu, 05 Nov 2026 21:55:07 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://automattic.com/wp-content/uploads/2026/11/nyc-agency-roundtable-opening-talk.jpg",
+    "summary": "Agency owners from New York and Philadelphia sat down with us to talk honestly about pricing, pipelines, client prototypes, and bringing their teams along with AI. Here\u2019s what we heard."
+  },
+  {
+    "title": "They Carried the News on Election Night. WordPress VIP Carried Them.",
+    "link": "https://wpvip.com/blog/election-night-traffic-spike-2026/",
+    "pubDate": "Thu, 05 Nov 2026 20:36:39 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "On the one night newsroom websites absolutely cannot go down, we made sure they didn\u2019t."
+  },
+  {
     "title": "Pantheon achieves ISO 27001 certification",
     "link": "https://pantheon.io/blog/pantheon-achieves-iso-27001-certification",
     "pubDate": "Thu, 05 Nov 2026 16:00:41 GMT",
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Learn how Pantheon's ISO 27001 certification provides enterprise teams with recognized validation of its information security management systems."
+  },
+  {
+    "title": "Dive into the Ipsum WordPress theme, and how to extend it",
+    "link": "https://kinsta.com/blog/ipsum-wordpress-theme/",
+    "pubDate": "Thu, 05 Nov 2026 13:00:40 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/dive-into-the-ipsum-wordpress-theme-and-how-to-extend-it.png",
+    "summary": "Featured image for Dive into the Ipsum WordPress theme, and how to extend it"
   },
   {
     "title": "WooCommerce 11.2.2: Release notes",
@@ -180,7 +212,7 @@
     "link": "https://wordpress.com/blog/2026/10/29/neal-stephenson/",
     "pubDate": "Thu, 29 Oct 2026 23:19:05 GMT",
     "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/when-technology-outruns-its-institutions-neal-stephenson-on-ai-truth-and-control.jpg",
+    "image_url": "https://en-blog.files.wordpress.com/2026/10/when-technology-outruns-its-institutions-neal-stephenson-on-ai-truth-and-control.png",
     "summary": "Technology, truth, and the freedom to shape the tools we use. Neal Stephenson joins Zander Rose for the first Wide Margins conversation."
   },
   {
@@ -214,14 +246,6 @@
     "blog_name": "Kinsta",
     "image_url": "https://kinsta.com/wp-content/uploads/2026/10/inside-kinstas-emergency-php2shell-patch-rollout.png",
     "summary": "Featured image for Inside Kinsta\u2019s emergency PHP2Shell patch rollout"
-  },
-  {
-    "title": "AI didn\u2019t replace operations. It made good operations more valuable",
-    "link": "https://kinsta.com/blog/ai-operations/",
-    "pubDate": "Thu, 29 Oct 2026 12:45:38 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/ai-didnt-replace-operations-it-made-good-operations-more-valuable.png",
-    "summary": "Featured image for AI didn\u2019t replace operations. It made good operations more valuable"
   },
   {
     "title": "10 Black Friday Ideas for Small Businesses That Go Beyond Discounts",
@@ -526,14 +550,6 @@
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Your AI tool can now look at your server and help you manage Pressable hosting seamlessly. Here's how the MCP works."
-  },
-  {
-    "title": "Does Headless CMS Hurt SEO? What Enterprise Teams Get Wrong",
-    "link": "https://wpvip.com/blog/headless-cms-seo/",
-    "pubDate": "Mon, 12 Oct 2026 17:02:45 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Does headless CMS help or hurt SEO? Learn when headless wins, when it creates risk, and three questions enterprise teams should answer before committing."
   },
   {
     "title": "2026 holiday shipping strategies: Make promises you can keep",

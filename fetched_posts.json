@@ -168,6 +168,14 @@
     "summary": "Until November 30, connecting ChatGPT or Claude to your WordPress site is free on every Jetpack site. Here\u2019s how to set it up, and 12 things to ask."
   },
   {
+    "title": "Protect your profit margins by designing discounts that pay for themselves",
+    "link": "https://woocommerce.com/posts/strategies-how-use-coupons-discounts-without-sacrificing-profits/",
+    "pubDate": "Mon, 02 Nov 2026 15:59:18 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Too many discount codes eating away at your profits? Learn how to run sales without sacrificing your margins. Proven sales strategies you can use today!"
+  },
+  {
     "title": "October Product Update: Single Sign-On, a Global Account Selector, and Self-Serve Site Restores",
     "link": "https://pressable.com/blog/october-product-update-single-sign-on-a-global-account-selector-and-self-serve-site-restores/",
     "pubDate": "Sat, 31 Oct 2026 14:00:00 GMT",
@@ -190,6 +198,14 @@
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Discover how AI agents are transforming web marketing and why providing rich context & meaningful value matters more than offering simple shortcuts."
+  },
+  {
+    "title": "Boost peak season conversion rates by answering shoppers\u2019 questions",
+    "link": "https://woocommerce.com/posts/peak-season-conversions/",
+    "pubDate": "Fri, 30 Oct 2026 16:34:09 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Turn more holiday browsers into buyers by simplifying promotions, helping shoppers find the right products, answering questions, and streamlining checkout."
   },
   {
     "title": "WordPress Accessibility: What\u2019s New in 7.0 and 7.1",
@@ -590,29 +606,5 @@
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Here\u2019s everything you need to know about updates that\u2019ll impact your store with WooCommerce 11.2."
-  },
-  {
-    "title": "WooCommerce for Physical Stores",
-    "link": "https://rocket.net/blog/woocommerce-for-physical-stores/",
-    "pubDate": "Thu, 08 Oct 2026 13:22:39 GMT",
-    "blog_name": "Rocket.net",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Most articles about WooCommerce and point-of-sale (POS) systems ask the same question: Which POS should I use \u2014 Square, Lightspeed, or a plugin? But that\u2019s the wrong question. Here is the right..."
-  },
-  {
-    "title": "Moving Client Sites to Pressable: Seven Things to Get Right",
-    "link": "https://automattic.com/for-agencies/blog/moving-client-sites-to-pressable-seven-things-to-get-right/",
-    "pubDate": "Wed, 07 Oct 2026 20:04:06 GMT",
-    "blog_name": "Automattic for Agencies",
-    "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-pressable-migration-2.png",
-    "summary": "Most migration problems start small, like an order placed on the old host after the database was copied. Here are seven things to get right when you move client sites to Pressable, from the new..."
-  },
-  {
-    "title": "WooCommerce 11.2.0: Release notes",
-    "link": "https://developer.woocommerce.com/2026/10/07/woocommerce-11-2-0-release-notes/",
-    "pubDate": "Wed, 07 Oct 2026 18:53:08 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce 11.2 is here \ud83d\ude80 \ud83d\udce6 Product CSV imports match by GTIN \ud83d\udcc5 Date fields at checkout \u2709\ufe0f Configurable withdrawal emails \ud83c\udfa8 More block styling options The post WooCommerce 11.2.0: Release notes..."
   }
 ]

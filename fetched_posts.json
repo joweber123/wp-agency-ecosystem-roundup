@@ -1,5 +1,21 @@
 [
   {
+    "title": "WordPress Credits Welcomes More Than 50 Institutions",
+    "link": "https://wordpress.org/news/2026/11/wp-credits-reaches-50/",
+    "pubDate": "Mon, 09 Nov 2026 16:01:18 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/10/Upside-down-lightbulb-sketches-in-notebook.png?resize=1024%2C576&ssl=1",
+    "summary": "More than 50 educational institutions have joined WordPress Credits, giving students worldwide a way to earn academic recognition for contributing to WordPress. The program had two participating..."
+  },
+  {
+    "title": "Meet Spacefast, Everything Your Agents Need to Bring Your Ideas to Life",
+    "link": "https://automattic.com/2026/11/09/meet-spacefast/",
+    "pubDate": "Mon, 09 Nov 2026 14:00:00 GMT",
+    "blog_name": "Automattic",
+    "image_url": "https://automattic.com/wp-content/uploads/2026/11/a8c-blog-launch-01.jpg",
+    "summary": "Connect Spacefast to Claude, ChatGPT, Grok Bot, Muse, Cursor, or any AI. Ask it to put your project on Spacefast. A few seconds later, there\u2019s a link in the chat."
+  },
+  {
     "title": "We went looking: what Woo has done about security since June",
     "link": "https://developer.woocommerce.com/2026/11/06/woo-latest-security/",
     "pubDate": "Fri, 06 Nov 2026 15:43:00 GMT",
@@ -574,29 +590,5 @@
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Your holiday shipping strategy starts with understanding what you can reliably deliver. Here's how to get through peak season."
-  },
-  {
-    "title": "WooCommerce 11.2.1: Release notes",
-    "link": "https://developer.woocommerce.com/2026/10/09/woocommerce-11-2-1-release-notes/",
-    "pubDate": "Fri, 09 Oct 2026 21:40:56 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce 11.2.1 fixes two checkout regressions introduced in 11.2.0: classic checkout on stores that remove address fields, and postcode validation on the checkout block for Argentina and a few..."
-  },
-  {
-    "title": "Move beyond default checkout: How shoppers prefer to pay in 2026",
-    "link": "https://woocommerce.com/posts/checkout-trends/",
-    "pubDate": "Fri, 09 Oct 2026 19:04:38 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce and Stripe commissioned new research on the payment trends reshaping ecommerce in 2026."
-  },
-  {
-    "title": "Tips for speeding up your WooCommerce store (no code required)",
-    "link": "https://woocommerce.com/posts/speed-up-your-woocommerce-store/",
-    "pubDate": "Fri, 09 Oct 2026 18:10:46 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "If your WooCommerce store is underperforming, there are a few simple things you can do to speed it up. Here's how to do it \u2014 no code required."
   }
 ]

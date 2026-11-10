@@ -1,5 +1,21 @@
 [
   {
+    "title": "Your Content, Your Terms: New AI Controls and SEO Tools",
+    "link": "https://wordpress.com/blog/2026/11/10/seo-tools-search-ai/",
+    "pubDate": "Tue, 10 Nov 2026 00:38:53 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/your-content-your-terms-new-ai-controls-and-seo-tools.png",
+    "summary": "Your WordPress.com SEO settings are now together in Jetpack \u2192 SEO. See how to manage AI crawler preferences, site details, and missing titles or descriptions."
+  },
+  {
+    "title": "We went looking: What Woo has done about security since June",
+    "link": "https://woocommerce.com/posts/woo-latest-security/",
+    "pubDate": "Mon, 09 Nov 2026 16:46:09 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Why so many WooCommerce security updates? Well, we went looking. Here\u2019s what we found, what we changed, and what you can do now to take action."
+  },
+  {
     "title": "WordPress Credits Welcomes More Than 50 Institutions",
     "link": "https://wordpress.org/news/2026/11/wp-credits-reaches-50/",
     "pubDate": "Mon, 09 Nov 2026 16:01:18 GMT",
@@ -440,6 +456,14 @@
     "summary": "WooCommerce 11.3 introduces an experimental API enabling extensions to add their data to WooCommerce MCP Abilities The post Call for testing: Extensible abilities for extension fields appeared first..."
   },
   {
+    "title": "Critical PHP Vulnerabilities: Rocket.net\u2019s Response",
+    "link": "https://rocket.net/blog/critical-php-vulnerabilities-rocket-nets-response/",
+    "pubDate": "Thu, 22 Oct 2026 15:18:13 GMT",
+    "blog_name": "Rocket.net",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "On October 21, 2026, the PHP project released fixes for two critical vulnerabilities, CVE-2026-109618 and CVE-2026-109619. Under certain conditions, these flaws could allow an attacker to run code on..."
+  },
+  {
     "title": "The First Prompt to Run When a WordPress Plugin Vulnerability Drops",
     "link": "https://pressable.com/blog/the-first-prompt-to-run-when-a-wordpress-plugin-vulnerability-drops/",
     "pubDate": "Thu, 22 Oct 2026 14:00:00 GMT",
@@ -470,14 +494,6 @@
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Conquer WooCommerce multi-store management with our essential guide from Saucal. Handle inventory syncing, automate marketing, and boost site performance."
-  },
-  {
-    "title": "Your WordPress.com Site is Protected Against the Recent Critical PHP Vulnerabilities",
-    "link": "https://wordpress.com/blog/2026/10/21/php2shell-vulnerabilities/",
-    "pubDate": "Wed, 21 Oct 2026 19:57:59 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/your-wordpress.com-site-is-protected-against-the-recent-critical-php-vulnerabilities.png",
-    "summary": "Two critical PHP vulnerabilities were disclosed on October 21, 2026. WordPress.com sites are already protected, with no action required from site owners."
   },
   {
     "title": "WooCommerce 11.3 MCP Adaptor updates",
@@ -582,13 +598,5 @@
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Your AI tool can now look at your server and help you manage Pressable hosting seamlessly. Here's how the MCP works."
-  },
-  {
-    "title": "2026 holiday shipping strategies: Make promises you can keep",
-    "link": "https://woocommerce.com/posts/ecommerce-holiday-shipping-guide/",
-    "pubDate": "Sat, 10 Oct 2026 21:30:35 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Your holiday shipping strategy starts with understanding what you can reliably deliver. Here's how to get through peak season."
   }
 ]

@@ -1,5 +1,61 @@
 [
   {
+    "title": "WordCamp Asia 2027 Is Coming to Penang",
+    "link": "https://wordpress.org/news/2026/11/wc-asia-2027-penang/",
+    "pubDate": "Wed, 11 Nov 2026 14:00:00 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/11/34544681862_e804672e3e_k.jpg?resize=1024%2C684&ssl=1",
+    "summary": "Next year, WordCamp Asia 2027 heads to Penang, Malaysia. From April 9 to 11, the WordPress community will gather at the Penang Waterfront Convention Centre for three days of contribution, learning,..."
+  },
+  {
+    "title": "What\u2019s the Best CMS for Higher Education? Everything You Need to Know",
+    "link": "https://wpvip.com/blog/best-cms-for-higher-education/",
+    "pubDate": "Tue, 10 Nov 2026 20:14:45 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "A decision framework for choosing a CMS for higher education: how to weigh accessibility deadlines, security authorizations like TX-RAMP and FedRAMP, multisite governance, and content ownership..."
+  },
+  {
+    "title": "Your Web Portfolio Needs an Operating Model",
+    "link": "https://pantheon.io/blog/your-web-portfolio-needs-operating-model",
+    "pubDate": "Tue, 10 Nov 2026 19:29:12 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Learn about Agentic Fleet Management, our way to see, operate, and govern many sites as one system."
+  },
+  {
+    "title": "WordPress.com Education\u2019s First Government Agreement Started With a Teacher",
+    "link": "https://wordpress.com/blog/2026/11/10/spain-education-agreement/",
+    "pubDate": "Tue, 10 Nov 2026 18:57:36 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/wordpress.com-educations-first-government-agreement-started-with-a-teacher.png",
+    "summary": "A teacher\u2019s introduction in Toledo helped lead to WordPress.com Education\u2019s first agreement with a regional government. The plan can now be promoted across 40 vocational schools in Castilla-La..."
+  },
+  {
+    "title": "WordPress 7.2 Beta 5",
+    "link": "https://wordpress.org/news/2026/11/wordpress-7-2-beta-5/",
+    "pubDate": "Tue, 10 Nov 2026 16:59:09 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WordPress 7.2 Beta 5 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or..."
+  },
+  {
+    "title": "Can AI modernize legacy WordPress sites without breaking them?",
+    "link": "https://kinsta.com/blog/ai-wordpress-modernization/",
+    "pubDate": "Tue, 10 Nov 2026 12:45:09 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/can-ai-modernize-legacy-wordpress-sites-without-breaking-them.png",
+    "summary": "Featured image for Can AI modernize legacy WordPress sites without breaking them?"
+  },
+  {
+    "title": "Pressable\u2019s Zapier Integration: Automate Your WordPress Hosting",
+    "link": "https://pressable.com/blog/pressables-zapier-integration-automate-your-wordpress-hosting/",
+    "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Most hosting tasks are really just reactions to an event. A site gets flagged as compromised, and someone posts in Slack. A deploy finishes, and someone remembers to clear the cache. A deal closes,..."
+  },
+  {
     "title": "Your Content, Your Terms: New AI Controls and SEO Tools",
     "link": "https://wordpress.com/blog/2026/11/10/seo-tools-search-ai/",
     "pubDate": "Tue, 10 Nov 2026 00:38:53 GMT",
@@ -288,14 +344,6 @@
     "summary": "There\u2019s no such thing as the most secure CMS, only vendors who can prove accountability, credential scope, and audit history."
   },
   {
-    "title": "Inside Kinsta\u2019s emergency PHP2Shell patch rollout",
-    "link": "https://kinsta.com/blog/php2shell-patch-rollout/",
-    "pubDate": "Thu, 29 Oct 2026 17:20:21 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/inside-kinstas-emergency-php2shell-patch-rollout.png",
-    "summary": "Featured image for Inside Kinsta\u2019s emergency PHP2Shell patch rollout"
-  },
-  {
     "title": "10 Black Friday Ideas for Small Businesses That Go Beyond Discounts",
     "link": "https://wordpress.com/blog/2026/10/28/black-friday-ideas/",
     "pubDate": "Wed, 28 Oct 2026 22:43:29 GMT",
@@ -440,14 +488,6 @@
     "summary": "A critical PHP vulnerability was a stress test of whether your web platform can absorb disruption while your team keeps working. Read about Pantheon\u2019s response."
   },
   {
-    "title": "Stop Paying Extra to Keep Your Site Safe",
-    "link": "https://wordpress.com/blog/2026/10/22/secure-wordpress-hosting/",
-    "pubDate": "Thu, 22 Oct 2026 17:51:47 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/stop-paying-extra-to-keep-your-site-safe.png",
-    "summary": "Getting hacked is bad enough. You shouldn't have to pay another bill to clean up your site. Security should be part of what you're already paying your host to do."
-  },
-  {
     "title": "Call for testing: Extensible abilities for extension fields",
     "link": "https://developer.woocommerce.com/2026/10/22/extensible-abilities/",
     "pubDate": "Thu, 22 Oct 2026 17:20:06 GMT",
@@ -560,28 +600,12 @@
     "summary": "The Purple theme development has transitioned to the WooCommerce monorepo, enhancing collaboration and maintenance while remaining a standalone WordPress theme with independent releases. The post..."
   },
   {
-    "title": "P1: A Fresh Start For Web Builders in the AI Era",
-    "link": "https://pantheon.io/blog/p1-fresh-start-web-builders-ai-era",
-    "pubDate": "Sat, 17 Oct 2026 00:20:37 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Learn about P1, Pantheon's AI-native web composition tool, moving beyond traditional CMS limitations by operating on a modern Next.js and JavaScript stack."
-  },
-  {
     "title": "Where to start with Jetpack in ChatGPT",
     "link": "https://jetpack.com/resources/where-to-start-with-jetpack-in-chatgpt/",
     "pubDate": "Thu, 15 Oct 2026 21:24:22 GMT",
     "blog_name": "Jetpack",
     "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-meets-chatgpt.png",
     "summary": "The WordPress plugin is now available in ChatGPT. It\u2019s ready for your first prompt, but where to start? Jetpack handles the stuff that you\u2019re probably thinking about all the time. Backups, security,..."
-  },
-  {
-    "title": "Why Your Tech Stack Should Behave Like an Always-On Marketing Campaign",
-    "link": "https://wpvip.com/blog/vendor-lock-in-open-source/",
-    "pubDate": "Wed, 14 Oct 2026 14:04:06 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "A common branding best practice could inspire a new way of thinking about your technology investments."
   },
   {
     "title": "Is it time to migrate from Shopify to WooCommerce? Your guide to costs, control, and flexibility",

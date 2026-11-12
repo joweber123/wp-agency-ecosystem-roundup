@@ -1,5 +1,45 @@
 [
   {
+    "title": "How to buy Kinsta hosting for your small business: A step-by-step guide",
+    "link": "https://kinsta.com/blog/how-to-buy-kinsta-hosting/",
+    "pubDate": "Thu, 12 Nov 2026 12:00:28 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/how-to-choose-and-buy-kinsta-hosting-for-your-small-business.png",
+    "summary": "Featured image for How to buy Kinsta hosting for your small business: A step-by-step guide"
+  },
+  {
+    "title": "Start a Newsletter with ChatGPT and Claude",
+    "link": "https://wordpress.com/blog/2026/11/12/start-newsletter-chatgpt-claude/",
+    "pubDate": "Thu, 12 Nov 2026 09:00:00 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/start-a-newsletter-with-chatgpt-and-claude-header.jpg",
+    "summary": "From a wedding guest list to your first newsletter: see how ChatGPT or Claude can help you build, publish, and send with WordPress.com."
+  },
+  {
+    "title": "Own the Pipes, Not the Keys: Who Should Own What Between an Agency and Its Client",
+    "link": "https://rocket.net/blog/own-the-pipes-not-the-keys-who-should-own-what-between-an-agency-and-its-client/",
+    "pubDate": "Wed, 11 Nov 2026 20:20:57 GMT",
+    "blog_name": "Rocket.net",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Clients need control of their business assets. An agency needs enough operational control to do their jobs efficiently. Learn how to navigate both."
+  },
+  {
+    "title": "Security fix for WooCommerce Stripe Gateway: update to 11.2.0 or 11.1.2",
+    "link": "https://developer.woocommerce.com/2026/11/11/stripe-gateway-security-update/",
+    "pubDate": "Wed, 11 Nov 2026 19:27:26 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Update WooCommerce Stripe Gateway to 11.2.0 or 11.1.2 for an important security fix. The post Security fix for WooCommerce Stripe Gateway: update to 11.2.0 or 11.1.2 appeared first on The WooCommerce..."
+  },
+  {
+    "title": "WooCommerce 11.3.0: Release notes",
+    "link": "https://developer.woocommerce.com/2026/11/11/woocommerce-11-3-0-release-notes/",
+    "pubDate": "Wed, 11 Nov 2026 17:06:09 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WooCommerce 11.3 gives store owners more control over how products and promotions appear, with new sale-badge options, expanded block styling, and more natural Product Gallery swipes on mobile. The..."
+  },
+  {
     "title": "WordCamp Asia 2027 Is Coming to Penang",
     "link": "https://wordpress.org/news/2026/11/wc-asia-2027-penang/",
     "pubDate": "Wed, 11 Nov 2026 14:00:00 GMT",
@@ -46,14 +86,6 @@
     "blog_name": "Kinsta",
     "image_url": "https://kinsta.com/wp-content/uploads/2026/11/can-ai-modernize-legacy-wordpress-sites-without-breaking-them.png",
     "summary": "Featured image for Can AI modernize legacy WordPress sites without breaking them?"
-  },
-  {
-    "title": "Pressable\u2019s Zapier Integration: Automate Your WordPress Hosting",
-    "link": "https://pressable.com/blog/pressables-zapier-integration-automate-your-wordpress-hosting/",
-    "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Most hosting tasks are really just reactions to an event. A site gets flagged as compromised, and someone posts in Slack. A deploy finishes, and someone remembers to clear the cache. A deal closes,..."
   },
   {
     "title": "Your Content, Your Terms: New AI Controls and SEO Tools",
@@ -176,14 +208,6 @@
     "summary": "At NPA Summit in Chicago, news product, editorial, and technology leaders answered nine questions about AI in their newsrooms and compared notes on what's working and what's stuck. Here's what they..."
   },
   {
-    "title": "Jetpack 16.4 release: One Protect page, a new Backup dashboard, and more",
-    "link": "https://jetpack.com/resources/jetpack-16-4-protect-backup-and-more/",
-    "pubDate": "Tue, 03 Nov 2026 19:00:00 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-16-4-blog-1680x964-1.png",
-    "summary": "All of Jetpack's security on one Protect page, a rebuilt Backup dashboard, Trim & cut for VideoPress, a new comment form, and the new Jetpack Pro plan."
-  },
-  {
     "title": "Security update for WooPayments",
     "link": "https://developer.woocommerce.com/2026/11/03/security-update-for-woopayments/",
     "pubDate": "Tue, 03 Nov 2026 16:25:00 GMT",
@@ -214,14 +238,6 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce introduces woocommerce/php-stubs to auto-generate PHP stubs for extensions, allowing PHPStan to verify integrations effectively, avoiding unverified class calls and enhancing..."
-  },
-  {
-    "title": "How to implement AI search in WordPress and stay in control",
-    "link": "https://kinsta.com/blog/implement-ai-search-in-wordpress/",
-    "pubDate": "Tue, 03 Nov 2026 13:00:11 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/how-to-implement-ai-search-in-wordpress-and-stay-in-control.png",
-    "summary": "Featured image for How to implement AI search in WordPress and stay in control"
   },
   {
     "title": "The Open Source Objections Executives Raise (and the Misconceptions Behind Them)",
@@ -456,14 +472,6 @@
     "summary": "Learn how to scale your ecommerce business without sacrificing margins. Calculate cost per order and find ways to reduce costs as sales grow."
   },
   {
-    "title": "Four Website Chores Your AI Agent Can Help With",
-    "link": "https://wordpress.com/blog/2026/10/23/wordpress-mcp-chores/",
-    "pubDate": "Fri, 23 Oct 2026 16:15:00 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/wordpress-mcp-chores.png",
-    "summary": "Explore four ways to tackle website busywork with an AI assistant, from preparing posts and updating site details to reviewing alt text and comments."
-  },
-  {
     "title": "How WordPress Agencies Can Use AI to Respond to Security Incidents",
     "link": "https://automattic.com/for-agencies/blog/mcp-security-response-playbook/",
     "pubDate": "Fri, 23 Oct 2026 13:43:33 GMT",
@@ -614,13 +622,5 @@
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "If you're considering migrating from Shopify to WooCommerce, here's what to know about costs, control, and flexibility."
-  },
-  {
-    "title": "Connect your hosting account to AI with the Pressable MCP",
-    "link": "https://woocommerce.com/posts/pressable-mcp-woocommerce/",
-    "pubDate": "Mon, 12 Oct 2026 17:33:48 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Your AI tool can now look at your server and help you manage Pressable hosting seamlessly. Here's how the MCP works."
   }
 ]

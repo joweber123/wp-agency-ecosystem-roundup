@@ -1,5 +1,37 @@
 [
   {
+    "title": "Best CMS for Government: Platforms Compared by Type of Public Body",
+    "link": "https://wpvip.com/blog/best-cms-for-government/",
+    "pubDate": "Fri, 13 Nov 2026 15:10:46 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "The right CMS for government depends on who\u2019s buying it. Here\u2019s how ten platforms stack up on FedRAMP, GovRAMP, and TX-RAMP."
+  },
+  {
+    "title": "Copy Your WordPress Site with Reprint",
+    "link": "https://wordpress.org/news/2026/11/reprint-your-site/",
+    "pubDate": "Fri, 13 Nov 2026 12:00:00 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/11/reprint-hero-scaled.png?resize=2560%2C1440&ssl=1",
+    "summary": "Reprint is a free, open-source, PHP-based tool that copies a WordPress site\u2019s files and database. The plugin is available in the WordPress.org Plugin Directory, along with the command-line client..."
+  },
+  {
+    "title": "Moving your site used to mean starting over. Not anymore",
+    "link": "https://wordpress.com/blog/2026/11/12/move-to-wordpress/",
+    "pubDate": "Thu, 12 Nov 2026 23:54:33 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/moving-your-site-used-to-mean-starting-over.-not-anymore.png",
+    "summary": "Moving your website used to mean starting over. Not anymore. Paste your site's address, and we bring your pages, images, and design to WordPress.com. Plans start at $4 a month, billed yearly."
+  },
+  {
+    "title": "Beyond the Technology: How LACMA and Urban Insight Share the Release",
+    "link": "https://pantheon.io/blog/beyond-technology-how-lacma-and-urban-insight-share-release",
+    "pubDate": "Thu, 12 Nov 2026 22:31:01 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "LACMA and Urban Insight share how commit access, clear ownership, and Pantheon\u2019s Drupal release path support production-ready work across a complex web estate."
+  },
+  {
     "title": "How to buy Kinsta hosting for your small business: A step-by-step guide",
     "link": "https://kinsta.com/blog/how-to-buy-kinsta-hosting/",
     "pubDate": "Thu, 12 Nov 2026 12:00:28 GMT",
@@ -88,6 +120,14 @@
     "summary": "Featured image for Can AI modernize legacy WordPress sites without breaking them?"
   },
   {
+    "title": "Pressable\u2019s Zapier Integration: Automate Your WordPress Hosting",
+    "link": "https://pressable.com/blog/pressables-zapier-integration-automate-your-wordpress-hosting/",
+    "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Most hosting tasks are really just reactions to an event. A site gets flagged as compromised, and someone posts in Slack. A deploy finishes, and someone remembers to clear the cache. A deal closes,..."
+  },
+  {
     "title": "Your Content, Your Terms: New AI Controls and SEO Tools",
     "link": "https://wordpress.com/blog/2026/11/10/seo-tools-search-ai/",
     "pubDate": "Tue, 10 Nov 2026 00:38:53 GMT",
@@ -118,6 +158,14 @@
     "blog_name": "Automattic",
     "image_url": "https://automattic.com/wp-content/uploads/2026/11/a8c-blog-launch-01.jpg",
     "summary": "Connect Spacefast to Claude, ChatGPT, Grok Bot, Muse, Cursor, or any AI. Ask it to put your project on Spacefast. A few seconds later, there\u2019s a link in the chat."
+  },
+  {
+    "title": "Choose ecommerce analytics tools based on questions, not features",
+    "link": "https://woocommerce.com/posts/ecommerce-analytics-tools/",
+    "pubDate": "Fri, 06 Nov 2026 18:56:17 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "The right ecommerce analytics tool can make or break fast and efficient business growth. Here are six analytics options for your store."
   },
   {
     "title": "We went looking: what Woo has done about security since June",
@@ -440,14 +488,6 @@
     "summary": "A look at the questions Pantheon web teams raised when php2shell hit, from patch verification and site takedowns to AI-assisted defense."
   },
   {
-    "title": "How Nonprofit Revive & Restore Found a Better Home on WordPress.com",
-    "link": "https://wordpress.com/blog/2026/10/26/revive-and-restore/",
-    "pubDate": "Mon, 26 Oct 2026 21:46:37 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/how-nonprofit-revive-restore-found-a-better-home-on-wordpress.com_.png",
-    "summary": "Slow pages and difficult updates had Revive & Restore considering a move away from WordPress. A second opinion helped the nonprofit find a different way forward."
-  },
-  {
     "title": "WooCommerce 11.3: What\u2019s coming for developers",
     "link": "https://developer.woocommerce.com/2026/10/26/woocommerce-11-3-pre-release/",
     "pubDate": "Mon, 26 Oct 2026 20:49:29 GMT",
@@ -520,14 +560,6 @@
     "summary": "When a plugin vulnerability gets announced, the first question is always the same: which of my sites are running it? If you manage a handful of sites, you can check them one at a time. [\u2026] The post..."
   },
   {
-    "title": "How Pantheon\u2019s Layered Security Response Helps Reduce Risk During Critical PHP Vulnerabilities",
-    "link": "https://pantheon.io/blog/pantheon-response-during-critical-php-vulnerabilities",
-    "pubDate": "Wed, 21 Oct 2026 22:37:39 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Learn how Pantheon addresses critical PHP vulnerabilities using managed patching, runtime controls, and immutable deployments to protect web applications."
-  },
-  {
     "title": "Your Pressable Sites Are Already Protected From the Recent Critical PHP Security Update",
     "link": "https://pressable.com/blog/your-pressable-sites-are-already-protected-from-the-recent-critical-php-security-update/",
     "pubDate": "Wed, 21 Oct 2026 20:36:29 GMT",
@@ -592,14 +624,6 @@
     "summary": "AI won\u2019t migrate your website for you, but it can finally make the consolidation project that nobody wants to touch look like a plan rather than a guess."
   },
   {
-    "title": "Rescue Your AI Pilot Before It Fails With These Workflow Changes",
-    "link": "https://wpvip.com/blog/ai-workflow-changes/",
-    "pubDate": "Tue, 20 Oct 2026 14:47:33 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Getting AI into production means thinking through where people, processes, and technology need to be coordinated."
-  },
-  {
     "title": "Purple development moves to the WooCommerce monorepo",
     "link": "https://developer.woocommerce.com/2026/10/20/purple-monorepo/",
     "pubDate": "Tue, 20 Oct 2026 14:33:49 GMT",
@@ -614,13 +638,5 @@
     "blog_name": "Jetpack",
     "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-meets-chatgpt.png",
     "summary": "The WordPress plugin is now available in ChatGPT. It\u2019s ready for your first prompt, but where to start? Jetpack handles the stuff that you\u2019re probably thinking about all the time. Backups, security,..."
-  },
-  {
-    "title": "Is it time to migrate from Shopify to WooCommerce? Your guide to costs, control, and flexibility",
-    "link": "https://woocommerce.com/posts/migrate-from-shopify-to-woocommerce/",
-    "pubDate": "Tue, 13 Oct 2026 21:12:02 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "If you're considering migrating from Shopify to WooCommerce, here's what to know about costs, control, and flexibility."
   }
 ]

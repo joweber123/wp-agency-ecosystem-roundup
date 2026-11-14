@@ -1,5 +1,29 @@
 [
   {
+    "title": "WordPress.com Changelog: Easily Migrate Your Site and Get Developer Tools on Every Paid Plan",
+    "link": "https://wordpress.com/blog/2026/11/13/changelog-move-developer-tools/",
+    "pubDate": "Fri, 13 Nov 2026 22:30:00 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/easy-migrations-and-developer-tools.jpg",
+    "summary": "Move your site to WordPress.com, get SSH and WP-CLI on every paid plan, and let your AI assistant do more."
+  },
+  {
+    "title": "Kinsta launches Vulnerability Protection, Powered by Patchstack, to protect WordPress sites at no extra cost",
+    "link": "https://kinsta.com/blog/kinsta-launches-vulnerability-protection-powered-by-patchstack-to-protect-wordpress-sites-at-no-extra-cost/",
+    "pubDate": "Fri, 13 Nov 2026 20:21:14 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/blog-featured-image-pr-vulnerability-protection-2.png",
+    "summary": "Featured image for Kinsta launches Vulnerability Protection, Powered by Patchstack, to protect WordPress sites at no extra cost"
+  },
+  {
+    "title": "AI Visibility Is Making Content Freshness a Critical KPI",
+    "link": "https://wpvip.com/blog/ai-visibility-content-freshness/",
+    "pubDate": "Fri, 13 Nov 2026 19:34:09 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "The notion of offering audiences \u2018the latest news\u2019 is more important than it\u2019s ever been. Here\u2019s how to operationalize it."
+  },
+  {
     "title": "Best CMS for Government: Platforms Compared by Type of Public Body",
     "link": "https://wpvip.com/blog/best-cms-for-government/",
     "pubDate": "Fri, 13 Nov 2026 15:10:46 GMT",
@@ -198,14 +222,6 @@
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Learn how Pantheon's ISO 27001 certification provides enterprise teams with recognized validation of its information security management systems."
-  },
-  {
-    "title": "Dive into the Ipsum WordPress theme, and how to extend it",
-    "link": "https://kinsta.com/blog/ipsum-wordpress-theme/",
-    "pubDate": "Thu, 05 Nov 2026 13:00:40 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/dive-into-the-ipsum-wordpress-theme-and-how-to-extend-it.png",
-    "summary": "Featured image for Dive into the Ipsum WordPress theme, and how to extend it"
   },
   {
     "title": "WooCommerce 11.2.2: Release notes",
@@ -408,14 +424,6 @@
     "summary": "There\u2019s no such thing as the most secure CMS, only vendors who can prove accountability, credential scope, and audit history."
   },
   {
-    "title": "10 Black Friday Ideas for Small Businesses That Go Beyond Discounts",
-    "link": "https://wordpress.com/blog/2026/10/28/black-friday-ideas/",
-    "pubDate": "Wed, 28 Oct 2026 22:43:29 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/10-black-friday-ideas-for-small-businesses-that-go-beyond-discounts.png",
-    "summary": "A useful bundle, a thoughtful bonus, or a few well-timed appointments can give customers a reason to buy. Explore ten Black Friday offers that fit a small business \u2014 without putting everything on..."
-  },
-  {
     "title": "Everything your agency needs to learn, sell, and grow, now in one place",
     "link": "https://automattic.com/for-agencies/blog/everything-your-agency-needs-to-learn-sell-and-grow-now-in-one-place/",
     "pubDate": "Wed, 28 Oct 2026 20:28:37 GMT",
@@ -614,14 +622,6 @@
     "blog_name": "WordPress.org News",
     "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/10/Forms-Global-1.webp?resize=1024%2C576&ssl=1",
     "summary": "This beta release is intended for testing and development\u00a0only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test..."
-  },
-  {
-    "title": "How AI Is Making Website Consolidation, Migration, and Replatforming Easier",
-    "link": "https://wpvip.com/blog/ai-website-migration/",
-    "pubDate": "Tue, 20 Oct 2026 15:50:09 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "AI won\u2019t migrate your website for you, but it can finally make the consolidation project that nobody wants to touch look like a plan rather than a guess."
   },
   {
     "title": "Purple development moves to the WooCommerce monorepo",

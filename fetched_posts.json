@@ -630,13 +630,5 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The Purple theme development has transitioned to the WooCommerce monorepo, enhancing collaboration and maintenance while remaining a standalone WordPress theme with independent releases. The post..."
-  },
-  {
-    "title": "Where to start with Jetpack in ChatGPT",
-    "link": "https://jetpack.com/resources/where-to-start-with-jetpack-in-chatgpt/",
-    "pubDate": "Thu, 15 Oct 2026 21:24:22 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-meets-chatgpt.png",
-    "summary": "The WordPress plugin is now available in ChatGPT. It\u2019s ready for your first prompt, but where to start? Jetpack handles the stuff that you\u2019re probably thinking about all the time. Backups, security,..."
   }
 ]

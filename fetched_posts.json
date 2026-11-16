@@ -1,5 +1,13 @@
 [
   {
+    "title": "4 AI Readiness Findings Every Marketing Leader Should Know",
+    "link": "https://wpvip.com/blog/ai-readiness-content-operations/",
+    "pubDate": "Mon, 16 Nov 2026 14:54:14 GMT",
+    "blog_name": "WordPress VIP",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "New research from WordPress VIP and Human Made shows the gaps between pilots and full-scale deployment."
+  },
+  {
     "title": "WordPress.com Changelog: Easily Migrate Your Site and Get Developer Tools on Every Paid Plan",
     "link": "https://wordpress.com/blog/2026/11/13/changelog-move-developer-tools/",
     "pubDate": "Fri, 13 Nov 2026 22:30:00 GMT",
@@ -70,14 +78,6 @@
     "blog_name": "WordPress.com",
     "image_url": "https://en-blog.files.wordpress.com/2026/11/start-a-newsletter-with-chatgpt-and-claude-header.jpg",
     "summary": "From a wedding guest list to your first newsletter: see how ChatGPT or Claude can help you build, publish, and send with WordPress.com."
-  },
-  {
-    "title": "Own the Pipes, Not the Keys: Who Should Own What Between an Agency and Its Client",
-    "link": "https://rocket.net/blog/own-the-pipes-not-the-keys-who-should-own-what-between-an-agency-and-its-client/",
-    "pubDate": "Wed, 11 Nov 2026 20:20:57 GMT",
-    "blog_name": "Rocket.net",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Clients need control of their business assets. An agency needs enough operational control to do their jobs efficiently. Learn how to navigate both."
   },
   {
     "title": "Security fix for WooCommerce Stripe Gateway: update to 11.2.0 or 11.1.2",
@@ -448,14 +448,6 @@
     "summary": "WooCommerce 11.3 introduces a filter for tracking product relationships in the cart, enhancing accurate \"N in cart\" counts for bundled items and extensions. The post Declaring parent-child cart item..."
   },
   {
-    "title": "The AI Readiness Problem Publishing Budgets Can\u2019t Hide",
-    "link": "https://wpvip.com/blog/ai-readiness-publishers/",
-    "pubDate": "Tue, 27 Oct 2026 19:21:12 GMT",
-    "blog_name": "WordPress VIP",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "AI is becoming a bigger line item, but that won\u2019t matter if media organizations aren\u2019t prepared to scale."
-  },
-  {
     "title": "How Studio Visual Cut a Client\u2019s Hosting Bill by 70% with Pressable",
     "link": "https://automattic.com/for-agencies/blog/studio-visual-pressable-hosting-costs/",
     "pubDate": "Tue, 27 Oct 2026 19:12:36 GMT",
@@ -550,14 +542,6 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.3 introduces an experimental API enabling extensions to add their data to WooCommerce MCP Abilities The post Call for testing: Extensible abilities for extension fields appeared first..."
-  },
-  {
-    "title": "Critical PHP Vulnerabilities: Rocket.net\u2019s Response",
-    "link": "https://rocket.net/blog/critical-php-vulnerabilities-rocket-nets-response/",
-    "pubDate": "Thu, 22 Oct 2026 15:18:13 GMT",
-    "blog_name": "Rocket.net",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "On October 21, 2026, the PHP project released fixes for two critical vulnerabilities, CVE-2026-109618 and CVE-2026-109619. Under certain conditions, these flaws could allow an attacker to run code on..."
   },
   {
     "title": "The First Prompt to Run When a WordPress Plugin Vulnerability Drops",

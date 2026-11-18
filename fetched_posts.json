@@ -1,5 +1,21 @@
 [
   {
+    "title": "WordPress 7.1.5 Release",
+    "link": "https://wordpress.org/news/2026/11/wordpress-7-1-5-release/",
+    "pubDate": "Wed, 18 Nov 2026 17:08:59 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "This security release features fixes for multiple issues. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.5 from..."
+  },
+  {
+    "title": "The Optimizely Incident Is a CMO Problem",
+    "link": "https://pantheon.io/blog/optimizely-incident-cmo-problem",
+    "pubDate": "Wed, 18 Nov 2026 16:26:32 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Why vendor security is a marketing issue: learn how to balance speed and digital safety by monitoring your live website stack."
+  },
+  {
     "title": "What Does an AI-Ready WordPress Agency Actually Look Like?",
     "link": "https://rocket.net/blog/ai-ready-wordpress-agency/",
     "pubDate": "Tue, 17 Nov 2026 17:18:24 GMT",
@@ -14,6 +30,14 @@
     "blog_name": "WordPress.org News",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The first Release Candidate (\u201cRC1\u201d) for WordPress 7.2 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this..."
+  },
+  {
+    "title": "Control Traffic Before It Reaches Your Site with Edge Rules",
+    "link": "https://pressable.com/blog/control-traffic-before-it-reaches-your-site-with-edge-rules/",
+    "pubDate": "Tue, 17 Nov 2026 14:00:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Restricting WordPress admin to your office IP, blocking traffic from a country you don\u2019t sell to, keeping AI crawlers off your content, or redirecting an old URL used to mean opening a support ticket..."
   },
   {
     "title": "Why operational visibility is becoming more valuable than performance scores",
@@ -512,14 +536,6 @@
     "summary": "Using better data on subscription churn helps you decide where to act first. Here's what to know."
   },
   {
-    "title": "php2shell: What Teams Asked While the Fix Was Rolling Out",
-    "link": "https://pantheon.io/blog/php2shell-what-teams-asked-while-fix-was-rolling-out",
-    "pubDate": "Tue, 27 Oct 2026 00:45:12 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "A look at the questions Pantheon web teams raised when php2shell hit, from patch verification and site takedowns to AI-assisted defense."
-  },
-  {
     "title": "WooCommerce 11.3: What\u2019s coming for developers",
     "link": "https://developer.woocommerce.com/2026/10/26/woocommerce-11-3-pre-release/",
     "pubDate": "Mon, 26 Oct 2026 20:49:29 GMT",
@@ -630,14 +646,6 @@
     "blog_name": "WordPress.org News",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The PHP project has announced a security release that fixes two critical security vulnerabilities discovered in PHP. Due to the critical severity of the issues, site owners are encouraged to..."
-  },
-  {
-    "title": "WordPress 7.2 Beta 1 is Ready for Download and Testing",
-    "link": "https://wordpress.org/news/2026/10/wordpress-7-2-beta-1-is-ready-for-download-and-testing/",
-    "pubDate": "Tue, 20 Oct 2026 16:02:09 GMT",
-    "blog_name": "WordPress.org News",
-    "image_url": "https://i0.wp.com/wordpress.org/news/files/2026/10/Forms-Global-1.webp?resize=1024%2C576&ssl=1",
-    "summary": "This beta release is intended for testing and development\u00a0only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test..."
   },
   {
     "title": "Purple development moves to the WooCommerce monorepo",

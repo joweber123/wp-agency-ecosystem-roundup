@@ -1,5 +1,37 @@
 [
   {
+    "title": "Fighting Fraud and Improving Security with AI: Live Event",
+    "link": "https://developer.woocommerce.com/2026/11/19/fraud-security-ai-live-event/",
+    "pubDate": "Thu, 19 Nov 2026 16:45:33 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png",
+    "summary": "Join us for a live panel on how AI is changing fraud and security for WooCommerce stores, from card testing and account takeovers to AI-assisted defense. The post Fighting Fraud and Improving..."
+  },
+  {
+    "title": "Your Site Admin, Automated: 5 Scheduled Tasks to Try With ChatGPT or Claude",
+    "link": "https://wordpress.com/blog/2026/11/19/ai-scheduled-tasks/",
+    "pubDate": "Thu, 19 Nov 2026 02:15:00 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/your-site-admin-automated-5-scheduled-tasks-to-try-with-chatgpt-or-claude.png",
+    "summary": "Your website needs regular attention. These five ready-to-use prompts put site checks, traffic reports, and content planning on a schedule with ChatGPT or Claude."
+  },
+  {
+    "title": "Headless Beyond the Hype: How americaneagle.com and Planeteria Make Decoupling Work",
+    "link": "https://pantheon.io/blog/headless-beyond-hype-how-americaneaglecom-and-planeteria-make-decoupling-work",
+    "pubDate": "Thu, 19 Nov 2026 00:02:01 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "The real test for headless is whether your team can preserve editorial continuity, coordinate releases, and recover when the architecture get complicated."
+  },
+  {
+    "title": "Bring Your Own Agents to WordPress Studio",
+    "link": "https://wordpress.com/blog/2026/11/18/wordpress-studio-agents/",
+    "pubDate": "Wed, 18 Nov 2026 23:02:07 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/bring-your-ai-studio.png",
+    "summary": "WordPress Studio 2.3 lets you connect the AI you already pay for, like a ChatGPT plan, a Claude subscription, or GitHub Copilot, choose your model in every chat, and publish to WordPress.com."
+  },
+  {
     "title": "WordPress 7.1.5 Release",
     "link": "https://wordpress.org/news/2026/11/wordpress-7-1-5-release/",
     "pubDate": "Wed, 18 Nov 2026 17:08:59 GMT",
@@ -14,6 +46,14 @@
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Why vendor security is a marketing issue: learn how to balance speed and digital safety by monitoring your live website stack."
+  },
+  {
+    "title": "Give Every Teammate, Pipeline, and AI Agent Its Own SSH Key",
+    "link": "https://automattic.com/for-agencies/blog/wordpress-com-multiple-ssh-keys/",
+    "pubDate": "Wed, 18 Nov 2026 13:36:42 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://1.gravatar.com/avatar/aabd08d058a90e86409adb6128672844d9f8a4f805f998483d9187f5e24a569f?s=96&d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96",
+    "summary": "WordPress.com now lets you give each person, pipeline, and AI agent its own SSH key, so you can revoke one without touching anyone else\u2019s access."
   },
   {
     "title": "What Does an AI-Ready WordPress Agency Actually Look Like?",
@@ -112,7 +152,7 @@
     "summary": "Reprint is a free, open-source, PHP-based tool that copies a WordPress site\u2019s files and database. The plugin is available in the WordPress.org Plugin Directory, along with the command-line client..."
   },
   {
-    "title": "Moving your site used to mean starting over. Not anymore",
+    "title": "Moving Your Site Used to Mean Starting Over. Not Anymore",
     "link": "https://wordpress.com/blog/2026/11/12/move-to-wordpress/",
     "pubDate": "Thu, 12 Nov 2026 23:54:33 GMT",
     "blog_name": "WordPress.com",
@@ -344,14 +384,6 @@
     "summary": "A subscriptions function security update is now available for WooPayments. If you run the WooPayments plugin, please check your version and update to the fix version listed. The post Security update..."
   },
   {
-    "title": "Do More From Your Inbox With Professional Email Plus and Ultra",
-    "link": "https://wordpress.com/blog/2026/11/03/professional-email-plus-ultra/",
-    "pubDate": "Tue, 03 Nov 2026 16:17:43 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/11/do-more-from-your-inbox-with-professional-email-plus-and-ultra.png",
-    "summary": "More room for your messages, less time on email admin. Meet Plus and Ultra, the new Professional Email plans, and see which fits your business."
-  },
-  {
     "title": "WordPress 7.2 Beta 4",
     "link": "https://wordpress.org/news/2026/11/wordpress-7-2-beta-4/",
     "pubDate": "Tue, 03 Nov 2026 15:45:29 GMT",
@@ -408,20 +440,20 @@
     "summary": "Too many discount codes eating away at your profits? Learn how to run sales without sacrificing your margins. Proven sales strategies you can use today!"
   },
   {
+    "title": "How to run a sale in WooCommerce",
+    "link": "https://woocommerce.com/posts/run-woocommerce-sale/",
+    "pubDate": "Sat, 31 Oct 2026 22:05:07 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Run a sale in WooCommerce: Set a discount on all products, specific categories, or select items. These are the tools you\u2019ll need."
+  },
+  {
     "title": "October Product Update: Single Sign-On, a Global Account Selector, and Self-Serve Site Restores",
     "link": "https://pressable.com/blog/october-product-update-single-sign-on-a-global-account-selector-and-self-serve-site-restores/",
     "pubDate": "Sat, 31 Oct 2026 14:00:00 GMT",
     "blog_name": "Pressable",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "October brought six updates to MyPressable: Single Sign-On through your company\u2019s identity provider, a Global Account Selector with new collaborator permissions for usage, billing, and Business..."
-  },
-  {
-    "title": "WordPress.com Changelog: Manage Your Site and Build a Store with AI",
-    "link": "https://wordpress.com/blog/2026/10/31/changelog-site-store-ai/",
-    "pubDate": "Sat, 31 Oct 2026 02:00:00 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/10/build-sites-stores-ai.jpg",
-    "summary": "Build a store by telling the WordPress Agent what you want to sell. Plus: manage your site from your AI assistant, new Professional Email plans, and clearer staging syncs."
   },
   {
     "title": "The Web Is an Iceberg: Why Context Matters More Than Frictionless Experiences",
@@ -462,14 +494,6 @@
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "What Cloudflare, Microsoft and Pantheon leaders think about adapting the web for bots, rethinking org structures & preserving brand trust."
-  },
-  {
-    "title": "The Future of AI Search: 3 Tips for Getting LLMs To Recommend Your Brand",
-    "link": "https://pantheon.io/blog/future-ai-search-3-tips-getting-llms-recommend-your-brand",
-    "pubDate": "Thu, 29 Oct 2026 20:25:03 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Learn how to shift from traditional SEO to AI search optimization and discover three practical ways to help LLMs recommend your brand."
   },
   {
     "title": "How to Choose a Secure CMS Platform for Regulated Organizations",
@@ -646,13 +670,5 @@
     "blog_name": "WordPress.org News",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The PHP project has announced a security release that fixes two critical security vulnerabilities discovered in PHP. Due to the critical severity of the issues, site owners are encouraged to..."
-  },
-  {
-    "title": "Purple development moves to the WooCommerce monorepo",
-    "link": "https://developer.woocommerce.com/2026/10/20/purple-monorepo/",
-    "pubDate": "Tue, 20 Oct 2026 14:33:49 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "The Purple theme development has transitioned to the WooCommerce monorepo, enhancing collaboration and maintenance while remaining a standalone WordPress theme with independent releases. The post..."
   }
 ]

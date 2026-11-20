@@ -1,11 +1,51 @@
 [
   {
+    "title": "How to Build a Small Business Website on WordPress.com",
+    "link": "https://wordpress.com/blog/2026/11/20/build-small-business-website/",
+    "pubDate": "Fri, 20 Nov 2026 16:20:00 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/small-business-website-builder-that-brings-customers-in.png",
+    "summary": "What should your first business website include? See how a coaching site explains its services, answers common questions, and gives visitors a clear way to book or get in touch."
+  },
+  {
+    "title": "WordPress Credits Boost Translation",
+    "link": "https://wordpress.org/news/2026/11/wp-credits-boost-translation/",
+    "pubDate": "Fri, 20 Nov 2026 13:48:10 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Contributors to the Costa Rican Spanish locale are making WordPress more accessible to Spanish-speaking communities in Costa Rica. Students from local schools and universities have joined the..."
+  },
+  {
+    "title": "Your Zoom Scheduler Booking Page, Now on WordPress.com",
+    "link": "https://wordpress.com/blog/2026/11/19/zoom-scheduler/",
+    "pubDate": "Thu, 19 Nov 2026 22:53:31 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/your-zoom-scheduler-booking-page-now-on-wordpress.com_.png",
+    "summary": "Zoom Scheduler now works with WordPress.com. Create a free website with your booking page included, or add the new Zoom Scheduler block to an existing site."
+  },
+  {
+    "title": "WooCommerce 11.3.1: Release Notes",
+    "link": "https://developer.woocommerce.com/2026/11/19/woocommerce-11-3-1/",
+    "pubDate": "Thu, 19 Nov 2026 20:12:32 GMT",
+    "blog_name": "WooCommerce Developer",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "WooCommerce 11.3.1 is a security-focused patch release with updates to checkout, customer accounts, permissions, and data handling. The post WooCommerce 11.3.1: Release Notes appeared first on The..."
+  },
+  {
     "title": "Fighting Fraud and Improving Security with AI: Live Event",
     "link": "https://developer.woocommerce.com/2026/11/19/fraud-security-ai-live-event/",
     "pubDate": "Thu, 19 Nov 2026 16:45:33 GMT",
     "blog_name": "WooCommerce Developer",
     "image_url": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png",
     "summary": "Join us for a live panel on how AI is changing fraud and security for WooCommerce stores, from card testing and account takeovers to AI-assisted defense. The post Fighting Fraud and Improving..."
+  },
+  {
+    "title": "Who controls your site? Securing AI agent access in WordPress",
+    "link": "https://kinsta.com/blog/control-ai-agent-access-in-wordpress/",
+    "pubDate": "Thu, 19 Nov 2026 13:30:37 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/who-controls-your-site-securing-ai-agent-access-in-weordpress.png",
+    "summary": "Featured image for Who controls your site? Securing AI agent access in WordPress"
   },
   {
     "title": "Your Site Admin, Automated: 5 Scheduled Tasks to Try With ChatGPT or Claude",
@@ -24,12 +64,28 @@
     "summary": "The real test for headless is whether your team can preserve editorial continuity, coordinate releases, and recover when the architecture get complicated."
   },
   {
+    "title": "How to build ecommerce buyer personas that guide better decisions",
+    "link": "https://woocommerce.com/posts/example-buyer-personas-online-store/",
+    "pubDate": "Wed, 18 Nov 2026 23:48:27 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "How much do you really know about your customers? Learn why buyer personas are the foundation of your business & how to create your own in just four steps."
+  },
+  {
     "title": "Bring Your Own Agents to WordPress Studio",
     "link": "https://wordpress.com/blog/2026/11/18/wordpress-studio-agents/",
     "pubDate": "Wed, 18 Nov 2026 23:02:07 GMT",
     "blog_name": "WordPress.com",
     "image_url": "https://en-blog.files.wordpress.com/2026/11/bring-your-ai-studio.png",
     "summary": "WordPress Studio 2.3 lets you connect the AI you already pay for, like a ChatGPT plan, a Claude subscription, or GitHub Copilot, choose your model in every chat, and publish to WordPress.com."
+  },
+  {
+    "title": "Turn a prospect\u2019s homepage into your next winning pitch",
+    "link": "https://automattic.com/for-agencies/blog/turn-a-prospects-homepage-into-your-next-winning-pitch/",
+    "pubDate": "Wed, 18 Nov 2026 22:14:25 GMT",
+    "blog_name": "Automattic for Agencies",
+    "image_url": "https://automattic.com/wp-content/uploads/2026/11/featured-prospect-reports-v2-web.jpg",
+    "summary": "Whether it\u2019s a neighborhood restaurant, a national law firm, or a boutique online shop, every business homepage now has two audiences to convince if it wants to win more business. A first-time..."
   },
   {
     "title": "WordPress 7.1.5 Release",
@@ -166,14 +222,6 @@
     "blog_name": "Pantheon",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "LACMA and Urban Insight share how commit access, clear ownership, and Pantheon\u2019s Drupal release path support production-ready work across a complex web estate."
-  },
-  {
-    "title": "How to buy Kinsta hosting for your small business: A step-by-step guide",
-    "link": "https://kinsta.com/blog/how-to-buy-kinsta-hosting/",
-    "pubDate": "Thu, 12 Nov 2026 12:00:28 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/10/how-to-choose-and-buy-kinsta-hosting-for-your-small-business.png",
-    "summary": "Featured image for How to buy Kinsta hosting for your small business: A step-by-step guide"
   },
   {
     "title": "Start a Newsletter with ChatGPT and Claude",
@@ -336,28 +384,12 @@
     "summary": "WooCommerce 11.2.2 has been released with a number of updates focused on security. We strongly recommend updating to the latest release. The post WooCommerce 11.2.2: Release notes appeared first on..."
   },
   {
-    "title": "A New Workspace for Building with WordPress",
-    "link": "https://wordpress.com/blog/2026/11/04/wordpress-studio-workspace/",
-    "pubDate": "Wed, 04 Nov 2026 16:33:17 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/11/understanding-your-wordpress-agent-usage_header_2350x1480-4.png",
-    "summary": "In WordPress Studio, a website starts as a conversation. You describe what you want, and an AI agent builds a first version for you. To change something, just tell the agent what you\u2019d like instead...."
-  },
-  {
     "title": "Everything that keeps your site safe, now on one page",
     "link": "https://jetpack.com/resources/jetpack-protect-page/",
     "pubDate": "Wed, 04 Nov 2026 16:00:00 GMT",
     "blog_name": "Jetpack",
     "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-protect-page-blog-1680x964-1.png",
     "summary": "Jetpack 16.4 brings Scan, Firewall, Login protection and Downtime monitoring together on one Protect page in wp-admin, so you can see whether your site is safe and fix what's wrong without leaving..."
-  },
-  {
-    "title": "Connect ChatGPT or Claude to Your WordPress.com Sites, Free Through November",
-    "link": "https://wordpress.com/blog/2026/11/03/free-chatgpt-claude/",
-    "pubDate": "Tue, 03 Nov 2026 20:45:00 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/11/free-chatgpt-claude-connection-to-wordpress.png",
-    "summary": "Connect ChatGPT or Claude to your WordPress.com sites free through November. Draft posts, clear comments, and check stats on every site from one chat."
   },
   {
     "title": "AI Readiness for Federal Agencies: How to Keep Agency Information Accurate in AI Search",
@@ -638,37 +670,5 @@
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Conquer WooCommerce multi-store management with our essential guide from Saucal. Handle inventory syncing, automate marketing, and boost site performance."
-  },
-  {
-    "title": "WooCommerce 11.3 MCP Adaptor updates",
-    "link": "https://developer.woocommerce.com/2026/10/21/woocommerce-11-3-mcp/",
-    "pubDate": "Wed, 21 Oct 2026 16:43:39 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce 11.3 removes its deprecated MCP endpoint. Learn how to move MCP clients and extensions to the WordPress MCP Adapter. The post WooCommerce 11.3 MCP Adaptor updates appeared first on The..."
-  },
-  {
-    "title": "Your Sites Are Protected Against the PHP2Shell Vulnerabilities",
-    "link": "https://automattic.com/2026/10/21/php2shell/",
-    "pubDate": "Wed, 21 Oct 2026 16:16:41 GMT",
-    "blog_name": "Automattic",
-    "image_url": "https://0.gravatar.com/avatar/095d60809b78f57646a120bee63d0d937f295878f0f8483b696d9c4e5d17f993?s=96&d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96",
-    "summary": "Today, the PHP project released security updates for two critical vulnerabilities in PHP itself, tracked as CVE-2026-109618 and CVE-2026-109619 and nicknamed \u201cPHP2Shell.\u201d Both are rated 9.2 out of 10..."
-  },
-  {
-    "title": "Critical Security Releases for PHP",
-    "link": "https://developer.woocommerce.com/2026/10/21/php-security-release/",
-    "pubDate": "Wed, 21 Oct 2026 15:04:30 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "The PHP project has announced a security release that fixes two critical security vulnerabilities discovered in PHP. Store owners are encouraged to immediately update their installations of PHP. The..."
-  },
-  {
-    "title": "Critical PHP Security Release",
-    "link": "https://wordpress.org/news/2026/10/critical-php-security-release/",
-    "pubDate": "Wed, 21 Oct 2026 13:44:09 GMT",
-    "blog_name": "WordPress.org News",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "The PHP project has announced a security release that fixes two critical security vulnerabilities discovered in PHP. Due to the critical severity of the issues, site owners are encouraged to..."
   }
 ]

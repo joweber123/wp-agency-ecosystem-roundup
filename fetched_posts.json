@@ -8,6 +8,14 @@
     "summary": "Stop chasing frontier AI models. Learn how codebase standards, Next.js kits and unified platforms can fix your software delivery bottlenecks."
   },
   {
+    "title": "PHP 8.6 ships: Here\u2019s what\u2019s new in the latest release",
+    "link": "https://kinsta.com/blog/php-8-6/",
+    "pubDate": "Fri, 20 Nov 2026 18:00:56 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/whats-new-in-php-8.6.png",
+    "summary": "Featured image for PHP 8.6 ships: Here\u2019s what\u2019s new in the latest release"
+  },
+  {
     "title": "Global Partners Across the Third Quarter of the 2026",
     "link": "https://wordpress.org/news/2026/11/global-partners-third-quarter-2026/",
     "pubDate": "Fri, 20 Nov 2026 17:17:24 GMT",
@@ -46,14 +54,6 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.3.1 is a security-focused patch release with updates to checkout, customer accounts, permissions, and data handling. The post WooCommerce 11.3.1: Release Notes appeared first on The..."
-  },
-  {
-    "title": "Your Pressable Sites Are Protected From the November PHP and NGINX Security Issues",
-    "link": "https://pressable.com/blog/your-pressable-sites-are-protected-from-the-november-php-and-nginx-security-issues/",
-    "pubDate": "Thu, 19 Nov 2026 18:22:15 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "The PHP project released another round of security updates on November 19, and NGINX shipped its own security fixes the day before. If you host with Pressable, you\u2019re covered. Your sites are..."
   },
   {
     "title": "Fighting Fraud and Improving Security with AI: Live Event",
@@ -198,14 +198,6 @@
     "blog_name": "WordPress.com",
     "image_url": "https://en-blog.files.wordpress.com/2026/11/easy-migrations-and-developer-tools.jpg",
     "summary": "Move your site to WordPress.com, get SSH and WP-CLI on every paid plan, and let your AI assistant do more."
-  },
-  {
-    "title": "Kinsta launches Vulnerability Protection, Powered by Patchstack, to protect WordPress sites at no extra cost",
-    "link": "https://kinsta.com/blog/kinsta-launches-vulnerability-protection-powered-by-patchstack-to-protect-wordpress-sites-at-no-extra-cost/",
-    "pubDate": "Fri, 13 Nov 2026 20:21:14 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/blog-featured-image-pr-vulnerability-protection-2.png",
-    "summary": "Featured image for Kinsta launches Vulnerability Protection, Powered by Patchstack, to protect WordPress sites at no extra cost"
   },
   {
     "title": "AI Visibility Is Making Content Freshness a Critical KPI",
@@ -622,29 +614,5 @@
     "blog_name": "WooCommerce",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Learn how to scale your ecommerce business without sacrificing margins. Calculate cost per order and find ways to reduce costs as sales grow."
-  },
-  {
-    "title": "How WordPress Agencies Can Use AI to Respond to Security Incidents",
-    "link": "https://automattic.com/for-agencies/blog/mcp-security-response-playbook/",
-    "pubDate": "Fri, 23 Oct 2026 13:43:33 GMT",
-    "blog_name": "Automattic for Agencies",
-    "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-blog-cover-bxupens0.png",
-    "summary": "Four tested incident response workflows and more than 30 ready-to-use prompts to help your agency contain, clean up, and document security issues across client sites."
-  },
-  {
-    "title": "Tell us what Jetpack should build next",
-    "link": "https://jetpack.com/resources/tell-us-what-jetpack-should-build-next/",
-    "pubDate": "Fri, 23 Oct 2026 01:33:52 GMT",
-    "blog_name": "Jetpack",
-    "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-tell-us-what-jetpack-should-build-blog-1680x964-1.png",
-    "summary": "Jetpack now has a public feature request board. It\u2019s one place to tell us what you want Jetpack to do next, see what other people are asking for, and follow along as we decide. Start with what\u2019s..."
-  },
-  {
-    "title": "Call for testing: Extensible abilities for extension fields",
-    "link": "https://developer.woocommerce.com/2026/10/22/extensible-abilities/",
-    "pubDate": "Thu, 22 Oct 2026 17:20:06 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WooCommerce 11.3 introduces an experimental API enabling extensions to add their data to WooCommerce MCP Abilities The post Call for testing: Extensible abilities for extension fields appeared first..."
   }
 ]

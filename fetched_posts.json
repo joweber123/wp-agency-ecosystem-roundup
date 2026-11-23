@@ -1,5 +1,21 @@
 [
   {
+    "title": "The 2026 WooCommerce holiday gift guide",
+    "link": "https://woocommerce.com/posts/2026-woocommerce-holiday-gift-guide/",
+    "pubDate": "Mon, 23 Nov 2026 20:36:25 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Unique, fun gift ideas for friends, family, or yourself! 'Tis the season to celebrate some of the amazing stores on WooCommerce."
+  },
+  {
+    "title": "Join the WordPress 7.2 Release Celebration Livestream",
+    "link": "https://wordpress.org/news/2026/11/7-2-release-celebration/",
+    "pubDate": "Mon, 23 Nov 2026 19:06:10 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "On December 8, 2026, at 16:00 UTC, contributors to WordPress 7.2 will livestream the release, and you\u2019re invited. Expect demos of what\u2019s new and time to hear from the contributors themselves. Anyone..."
+  },
+  {
     "title": "How to Ship Websites Faster Without Chasing New Coding Models",
     "link": "https://pantheon.io/blog/how-ship-websites-faster-without-chasing-new-coding-models",
     "pubDate": "Fri, 20 Nov 2026 21:45:09 GMT",
@@ -54,6 +70,14 @@
     "blog_name": "WooCommerce Developer",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "WooCommerce 11.3.1 is a security-focused patch release with updates to checkout, customer accounts, permissions, and data handling. The post WooCommerce 11.3.1: Release Notes appeared first on The..."
+  },
+  {
+    "title": "Your Pressable Sites Are Protected From the November PHP and NGINX Security Issues",
+    "link": "https://pressable.com/blog/your-pressable-sites-are-protected-from-the-november-php-and-nginx-security-issues/",
+    "pubDate": "Thu, 19 Nov 2026 18:22:15 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "The PHP project released another round of security updates on November 19, and NGINX shipped its own security fixes the day before. If you host with Pressable, you\u2019re covered. Your sites are..."
   },
   {
     "title": "Fighting Fraud and Improving Security with AI: Live Event",
@@ -550,14 +574,6 @@
     "blog_name": "Automattic for Agencies",
     "image_url": "https://automattic.com/wp-content/uploads/2026/10/featured-resources-center.png",
     "summary": "Running an agency means learning constantly evolving products, pitching & building trust with clients, and shipping great work. Sometimes, the guides, talk tracks, documentation, and case studies..."
-  },
-  {
-    "title": "WordPress 7.1.4",
-    "link": "https://wordpress.org/news/2026/10/wordpress-7-1-4/",
-    "pubDate": "Wed, 28 Oct 2026 17:13:02 GMT",
-    "blog_name": "WordPress.org News",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "This security release features fixes for multiple issues. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.4 from..."
   },
   {
     "title": "Declaring parent-child cart item relationships in WooCommerce 11.3",

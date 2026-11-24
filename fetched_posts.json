@@ -1,5 +1,29 @@
 [
   {
+    "title": "WordPress 7.2 Release Candidate 3",
+    "link": "https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-3/",
+    "pubDate": "Tue, 24 Nov 2026 15:53:15 GMT",
+    "blog_name": "WordPress.org News",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Release Candidate 3 (\u201cRC3\u201d) for WordPress 7.2 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this version of..."
+  },
+  {
+    "title": "What to do when your WooCommerce store starts failing during Black Friday",
+    "link": "https://kinsta.com/blog/woocommerce-black-friday/",
+    "pubDate": "Tue, 24 Nov 2026 12:15:01 GMT",
+    "blog_name": "Kinsta",
+    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/what-to-do-when-your-woocommerce-store-starts-failing-during-black-friday.png",
+    "summary": "Featured image for What to do when your WooCommerce store starts failing during Black Friday"
+  },
+  {
+    "title": "Is the WordPress MCP server slow? I timed 160 calls on my own site.",
+    "link": "https://jetpack.com/resources/is-the-wordpress-mcp-server-slow-i-timed-160-calls-on-my-own-site/",
+    "pubDate": "Tue, 24 Nov 2026 02:10:35 GMT",
+    "blog_name": "Jetpack",
+    "image_url": "https://jetpack.com/wp-content/uploads/2026/11/jetpack-is-the-wordpress-mcp-server-slow-blog-1680x964402x-1.png",
+    "summary": "I asked ChatGPT and Claude if Jetpack\u2019s MCP server is slow. Both said yes, and both pointed to the same test, one that put five everyday tasks at 11 minutes. That didn\u2019t match what I see on my own..."
+  },
+  {
     "title": "The 2026 WooCommerce holiday gift guide",
     "link": "https://woocommerce.com/posts/2026-woocommerce-holiday-gift-guide/",
     "pubDate": "Mon, 23 Nov 2026 20:36:25 GMT",
@@ -182,14 +206,6 @@
     "blog_name": "Pressable",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "Restricting WordPress admin to your office IP, blocking traffic from a country you don\u2019t sell to, keeping AI crawlers off your content, or redirecting an old URL used to mean opening a support ticket..."
-  },
-  {
-    "title": "Why operational visibility is becoming more valuable than performance scores",
-    "link": "https://kinsta.com/blog/operational-visibility-vs-performance-scores/",
-    "pubDate": "Tue, 17 Nov 2026 12:45:27 GMT",
-    "blog_name": "Kinsta",
-    "image_url": "https://kinsta.com/wp-content/uploads/2026/11/why-operational-visibility-is-becoming-more-valuable-than-performance-scores.png",
-    "summary": "Featured image for Why operational visibility is becoming more valuable than performance scores"
   },
   {
     "title": "No One Asks a Thermostat to Show Its Work. AI Agents Should.",
@@ -456,14 +472,6 @@
     "summary": "A subscriptions function security update is now available for WooPayments. If you run the WooPayments plugin, please check your version and update to the fix version listed. The post Security update..."
   },
   {
-    "title": "WordPress 7.2 Beta 4",
-    "link": "https://wordpress.org/news/2026/11/wordpress-7-2-beta-4/",
-    "pubDate": "Tue, 03 Nov 2026 15:45:29 GMT",
-    "blog_name": "WordPress.org News",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "WordPress 7.2 Beta 4 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or..."
-  },
-  {
     "title": "Automated PHP stubs for Woo extensions",
     "link": "https://developer.woocommerce.com/2026/11/03/php-stubs-for-extensions/",
     "pubDate": "Tue, 03 Nov 2026 15:36:12 GMT",
@@ -496,12 +504,12 @@
     "summary": "move from fleet-level traffic signals to request-level evidence when something on your site, or across your fleet, deserves a closer look."
   },
   {
-    "title": "Run your WordPress site from ChatGPT, free until November 30",
+    "title": "Run your WordPress site from ChatGPT, free to connect",
     "link": "https://jetpack.com/resources/run-your-wordpress-site-from-chatgpt/",
     "pubDate": "Mon, 02 Nov 2026 17:03:48 GMT",
     "blog_name": "Jetpack",
     "image_url": "https://jetpack.com/wp-content/uploads/2026/10/jetpack-run-your-wordpress-site-from-chatgpt-blog-1680x964-1.png",
-    "summary": "Until November 30, connecting ChatGPT or Claude to your WordPress site is free on every Jetpack site. Here\u2019s how to set it up, and 12 things to ask."
+    "summary": "ChatGPT and Claude are free to connect to any Jetpack site. Here\u2019s how to set it up, and 12 things to ask."
   },
   {
     "title": "Protect your profit margins by designing discounts that pay for themselves",

@@ -1,5 +1,13 @@
 [
   {
+    "title": "Next.js 15 Support Ends Soon: Your Guide to Moving to v16 Without a Headache",
+    "link": "https://pantheon.io/blog/nextjs-15-support-ends-your-guide-moving-v16",
+    "pubDate": "Tue, 24 Nov 2026 21:19:29 GMT",
+    "blog_name": "Pantheon",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Learn how to upgrade your applications to Next.js 16 smoothly using official migration tooling and Pantheon's platform."
+  },
+  {
     "title": "WordPress 7.2 Release Candidate 3",
     "link": "https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-3/",
     "pubDate": "Tue, 24 Nov 2026 15:53:15 GMT",
@@ -96,14 +104,6 @@
     "summary": "WooCommerce 11.3.1 is a security-focused patch release with updates to checkout, customer accounts, permissions, and data handling. The post WooCommerce 11.3.1: Release Notes appeared first on The..."
   },
   {
-    "title": "Your Pressable Sites Are Protected From the November PHP and NGINX Security Issues",
-    "link": "https://pressable.com/blog/your-pressable-sites-are-protected-from-the-november-php-and-nginx-security-issues/",
-    "pubDate": "Thu, 19 Nov 2026 18:22:15 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "The PHP project released another round of security updates on November 19, and NGINX shipped its own security fixes the day before. If you host with Pressable, you\u2019re covered. Your sites are..."
-  },
-  {
     "title": "Fighting Fraud and Improving Security with AI: Live Event",
     "link": "https://developer.woocommerce.com/2026/11/19/fraud-security-ai-live-event/",
     "pubDate": "Thu, 19 Nov 2026 16:45:33 GMT",
@@ -198,14 +198,6 @@
     "blog_name": "WordPress.org News",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The first Release Candidate (\u201cRC1\u201d) for WordPress 7.2 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this..."
-  },
-  {
-    "title": "Control Traffic Before It Reaches Your Site with Edge Rules",
-    "link": "https://pressable.com/blog/control-traffic-before-it-reaches-your-site-with-edge-rules/",
-    "pubDate": "Tue, 17 Nov 2026 14:00:00 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Restricting WordPress admin to your office IP, blocking traffic from a country you don\u2019t sell to, keeping AI crawlers off your content, or redirecting an old URL used to mean opening a support ticket..."
   },
   {
     "title": "No One Asks a Thermostat to Show Its Work. AI Agents Should.",
@@ -536,14 +528,6 @@
     "summary": "October brought six updates to MyPressable: Single Sign-On through your company\u2019s identity provider, a Global Account Selector with new collaborator permissions for usage, billing, and Business..."
   },
   {
-    "title": "The Web Is an Iceberg: Why Context Matters More Than Frictionless Experiences",
-    "link": "https://pantheon.io/blog/web-is-iceberg-why-context-matters",
-    "pubDate": "Fri, 30 Oct 2026 22:52:33 GMT",
-    "blog_name": "Pantheon",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Discover how AI agents are transforming web marketing and why providing rich context & meaningful value matters more than offering simple shortcuts."
-  },
-  {
     "title": "Boost peak season conversion rates by answering shoppers\u2019 questions",
     "link": "https://woocommerce.com/posts/peak-season-conversions/",
     "pubDate": "Fri, 30 Oct 2026 16:34:09 GMT",
@@ -630,13 +614,5 @@
     "blog_name": "Automattic for Agencies",
     "image_url": "https://automattic.com/wp-content/uploads/2026/10/ai-discoverability-series-investing-in-ai-discoverability_-measuring-impact-e28094-session-3-_final_-1.jpg",
     "summary": "Clients\u2019 CFOs want to know what AI discoverability is worth. WordPress VIP and 97th Floor share how to fund the work, which numbers to track, and a floor-and-ceiling ROI model for finance."
-  },
-  {
-    "title": "Scaling ecommerce: Growing sales without losing margin",
-    "link": "https://woocommerce.com/posts/how-to-scale-small-business/",
-    "pubDate": "Mon, 26 Oct 2026 13:31:28 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Learn how to scale your ecommerce business without sacrificing margins. Calculate cost per order and find ways to reduce costs as sales grow."
   }
 ]

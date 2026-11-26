@@ -344,14 +344,6 @@
     "summary": "WordPress 7.2 Beta 5 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or..."
   },
   {
-    "title": "Pressable\u2019s Zapier Integration: Automate Your WordPress Hosting",
-    "link": "https://pressable.com/blog/pressables-zapier-integration-automate-your-wordpress-hosting/",
-    "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT",
-    "blog_name": "Pressable",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Most hosting tasks are really just reactions to an event. A site gets flagged as compromised, and someone posts in Slack. A deploy finishes, and someone remembers to clear the cache. A deal closes,..."
-  },
-  {
     "title": "Your Content, Your Terms: New AI Controls and SEO Tools",
     "link": "https://wordpress.com/blog/2026/11/10/seo-tools-search-ai/",
     "pubDate": "Tue, 10 Nov 2026 00:38:53 GMT",
@@ -582,37 +574,5 @@
     "blog_name": "Automattic for Agencies",
     "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-blog-cover-0ykx3a92.png",
     "summary": "S\u00e3o Paulo agency Studio Visual moved a high-traffic client from WP Engine to Pressable, cut the hosting bill by 70% in year one, and turned the move into an offer for other clients."
-  },
-  {
-    "title": "Web Loft Designs on Easy Migrations, Qualified Leads, and a \u201cno\u201d that Built Trust",
-    "link": "https://automattic.com/for-agencies/blog/web-loft-designs-easy-migrations-qualified-leads/",
-    "pubDate": "Tue, 27 Oct 2026 16:50:41 GMT",
-    "blog_name": "Automattic for Agencies",
-    "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-blog-cover-yxlnbyw2l.png",
-    "summary": "Web Loft Designs founder Marina Marsh on closing her first Automattic for Agencies referrals and why a \u201cno\u201d from Pressable made her trust it more."
-  },
-  {
-    "title": "Subscription churn: Turn retention insights into recurring revenue growth",
-    "link": "https://woocommerce.com/posts/subscription-churn-strategies/",
-    "pubDate": "Tue, 27 Oct 2026 12:00:00 GMT",
-    "blog_name": "WooCommerce",
-    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
-    "summary": "Using better data on subscription churn helps you decide where to act first. Here's what to know."
-  },
-  {
-    "title": "WooCommerce 11.3: What\u2019s coming for developers",
-    "link": "https://developer.woocommerce.com/2026/10/26/woocommerce-11-3-pre-release/",
-    "pubDate": "Mon, 26 Oct 2026 20:49:29 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/10/image-1.png",
-    "summary": "WooCommerce 11.3 beta is now available for testing, featuring enhanced styling controls, On-Sale Badge improvements, mobile gallery updates, and improvements to MCP. The post WooCommerce 11.3: What\u2019s..."
-  },
-  {
-    "title": "How Agencies Can Prove AI Discoverability Pays Off",
-    "link": "https://automattic.com/for-agencies/blog/how-agencies-can-prove-ai-discoverability-pays-off/",
-    "pubDate": "Mon, 26 Oct 2026 19:35:19 GMT",
-    "blog_name": "Automattic for Agencies",
-    "image_url": "https://automattic.com/wp-content/uploads/2026/10/ai-discoverability-series-investing-in-ai-discoverability_-measuring-impact-e28094-session-3-_final_-1.jpg",
-    "summary": "Clients\u2019 CFOs want to know what AI discoverability is worth. WordPress VIP and 97th Floor share how to fund the work, which numbers to track, and a floor-and-ceiling ROI model for finance."
   }
 ]

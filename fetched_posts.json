@@ -1,5 +1,21 @@
 [
   {
+    "title": "What you need to know before choosing a payment gateway",
+    "link": "https://woocommerce.com/posts/how-to-choose-payment-gateway/",
+    "pubDate": "Fri, 27 Nov 2026 17:12:57 GMT",
+    "blog_name": "WooCommerce",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Learn how to choose a payment gateway for your ecommerce store by comparing processing fees, payment methods, payout timelines, and everyday management tools."
+  },
+  {
+    "title": "Black Friday: Save 25% and Build a Site That Grows With You",
+    "link": "https://wordpress.com/blog/2026/11/27/black-friday-2026/",
+    "pubDate": "Fri, 27 Nov 2026 07:30:00 GMT",
+    "blog_name": "WordPress.com",
+    "image_url": "https://en-blog.files.wordpress.com/2026/11/black-friday-save-25-and-build-a-site-that-grows-with-you.jpg",
+    "summary": "Give your next big idea a home. Save 25% on WordPress.com plans and discover new ways to build, manage, and grow your website."
+  },
+  {
     "title": "Next.js 15 Support Ends Soon: Your Guide to Moving to v16 Without a Headache",
     "link": "https://pantheon.io/blog/nextjs-15-support-ends-your-guide-moving-v16",
     "pubDate": "Tue, 24 Nov 2026 21:19:29 GMT",
@@ -104,6 +120,14 @@
     "summary": "WooCommerce 11.3.1 is a security-focused patch release with updates to checkout, customer accounts, permissions, and data handling. The post WooCommerce 11.3.1: Release Notes appeared first on The..."
   },
   {
+    "title": "Your Pressable Sites Are Protected From the November PHP and NGINX Security Issues",
+    "link": "https://pressable.com/blog/your-pressable-sites-are-protected-from-the-november-php-and-nginx-security-issues/",
+    "pubDate": "Thu, 19 Nov 2026 18:22:15 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "The PHP project released another round of security updates on November 19, and NGINX shipped its own security fixes the day before. If you host with Pressable, you\u2019re covered. Your sites are..."
+  },
+  {
     "title": "Fighting Fraud and Improving Security with AI: Live Event",
     "link": "https://developer.woocommerce.com/2026/11/19/fraud-security-ai-live-event/",
     "pubDate": "Thu, 19 Nov 2026 16:45:33 GMT",
@@ -198,6 +222,14 @@
     "blog_name": "WordPress.org News",
     "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
     "summary": "The first Release Candidate (\u201cRC1\u201d) for WordPress 7.2 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this..."
+  },
+  {
+    "title": "Control Traffic Before It Reaches Your Site with Edge Rules",
+    "link": "https://pressable.com/blog/control-traffic-before-it-reaches-your-site-with-edge-rules/",
+    "pubDate": "Tue, 17 Nov 2026 14:00:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Restricting WordPress admin to your office IP, blocking traffic from a country you don\u2019t sell to, keeping AI crawlers off your content, or redirecting an old URL used to mean opening a support ticket..."
   },
   {
     "title": "No One Asks a Thermostat to Show Its Work. AI Agents Should.",
@@ -344,12 +376,12 @@
     "summary": "WordPress 7.2 Beta 5 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or..."
   },
   {
-    "title": "Your Content, Your Terms: New AI Controls and SEO Tools",
-    "link": "https://wordpress.com/blog/2026/11/10/seo-tools-search-ai/",
-    "pubDate": "Tue, 10 Nov 2026 00:38:53 GMT",
-    "blog_name": "WordPress.com",
-    "image_url": "https://en-blog.files.wordpress.com/2026/11/your-content-your-terms-new-ai-controls-and-seo-tools.png",
-    "summary": "Your WordPress.com SEO settings are now together in Jetpack \u2192 SEO. See how to manage AI crawler preferences, site details, and missing titles or descriptions."
+    "title": "Pressable\u2019s Zapier Integration: Automate Your WordPress Hosting",
+    "link": "https://pressable.com/blog/pressables-zapier-integration-automate-your-wordpress-hosting/",
+    "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT",
+    "blog_name": "Pressable",
+    "image_url": "https://placehold.co/800x400/cccccc/666666?text=No+Image",
+    "summary": "Most hosting tasks are really just reactions to an event. A site gets flagged as compromised, and someone posts in Slack. A deploy finishes, and someone remembers to clear the cache. A deal closes,..."
   },
   {
     "title": "We went looking: What Woo has done about security since June",
@@ -558,21 +590,5 @@
     "blog_name": "Automattic for Agencies",
     "image_url": "https://automattic.com/wp-content/uploads/2026/10/featured-resources-center.png",
     "summary": "Running an agency means learning constantly evolving products, pitching & building trust with clients, and shipping great work. Sometimes, the guides, talk tracks, documentation, and case studies..."
-  },
-  {
-    "title": "Declaring parent-child cart item relationships in WooCommerce 11.3",
-    "link": "https://developer.woocommerce.com/2026/10/27/cart-item-children/",
-    "pubDate": "Tue, 27 Oct 2026 21:26:14 GMT",
-    "blog_name": "WooCommerce Developer",
-    "image_url": "https://developer.woocommerce.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-27-at-2.17.31-PM.png",
-    "summary": "WooCommerce 11.3 introduces a filter for tracking product relationships in the cart, enhancing accurate \"N in cart\" counts for bundled items and extensions. The post Declaring parent-child cart item..."
-  },
-  {
-    "title": "How Studio Visual Cut a Client\u2019s Hosting Bill by 70% with Pressable",
-    "link": "https://automattic.com/for-agencies/blog/studio-visual-pressable-hosting-costs/",
-    "pubDate": "Tue, 27 Oct 2026 19:12:36 GMT",
-    "blog_name": "Automattic for Agencies",
-    "image_url": "https://automattic.com/wp-content/uploads/2026/10/a4a-blog-cover-0ykx3a92.png",
-    "summary": "S\u00e3o Paulo agency Studio Visual moved a high-traffic client from WP Engine to Pressable, cut the hosting bill by 70% in year one, and turned the move into an offer for other clients."
   }
 ]
